@@ -88,7 +88,7 @@ const Contact = () => {
 
               sx={{ width: "88%", mx: "49px", mt: "40px" }}
             />
-            <Button className='shopNow' sx={{ width: "150px", mt: "40px", backgroundColor:"#404040", ml: "50px", padding: "10px", color: "#fff", fontSize: "18px", "&:hover": { background: "#6610f2", border: "none", color: "#fff", fontWeight: "bold" } }}>Send</Button>
+            <Button className='shopNow' sx={{ width: "140px", mt: "40px", backgroundColor:"#404040", ml: "50px", padding: "10px", color: "#fff", fontSize: "18px", "&:hover": { background: "#6610f2", border: "none", color: "#fff", fontWeight: "bold" } }}>Send</Button>
 
           </Stack>
 
