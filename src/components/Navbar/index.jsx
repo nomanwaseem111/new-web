@@ -35,14 +35,14 @@ export default function ButtonAppBar() {
                     <Box sx={{ml:"60px", width:"180px",padding:"5px"}}>
                      <img src="https://flone.jamstacktemplates.dev/assets/img/logo/logo.png" alt="logo" width="130px"/>
                     </Box>
-                    <Box sx={{ px:"100px",width:"900px"}}>
+                    <Box sx={{ pl:"200px",width:"900px"}}>
                     <Box>
           
-                        <Button sx={{color:"#555252", fontSize:"20px",ml:"30px", fontFamily:"sans-serif", width:"auto","&:hover":{color:"#6610f2",fontWeight:"bold"}}} component={Link} to='/'>Home</Button>
-                        <Button sx={{color:"#555252", fontSize:"20px",ml:"30px",  width:"auto","&:hover":{color:"#6610f2",fontWeight:"bold"}}} component={Link} to='/accessories'>Accessories <KeyboardArrowDownIcon/></Button>
+                        <Button sx={{color:"#555252",  fontSize:"18px",ml:"30px", fontFamily:"sans-serif",width:"auto","&:hover":{color:"#6610f2",fontWeight:"bold"}}} component={Link} to='/'>Home</Button>
+                        <Button sx={{color:"#555252",  fontSize:"18px",ml:"30px", fontFamily:"sans-serif", width:"auto","&:hover":{color:"#6610f2",fontWeight:"bold"}}} component={Link} to='/accessories'>Accessories <KeyboardArrowDownIcon/></Button>
 
-                        <Button sx={{color:"#555252", fontSize:"20px", width:"auto",ml:"30px","&:hover":{color:"#6610f2",fontWeight:"bold"}}} component={Link} to='/mobile'>Mobile <KeyboardArrowDownIcon/></Button>
-                        <Button sx={{color:"#555252", fontSize:"20px", width:"auto",ml:"30px","&:hover":{color:"#6610f2",fontWeight:"bold"}}} component={Link} to='/contact'>Contact Us</Button>
+                        <Button sx={{color:"#555252", fontSize:"18px", width:"auto",ml:"30px",fontFamily:"sans-serif","&:hover":{color:"#6610f2",fontWeight:"bold"}}} component={Link} to='/mobile'>Mobile <KeyboardArrowDownIcon/></Button>
+                        <Button sx={{color:"#555252", fontSize:"18px", width:"auto",ml:"30px",fontFamily:"sans-serif","&:hover":{color:"#6610f2",fontWeight:"bold"}}} component={Link} to='/contact'>Contact Us</Button>
 
        
              </Box>
