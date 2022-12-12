@@ -9,7 +9,7 @@ const Footer = () => {
   return (
    
      
-      <Stack direction="row" justifyContent="space-around" mt="150px"  backgroundColor="#f6f6f8" alignItems="center" flexWrap="wrap" sx={{height:"500px",px:"3%"}}>
+      <Stack direction="row" mt="150px" justifyContent="space-around"   backgroundColor="#f6f6f8" alignItems="center" flexWrap="wrap" sx={{height:"500px",px:"3%"}}>
         <Stack>
           <img
             src="https://flone.jamstacktemplates.dev/assets/img/logo/logo.png"
