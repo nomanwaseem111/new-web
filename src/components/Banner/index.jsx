@@ -9,8 +9,8 @@ import { height, lineHeight } from "@mui/system"
 
 const Banner = () => {
   return (
-    <Grid sx={{ height: { md: "auto" }, backgroundColor: { md: "#f0e0ff", xs: "#f0e0ff",sm:"f0e0ff" } }}>
-      <Container maxWidth="xl"  >
+    <Grid sx={{ height: { md: "auto" }  , backgroundColor: { md: "#f0e0ff", xs: "#f0e0ff",sm:"f0e0ff" } }}>
+      <Container maxWidth="xl" width={{xs:"100%"}} >
         <Stack sx={{ width: { md: "100%", xs: "100%", lg: "100%" }, height: { xs: "565px", md: "760px" } }}>
           <Stack
             direction={{ md: "row", xs: "column" }}

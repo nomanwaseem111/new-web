@@ -9,16 +9,17 @@ const index = () => {
     <Container maxWidth="xl">
       <Stack direction={{ md: "row", xs: "column" }} 
       sx={{
-          ml:{md:"100px",xs:"15px"},
+          ml:{md:"100px",xs:"20px"},
           mt:{md:"100px",xs:"50px"},
-          
+          pl:{xs:"15px"}
+         
            }}>
         <Box sx={{ display: "flex", width: "350px", px: "20px", mt: "30px",mb:"30px" }}>
           <img
             src="https://flone.jamstacktemplates.dev/assets/img/icon-img/support-1.png"
             alt=""
             height="65px" 
-            width="60px"    
+            width="60px"
            
           />
           <Box sx={{ ml: "20px", mt: "2px" }}>
