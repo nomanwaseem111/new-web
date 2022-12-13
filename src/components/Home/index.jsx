@@ -7,7 +7,7 @@ import Deals from '../../components/Deals'
 const Home = () => {
   return (
     <>
-     {/* <Banner /> */}
+     <Banner />
      <Offer />
      <Deals />
 

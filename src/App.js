@@ -25,7 +25,7 @@ const App = () => {
      <Router>
       <div>
       
-        {/* <Navbar/> */}
+        <Navbar/>
         
         <Routes>
         <Route path="/" element={<Home />} />
