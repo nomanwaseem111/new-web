@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { Drawer, List, ListItem, ListItemIcon, ListItemText, ListItemButton, Typography } from '@mui/material';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
+import Button from '@mui/material/Button';
+
 import {
 
   Link
@@ -22,30 +24,19 @@ const DrawerComp = () => {
        
         <ListItemButton>
             <ListItemIcon>
-              <ListItemText >Home</ListItemText>
+              <ListItemText >
+                <Button href="/" sx={{textTransform:"capitalize"}} >Home</Button>
+              </ListItemText>
 
             </ListItemIcon>
           
           </ListItemButton> 
           <ListItemButton>
             <ListItemIcon>
-              <ListItemText >Accessories</ListItemText>
+              <ListItemText >
+              <Button href="/accessories" sx={{textTransform:"capitalize"}}>Accessories</Button>
 
-            </ListItemIcon>
-          
-          </ListItemButton> 
-
-          <ListItemButton>
-            <ListItemIcon>
-              <ListItemText >Mobile</ListItemText>
-
-            </ListItemIcon>
-          
-          </ListItemButton> 
-
-          <ListItemButton>
-            <ListItemIcon>
-              <ListItemText >Contact Us</ListItemText>
+              </ListItemText>
 
             </ListItemIcon>
           
@@ -53,7 +44,10 @@ const DrawerComp = () => {
 
           <ListItemButton>
             <ListItemIcon>
-              <ListItemText >Login</ListItemText>
+              <ListItemText >
+              <Button href="/mobile" sx={{textTransform:"capitalize"}}>Mobile</Button>
+
+              </ListItemText>
 
             </ListItemIcon>
           
@@ -61,7 +55,32 @@ const DrawerComp = () => {
 
           <ListItemButton>
             <ListItemIcon>
-              <ListItemText >Signup</ListItemText>
+              <ListItemText >
+              <Button href="/contact" sx={{textTransform:"capitalize"}} >Contact Us</Button>
+
+              </ListItemText>
+
+            </ListItemIcon>
+          
+          </ListItemButton> 
+
+          <ListItemButton>
+            <ListItemIcon>
+              <ListItemText >
+              <Button href="/login" sx={{textTransform:"capitalize"}} >Login</Button>
+
+              </ListItemText>
+
+            </ListItemIcon>
+          
+          </ListItemButton> 
+
+          <ListItemButton>
+            <ListItemIcon>
+              <ListItemText >
+              <Button href="/signup" sx={{textTransform:"capitalize"}} >Signup</Button>
+
+              </ListItemText>
 
             </ListItemIcon>
           

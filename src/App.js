@@ -40,11 +40,15 @@ const App = () => {
 
         <Route path="/signup" element={<SignUp />} />
 
+        <Route path="/forgot" element={<Forgot />} />
+
+
 
 
         </Routes>
+        {/* <Forgot/> */}
       
-        {/* <Footer/> */}
+        <Footer/>
       </div>
     </Router>
     </>

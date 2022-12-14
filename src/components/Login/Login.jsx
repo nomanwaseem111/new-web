@@ -11,6 +11,9 @@ import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
+import Forgot from '../ForgotPassword/forgot';
+
+
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 // import Forgot from './components/forgot';
 function Copyright(props) {
@@ -91,10 +94,11 @@ export default function SignIn() {
             </Button>
             <Grid container>
               <Grid item xs>
-                <Link href="#" variant="body2">
+                <Link href="/forgot" variant="body2">
                   Forgot password?
                 </Link>
-                
+               {/* <Button href="/forgot"></Button>  */}
+               
               </Grid>
               <Grid item>
                 <Link href="#" variant="body2">

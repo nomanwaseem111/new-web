@@ -32,7 +32,7 @@ export default function ButtonAppBar() {
 
     return (
         <>
-            <AppBar  position='static' sx={{backgroundColor:"#fff"}} >
+            <AppBar elevation={0} position='static' sx={{backgroundColor:"#fff"}} >
                 <Toolbar >
                     <img src="https://flone.jamstacktemplates.dev/assets/img/logo/logo.png" alt="" />
                     {
@@ -57,7 +57,7 @@ export default function ButtonAppBar() {
                                 </Tabs>
 
                                 {/* <Button   sx={{marginLeft:"auto"}} component={Link} to="/login" variant="contained"><LoginIcon/></Button> */}
-   s
+   
                                 <Typography component={Link} to='/login' sx={{color:"black",ml:"auto" ,px:"5px",cursor:"pointer",display:"inline-block", width:"50px",height:"30px"}}><LoginIcon sx={{fontSize:"35px","&:hover":{color:"#6610f2"}}}/></Typography>
                                 <Typography component={Link} to='/signup' sx={{color:"black",ml:"10px" ,px:"5px",cursor:"pointer",display:"inline-block", width:"50px",height:"30px"}}><VpnKeyIcon sx={{fontSize:"35px","&:hover":{color:"#6610f2"}}}/></Typography>
                             </>
