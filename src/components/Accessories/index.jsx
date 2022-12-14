@@ -575,9 +575,9 @@ const Accessories = () => {
               justifyContent="space-between"
               ml={{md:"40px"}}
             >
-              <Box width={{ md: "800px", xs: "200px" }} display="flex">
+              <Box width={{ md: "800px", xs: "350px" }} display="flex">
                 <FormControl
-                  sx={{ width: { md: "350px", xs: "200px" } }}
+                  sx={{ width: { md: "350px", xs: "350px" } }}
                   ml={{ md: "70px", xs: "0px" }}
                  
                 >
@@ -602,7 +602,7 @@ const Accessories = () => {
                     </MenuItem>
                   </Select>
                 </FormControl>
-                <Box
+                {/* <Box
                   sx={{
                     width: { md: "250px", xs: "200px" },
                     fontSize: { md: "20px", xs: "14px" },
@@ -616,7 +616,7 @@ const Accessories = () => {
                 >
                   {" "}
                   Showing 15 of 144 result
-                </Box>
+                </Box> */}
               </Box>
             </Stack>
 
