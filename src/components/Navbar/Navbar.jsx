@@ -16,49 +16,58 @@ import {
 
     Link
 } from "react-router-dom";
+import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
+import { Tab, Tabs, useMediaQuery, useTheme } from '@mui/material';
+import DrawerComp from '../Drawer/DrawerComp';
 
 
-
+ 
 export default function ButtonAppBar() {
+
+    const [value, setValue] = React.useState()
+
+    const theme = useTheme();
+    const isMatch = useMediaQuery(theme.breakpoints.down('md'));
+
+
     return (
+        <>
+            <AppBar  position='static' sx={{backgroundColor:"#fff"}} >
+                <Toolbar >
+                    <img src="https://flone.jamstacktemplates.dev/assets/img/logo/logo.png" alt="" />
+                    {
+                        isMatch ? (
+                            <>
+                             
+                                <DrawerComp />
 
-        <AppBar position="static"  >
-            <Toolbar sx={{background:"white"}}>
-                <Stack direction="row"
-                    justifyContent="space-between"
-                    alignItems="center"
-                    width="100%"
-                    background="yellow" 
-                    pb="25px"
-                    pt="25px"
-                    >
-                    <Box sx={{ml:"60px", width:"180px",padding:"5px"}}>
-                     <img src="https://flone.jamstacktemplates.dev/assets/img/logo/logo.png" alt="logo" width="130px"/>
-                    </Box>
-                    <Box sx={{ pl:"200px",width:"900px"}}>
-                    <Box>
-          
-                        <Button sx={{color:"#555252",  fontSize:"18px",ml:"30px", fontFamily:"sans-serif",width:"auto","&:hover":{color:"#6610f2",fontWeight:"bold"}}} component={Link} to='/'>Home</Button>
-                        <Button sx={{color:"#555252",  fontSize:"18px",ml:"30px", fontFamily:"sans-serif", width:"auto","&:hover":{color:"#6610f2",fontWeight:"bold"}}} component={Link} to='/accessories'>Accessories <KeyboardArrowDownIcon/></Button>
+                            </>
+                        ) : (
+                            <>
+                                <Tabs textColor="inherit" sx={{marginLeft:"500px"}} value={value} onChange={(e, value) => setValue(value)} indicatorColor="secondary">
+                                   
+                               
 
-                        <Button sx={{color:"#555252", fontSize:"18px", width:"auto",ml:"30px",fontFamily:"sans-serif","&:hover":{color:"#6610f2",fontWeight:"bold"}}} component={Link} to='/mobile'>Mobile <KeyboardArrowDownIcon/></Button>
-                        <Button sx={{color:"#555252", fontSize:"18px", width:"auto",ml:"30px",fontFamily:"sans-serif","&:hover":{color:"#6610f2",fontWeight:"bold"}}} component={Link} to='/contact'>Contact Us</Button>
+                                    <Tab label="Home " sx={{color:"black",fontSize:"20px"}} component={Link} to="/" />
+                                    <Tab label="Accessories" sx={{color:"black",fontSize:"20px"}}  component={Link} to="/accessories" />
 
-       
-             </Box>
-                    </Box>
-                    <Box >
-                        <SearchIcon  sx={{color:"black",cursor:"pointer" ,fontSize:"10px", ml:"10px" ,width:"auto",height:"35px","&:hover":{color:"#6610f2"}}}/>
-                        <PersonOutlineIcon  sx={{color:"black",ml:"10px" ,cursor:"pointer",fontSize:"15px", width:"50px",height:"35px","&:hover":{color:"#6610f2"}}}/>
-                        <FavoriteBorderIcon  sx={{color:"black",ml:"10px" ,cursor:"pointer",fontSize:"35px", width:"50px",height:"35px","&:hover":{color:"#6610f2"}}}/>
-                        <Typography component={Link} to='/login' sx={{color:"black",ml:"10px" ,px:"5px",cursor:"pointer",display:"inline-block", width:"60px",height:"30px"}}><LoginIcon sx={{fontSize:"35px","&:hover":{color:"#6610f2"}}}/></Typography>
-                        <Typography component={Link} to='/signup' sx={{color:"black",ml:"10px" ,px:"5px",cursor:"pointer",display:"inline-block", width:"60px",height:"30px"}}><VpnKeyIcon sx={{fontSize:"35px","&:hover":{color:"#6610f2"}}}/></Typography>
+                                    <Tab label="Mobile " sx={{color:"black",fontSize:"20px"}} component={Link} to="/mobile" />
+                                    <Tab label="Contact Us " sx={{color:"black",fontSize:"20px"}} component={Link} to="/contact" />
 
-                    </Box>
-                   
-                </Stack>
-            </Toolbar>
-        </AppBar>
+                                </Tabs>
 
+                                {/* <Button   sx={{marginLeft:"auto"}} component={Link} to="/login" variant="contained"><LoginIcon/></Button> */}
+   s
+                                <Typography component={Link} to='/login' sx={{color:"black",ml:"auto" ,px:"5px",cursor:"pointer",display:"inline-block", width:"50px",height:"30px"}}><LoginIcon sx={{fontSize:"35px","&:hover":{color:"#6610f2"}}}/></Typography>
+                                <Typography component={Link} to='/signup' sx={{color:"black",ml:"10px" ,px:"5px",cursor:"pointer",display:"inline-block", width:"50px",height:"30px"}}><VpnKeyIcon sx={{fontSize:"35px","&:hover":{color:"#6610f2"}}}/></Typography>
+                            </>
+                        )
+                    }
+
+
+                </Toolbar>
+
+            </AppBar>
+        </>
     );
 }
