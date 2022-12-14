@@ -24,7 +24,7 @@ const Contact = () => {
       <Stack width={{ md: "85%", xs: "85%" }} height={{ md: "800px", xs: "400px" }} margin="auto" mt={{ md: "100px", xs: "80px" }}>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.0094933385203!2d67.05912091409715!3d24.86352535126005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f3395a5ca43%3A0xbb199abfe2db29e!2sTech%20Matter%20(Pvt)%20Ltd.!5e0!3m2!1sen!2s!4v1670027099671!5m2!1sen!2s" border="none" allowfullscreen="" loading="lazy" height="800px" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </Stack>
-      <Stack width="85%" margin="auto" mt="20px" height={{ md: "700px", xs: "auto" }} direction={{ md: "row", xs: "column" }}>
+      <Stack width="85%" margin="auto" mt="20px" height={{ md: "700px", xs: "auto" }} direction={{ md: "row", xs: "column" }} mb={{md:"100px",xs:"0px"}}>
         <Stack width={{ md: "40%", xs: "100%" }} backgroundColor="#f3f3f3">
           <Box width={{ md: "80%", xs: "100%" }} margin={{ md: "auto", xs: "auto" }} pt="30px" height={{ md: "600px", xs: "550px" }} >
 
@@ -71,8 +71,8 @@ const Contact = () => {
 
 
 
-        <Stack width={{ md: "75%", xs: "100%" }} ml={{ md: "15px", xs: "0px" }} mt={{ md: "0px", xs: "20px" }} backgroundColor="#f3f3f3">
-          <Stack width={{ md: "80%", xs: "100%" }} height={{ md: "550px", xs: "600px" }} margin="auto">
+        <Stack width={{ md: "75%", xs: "100%" }} ml={{ md: "15px", xs: "0px" }} mt={{ md: "0px", xs: "20px" }} backgroundColor="#f3f3f3" mb={{xs:"100px",md:"0px"}}>
+          <Stack width={{ md: "80%", xs: "100%" }} height={{ md: "550px", xs: "570px" }} margin="auto">
             <Typography variant="h4" px={{ md: "49px", xs: "14px" }} color="#464646" fontWeight="600" fontSize={{ xs: "22px", md: "30px" }} pt={{ md: "0px", xs: "40px" }}>Get in Touch</Typography>
             <Stack direction={{ md: "row", xs: "column" }} justifyContent="space-evenly" alignItems="center" mt={{ md: "50px", xs: "30px" }}>
               <TextField id="outlined-basic" label="Name" variant="outlined" sx={{ width: { md: "320px", xs: "90%" }, mb: { md: "0px", xs: "20px" } }} />
