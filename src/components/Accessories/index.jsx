@@ -575,7 +575,7 @@ const Accessories = () => {
               justifyContent="space-between"
               ml={{md:"40px"}}
             >
-              <Box width={{ md: "800px", xs: "500px" }} display="flex">
+              <Box width={{ md: "800px", xs: "200px" }} display="flex">
                 <FormControl
                   sx={{ width: { md: "350px", xs: "200px" } }}
                   ml={{ md: "70px", xs: "0px" }}
@@ -604,7 +604,7 @@ const Accessories = () => {
                 </FormControl>
                 <Box
                   sx={{
-                    width: { md: "250px", xs: "230px" },
+                    width: { md: "250px", xs: "200px" },
                     fontSize: { md: "20px", xs: "14px" },
                     pr: { xs: "150px", md: "0px" },
                     height: { xs: "30px" },
