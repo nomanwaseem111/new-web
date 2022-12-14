@@ -18,13 +18,13 @@ const Deals = () => {
         <Typography sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"} }}>Sale Items</Typography>
 
       </Stack>
-      <Stack direction={{md:"row",xs:"column"}}  height="auto" sx={{width:{md:"80%", xs:"80%"},mt:{md:"80px",xs:"50px"}}} px="20px" justifyContent="space-between" flexWrap="wrap"  margin="auto" >
+      <Stack direction={{md:"row",xs:"column"}}  height="auto" sx={{width:{md:"80%", xs:"80%"},mt:{md:"80px",xs:"50px"},mb:{md:"100px",xs:"100px"}}} px="20px" justifyContent="space-between" flexWrap="wrap"  margin="auto" >
         
         
-      <Box  width={{md:"auto",xs:"280px"}} ml={{md:"5px"}} height={{md:"550px",xs:"500px"}} textAlign={{md:"center",xs:"center"}}>
+      <Box  width={{md:"auto",xs:"280px"}}  height={{md:"550px",xs:"500px"}} textAlign={{md:"center",xs:"center"}}>
             
             <Box component="img" src="https://static-01.daraz.pk/p/8f2eacdf32fc06c9ab3a53f68fbd942e.jpg" 
-                sx={{width:{md:"320px" ,xs:"280px"}}}
+                sx={{width:{md:"320px" ,xs:"260px"}}}
             />
             <Box>
                <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}} >Lorem ipsum fashion female top</Typography> 
@@ -37,11 +37,10 @@ const Deals = () => {
             </Box>
         </Box>
 
-
-        <Box  width={{md:"auto",xs:"280px"}} ml={{md:"5px"}} height={{md:"550px",xs:"500px"}} textAlign={{md:"center",xs:"center"}}>
+        <Box  width={{md:"auto",xs:"280px"}}  height={{md:"550px",xs:"500px"}} textAlign={{md:"center",xs:"center"}}>
             
-            <Box component="img" src="https://static-01.daraz.pk/p/901902b4c71c253561c6803d07fb533d.jpg" 
-                sx={{width:{md:"320px" ,xs:"280px"}}}
+            <Box component="img" src="https://static-01.daraz.pk/p/8f2eacdf32fc06c9ab3a53f68fbd942e.jpg" 
+                sx={{width:{md:"320px" ,xs:"260px"}}}
             />
             <Box>
                <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}} >Lorem ipsum fashion female top</Typography> 
@@ -54,10 +53,10 @@ const Deals = () => {
             </Box>
         </Box>
 
-        <Box  width={{md:"auto",xs:"280px"}} ml={{md:"5px"}} height={{md:"550px",xs:"500px"}} textAlign={{md:"center",xs:"center"}}>
+        <Box  width={{md:"auto",xs:"280px"}}  height={{md:"550px",xs:"500px"}} textAlign={{md:"center",xs:"center"}}>
             
-            <Box component="img" src="https://static-01.daraz.pk/p/85b9c4dd65276d29bf68caa1e5993f74.jpg" 
-                sx={{width:{md:"320px" ,xs:"280px"}}}
+            <Box component="img" src="https://static-01.daraz.pk/p/8f2eacdf32fc06c9ab3a53f68fbd942e.jpg" 
+                sx={{width:{md:"320px" ,xs:"260px"}}}
             />
             <Box>
                <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}} >Lorem ipsum fashion female top</Typography> 
@@ -70,11 +69,10 @@ const Deals = () => {
             </Box>
         </Box>
 
-
-        <Box  width={{md:"auto",xs:"280px"}} ml={{md:"5px"}} height={{md:"550px",xs:"500px"}} textAlign={{md:"center",xs:"center"}}>
+        <Box  width={{md:"auto",xs:"280px"}}  height={{md:"550px",xs:"500px"}} textAlign={{md:"center",xs:"center"}}>
             
-            <Box component="img" src="https://static-01.daraz.pk/p/46ba9bf5f724c7d6d5a1387d94428291.jpg" 
-                sx={{width:{md:"320px" ,xs:"280px"}}}
+            <Box component="img" src="https://static-01.daraz.pk/p/8f2eacdf32fc06c9ab3a53f68fbd942e.jpg" 
+                sx={{width:{md:"320px" ,xs:"260px"}}}
             />
             <Box>
                <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}} >Lorem ipsum fashion female top</Typography> 
@@ -87,10 +85,11 @@ const Deals = () => {
             </Box>
         </Box>
 
-        <Box  width={{md:"auto",xs:"280px"}} ml={{md:"5px"}} height={{md:"550px",xs:"500px"}} textAlign={{md:"center",xs:"center"}}>
+
+        <Box  width={{md:"auto",xs:"280px"}}  height={{md:"550px",xs:"500px"}} textAlign={{md:"center",xs:"center"}}>
             
-            <Box component="img" src="https://static-01.daraz.pk/p/3f8865d7402961492e6f1573d85734f7.jpg" 
-                sx={{width:{md:"320px" ,xs:"280px"}}}
+            <Box component="img" src="https://static-01.daraz.pk/p/8f2eacdf32fc06c9ab3a53f68fbd942e.jpg" 
+                sx={{width:{md:"320px" ,xs:"260px"}}}
             />
             <Box>
                <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}} >Lorem ipsum fashion female top</Typography> 
@@ -103,10 +102,11 @@ const Deals = () => {
             </Box>
         </Box>
 
-        <Box  width={{md:"auto",xs:"280px"}} ml={{md:"5px"}} height={{md:"550px",xs:"500px"}} textAlign={{md:"center",xs:"center"}}>
+
+        <Box  width={{md:"auto",xs:"280px"}}  height={{md:"550px",xs:"500px"}} textAlign={{md:"center",xs:"center"}}>
             
-            <Box component="img" src="https://static-01.daraz.pk/p/aed8704332e8c0d0f39793687124d2cd.jpg" 
-                sx={{width:{md:"320px" ,xs:"280px"}}}
+            <Box component="img" src="https://static-01.daraz.pk/p/8f2eacdf32fc06c9ab3a53f68fbd942e.jpg" 
+                sx={{width:{md:"320px" ,xs:"260px"}}}
             />
             <Box>
                <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}} >Lorem ipsum fashion female top</Typography> 
@@ -119,10 +119,11 @@ const Deals = () => {
             </Box>
         </Box>
 
-        <Box  width={{md:"auto",xs:"280px"}} ml={{md:"5px"}} height={{md:"550px",xs:"500px"}} textAlign={{md:"center",xs:"center"}}>
+
+        <Box  width={{md:"auto",xs:"280px"}}  height={{md:"550px",xs:"500px"}} textAlign={{md:"center",xs:"center"}}>
             
-            <Box component="img" src="https://static-01.daraz.pk/p/cede762921239e3de73ef818f5410ea4.jpg" 
-                sx={{width:{md:"320px" ,xs:"280px"}}}
+            <Box component="img" src="https://static-01.daraz.pk/p/8f2eacdf32fc06c9ab3a53f68fbd942e.jpg" 
+                sx={{width:{md:"320px" ,xs:"260px"}}}
             />
             <Box>
                <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}} >Lorem ipsum fashion female top</Typography> 
@@ -135,10 +136,11 @@ const Deals = () => {
             </Box>
         </Box>
 
-        <Box  width={{md:"auto",xs:"280px"}} ml={{md:"5px"}} height={{md:"550px",xs:"500px"}} textAlign={{md:"center",xs:"center"}}>
+
+        <Box  width={{md:"auto",xs:"280px"}}  height={{md:"550px",xs:"500px"}} textAlign={{md:"center",xs:"center"}}>
             
-            <Box component="img" src="https://static-01.daraz.pk/p/85000763f06575ad3800300a95b1c935.jpg" 
-                sx={{width:{md:"320px" ,xs:"280px"}}}
+            <Box component="img" src="https://static-01.daraz.pk/p/8f2eacdf32fc06c9ab3a53f68fbd942e.jpg" 
+                sx={{width:{md:"320px" ,xs:"260px"}}}
             />
             <Box>
                <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}} >Lorem ipsum fashion female top</Typography> 
@@ -150,71 +152,10 @@ const Deals = () => {
 
             </Box>
         </Box>
+       
 
-        <Box  width={{md:"auto",xs:"280px"}} ml={{md:"5px"}} height={{md:"550px",xs:"500px"}} textAlign={{md:"center",xs:"center"}}>
-            
-            <Box component="img" src="https://static-01.daraz.pk/p/36b77f53998a4c82f75569dc9cc71691.jpg" 
-                sx={{width:{md:"320px" ,xs:"280px"}}}
-            />
-            <Box>
-               <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}} >Lorem ipsum fashion female top</Typography> 
-               <Rating name="size-large" defaultValue={2} size="large"   sx={{mt:"10px"}}/>
-
-
-               <Typography component="p" sx={{fontSize:{md:"22px",xs:"18px"},mt:{md:"8px",xs:"15px"}}} >€35.6</Typography> 
-
-
-            </Box>
-        </Box>
-
-        <Box  width={{md:"auto",xs:"280px"}} ml={{md:"5px"}} height={{md:"550px",xs:"500px"}} textAlign={{md:"center",xs:"center"}}>
-            
-            <Box component="img" src="https://static-01.daraz.pk/p/36b77f53998a4c82f75569dc9cc71691.jpg" 
-                sx={{width:{md:"320px" ,xs:"280px"}}}
-            />
-            <Box>
-               <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}} >Lorem ipsum fashion female top</Typography> 
-               <Rating name="size-large" defaultValue={2} size="large"   sx={{mt:"10px"}}/>
-
-
-               <Typography component="p" sx={{fontSize:{md:"22px",xs:"18px"},mt:{md:"8px",xs:"15px"}}} >€35.6</Typography> 
-
-
-            </Box>
-        </Box>
-
-        <Box  width={{md:"auto",xs:"280px"}}   ml={{md:"5px"}} height={{md:"550px",xs:"500px"}} textAlign={{md:"center",xs:"center"}}>
-            
-            <Box component="img" src="https://static-01.daraz.pk/p/ce1dfd50f3c2fed9087e000427383cbc.jpg" 
-                sx={{width:{md:"320px" ,xs:"280px"}}}
-            />
-            <Box>
-               <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}} >Lorem ipsum fashion female top</Typography> 
-               <Rating name="size-large" defaultValue={2} size="large"   sx={{mt:"10px"}}/>
-
-
-               <Typography component="p" sx={{fontSize:{md:"22px",xs:"18px"},mt:{md:"8px",xs:"15px"}}} >€35.6</Typography> 
-
-
-            </Box>
-        </Box>
-
-        <Box  width={{md:"auto",xs:"280px"}}  ml={{md:"5px"}} height={{md:"550px",xs:"500px"}} textAlign={{md:"center",xs:"center"}}>
-            
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/Redmi-watch-2-lite--Product-Image--600x600--05_230x.png?v=1665404030" 
-                sx={{width:{md:"320px" ,xs:"280px"}}}
-            />
-            <Box>
-               <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}} >Lorem ipsum fashion female top</Typography> 
-               <Rating name="size-large" defaultValue={2} size="large"   sx={{mt:"10px"}}/>
-
-
-               <Typography component="p" sx={{fontSize:{md:"22px",xs:"18px"},mt:{md:"8px",xs:"15px"}}} >€35.6</Typography> 
-
-
-            </Box>
-        </Box>
-
+        
+       
        
 
        

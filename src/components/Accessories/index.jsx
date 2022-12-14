@@ -30,7 +30,7 @@ const Accessories = () => {
      
       
     >
-      <Container maxWidth="xl"  >
+      <Container maxWidth="xl" sx={{mb:{xs:"100px",md:"100px"}}} >
         {/* <Stack
           direction="row"
           height="100px"

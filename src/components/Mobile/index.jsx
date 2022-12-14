@@ -27,7 +27,7 @@ const Accessories = () => {
         height: { md: "auto" },
       }}
     >
-      <Container maxWidth="xl"  backgroundColor={{md:"yellow",xs:"blue"}}>
+      <Container maxWidth="xl"  backgroundColor={{md:"yellow",xs:"blue"}} sx={{mb:{xs:"100px",md:"100px"}}}>
         {/* <Stack
           direction="row"
           width="100%"
