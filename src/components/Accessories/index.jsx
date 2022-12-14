@@ -25,25 +25,28 @@ const Accessories = () => {
     <Grid
       sx={{
         height: { md: "auto" },
-        backgroundColor: { md: "#f0e0ff", xs: "#f0e0ff", sm: "f0e0ff" },
       }}
+      // backgroundColor={{md:"yellow",xs:"green"}}
+     
+      
     >
-      <Container maxWidth="xl" width={{ xs: "100%", md: "100%" }}>
-        <Stack
+      <Container maxWidth="xl"  >
+        {/* <Stack
           direction="row"
-          width="100%"
           height="100px"
           backgroundColor="#f7f7f7"
           justifyContent="center"
           alignItems="center"
+          // border="1px solid black"
         >
           <Typography
             component={Link}
             to="/"
+            fontSize={{md:"25px",xs:"18px"}}
             sx={{
               textDecoration: "none",
               color: "black",
-              fontSize: "25px",
+              
               mr: "10px",
               fontFamily: "sans-serif",
             }}
@@ -55,16 +58,17 @@ const Accessories = () => {
           </Typography>
           <Typography
             variant="span"
+            fontSize={{md:"25px",xs:"18px"}}
+
             sx={{
               textDecoration: "none",
               fontFamily: "sans-serif",
-              fontSize: "25px",
               mr: "10px",
             }}
           >
             Accessories
           </Typography>
-        </Stack>
+        </Stack> */}
 
         <Stack
           direction={{ md: "row", xs: "column" }}
@@ -575,6 +579,7 @@ const Accessories = () => {
                 <FormControl
                   sx={{ width: { md: "350px", xs: "200px" } }}
                   ml={{ md: "70px", xs: "0px" }}
+                 
                 >
                   <Select
                     labelId="demo-simple-select-label"
@@ -620,7 +625,7 @@ const Accessories = () => {
               height="auto"
               sx={{
                 width: { md: "100%", xs: "100%" },
-                mt: { md: "80px", xs: "50px" },
+                mt: { md: "30px", xs: "20px" },
               }}
               px="20px"
               justifyContent="space-around"
@@ -628,10 +633,11 @@ const Accessories = () => {
               margin="auto"
             >
               <Box
-                width={{ md: "auto", xs: "280px" }}
+               width={{ md: "auto", xs: "300px" }}
                 ml={{ md: "5px" }}
-                height={{ md: "550px", xs: "500px" }}
+                height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
+                mt={{xs:"20px"}}
               >
                 <Box
                   component="img"
@@ -668,10 +674,11 @@ const Accessories = () => {
               </Box>
 
               <Box
-                width={{ md: "auto", xs: "280px" }}
+                width={{ md: "auto", xs: "300px" }}
                 ml={{ md: "5px" }}
-                height={{ md: "550px", xs: "500px" }}
+                height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
+                mt={{xs:"20px"}}
               >
                 <Box
                   component="img"
@@ -708,10 +715,11 @@ const Accessories = () => {
               </Box>
 
               <Box
-                width={{ md: "auto", xs: "280px" }}
+                  width={{ md: "auto", xs: "300px" }}
                 ml={{ md: "5px" }}
-                height={{ md: "550px", xs: "500px" }}
+                height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
+                mt={{xs:"20px"}}
               >
                 <Box
                   component="img"
@@ -748,10 +756,12 @@ const Accessories = () => {
               </Box>
 
               <Box
-                width={{ md: "auto", xs: "280px" }}
+              width={{ md: "auto", xs: "300px" }}
                 ml={{ md: "5px" }}
-                height={{ md: "550px", xs: "500px" }}
+                height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
+                mt={{xs:"20px"}}
+
               >
                 <Box
                   component="img"
@@ -788,10 +798,11 @@ const Accessories = () => {
               </Box>
 
               <Box
-                width={{ md: "auto", xs: "280px" }}
+                 width={{ md: "auto", xs: "300px" }}
                 ml={{ md: "5px" }}
-                height={{ md: "550px", xs: "500px" }}
+                height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
+                mt={{xs:"20px"}}
               >
                 <Box
                   component="img"
@@ -828,10 +839,11 @@ const Accessories = () => {
               </Box>
 
               <Box
-                width={{ md: "auto", xs: "280px" }}
+                  width={{ md: "auto", xs: "300px" }}
                 ml={{ md: "5px" }}
-                height={{ md: "550px", xs: "500px" }}
+                height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
+                mt={{xs:"20px"}}
               >
                 <Box
                   component="img"
@@ -868,10 +880,11 @@ const Accessories = () => {
               </Box>
 
               <Box
-                width={{ md: "auto", xs: "280px" }}
+                 width={{ md: "auto", xs: "300px" }}
                 ml={{ md: "5px" }}
-                height={{ md: "550px", xs: "500px" }}
+                height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
+                mt={{xs:"20px"}}
               >
                 <Box
                   component="img"
@@ -908,10 +921,11 @@ const Accessories = () => {
               </Box>
 
               <Box
-                width={{ md: "auto", xs: "280px" }}
+                 width={{ md: "auto", xs: "300px" }}
                 ml={{ md: "5px" }}
-                height={{ md: "550px", xs: "500px" }}
+                height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
+                mt={{xs:"20px"}}
               >
                 <Box
                   component="img"
@@ -948,10 +962,11 @@ const Accessories = () => {
               </Box>
 
               <Box
-                width={{ md: "auto", xs: "280px" }}
+                 width={{ md: "auto", xs: "300px" }}
                 ml={{ md: "5px" }}
-                height={{ md: "550px", xs: "500px" }}
+                height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
+                mt={{xs:"20px"}}
               >
                 <Box
                   component="img"
@@ -988,10 +1003,11 @@ const Accessories = () => {
               </Box>
 
               <Box
-                width={{ md: "auto", xs: "280px" }}
+                 width={{ md: "auto", xs: "300px" }}
                 ml={{ md: "5px" }}
-                height={{ md: "550px", xs: "500px" }}
+                height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
+                mt={{xs:"20px"}}
               >
                 <Box
                   component="img"
@@ -1028,10 +1044,11 @@ const Accessories = () => {
               </Box>
 
               <Box
-                width={{ md: "auto", xs: "280px" }}
+              width={{ md: "auto", xs: "300px" }}
                 ml={{ md: "5px" }}
-                height={{ md: "550px", xs: "500px" }}
+                height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
+                mt={{xs:"20px"}}
               >
                 <Box
                   component="img"
@@ -1068,10 +1085,11 @@ const Accessories = () => {
               </Box>
 
               <Box
-                width={{ md: "auto", xs: "280px" }}
+                width={{ md: "auto", xs: "300px" }}
                 ml={{ md: "5px" }}
-                height={{ md: "550px", xs: "500px" }}
+                height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
+                mt={{xs:"20px"}}
               >
                 <Box
                   component="img"
@@ -1117,7 +1135,8 @@ const Accessories = () => {
               alignItems="center"
               textAlign="center"
               height="auto"
-              mt="50px"
+              sx={{mt:{md:"100px",xs:"30px"},mb:{md:"50px",xs:"50px"}}}
+              
             >
               <Pagination count={10} color="secondary"  sx={{size:{md:"large",xs:"small"}}} />
             </Stack>

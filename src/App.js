@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar/Navbar'
 import Home from './components/Home'
 import './components/index.css'
 import Container from '@mui/material/Container';
@@ -25,7 +25,7 @@ const App = () => {
      <Router>
       <div>
       
-        {/* <Navbar/> */}
+        <Navbar/>
         
         <Routes>
         <Route path="/" element={<Home />} />
