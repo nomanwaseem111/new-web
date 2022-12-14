@@ -227,56 +227,33 @@ const Deals = () => {
             <Box>
                <Typography component="p" sx={{fontSize:"22px",mt:"30px"}}>Lorem ipsum fashion female top</Typography> 
                <Rating name="size-large" defaultValue={2} size="large"  sx={{mt:"10px"}}/>
-
-
                <Typography component="p" sx={{fontSize:"22px", mt:"8px"}}>€35.6</Typography> 
-
-
             </Box>
         </Box>
-
         <Box sx={{textAlign:"center", ml:"30px"}}>
             <img src="https://flone.jamstacktemplates.dev/assets/img/product/fashion/5.jpg" alt="" width="340px" />
             <Box>
                <Typography component="p" sx={{fontSize:"22px",mt:"30px"}}>Lorem ipsum fashion female top</Typography> 
                <Rating name="size-large" defaultValue={2} size="large"  sx={{mt:"10px"}}/>
-
-
                <Typography component="p" sx={{fontSize:"22px", mt:"8px"}}>€35.6</Typography> 
-
-
             </Box>
         </Box>
-
-
         <Box sx={{textAlign:"center", ml:"30px"}}>
             <img src="https://flone.jamstacktemplates.dev/assets/img/product/fashion/30.jpg" alt="" width="340px" />
             <Box>
                <Typography component="p" sx={{fontSize:"22px",mt:"30px"}}>Lorem ipsum fashion female top</Typography> 
                <Rating name="size-large" defaultValue={2} size="large"  sx={{mt:"10px"}}/>
-
-
                <Typography component="p" sx={{fontSize:"22px", mt:"8px"}}>€35.6</Typography> 
-
-
             </Box>
         </Box>
-
-
         <Box sx={{textAlign:"center", ml:"30px"}}>
             <img src="https://flone.jamstacktemplates.dev/assets/img/product/fashion/7.jpg" alt="" width="340px" />
             <Box>
                <Typography component="p" sx={{fontSize:"22px",mt:"30px"}}>Lorem ipsum fashion female top</Typography> 
                <Rating name="size-large" defaultValue={2} size="large"  sx={{mt:"10px"}}/>
-
-
                <Typography component="p" sx={{fontSize:"22px", mt:"8px"}}>€35.6</Typography> 
-
-
             </Box>
         </Box>
-
-
        
       </Stack> */}
       
