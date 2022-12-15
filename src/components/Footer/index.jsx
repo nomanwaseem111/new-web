@@ -57,7 +57,7 @@ const Footer = () => {
 
         <Stack spacing={2} ml={{xs:"15px"}}  mt={{xs:"30px"}} sx={{padding:{md:"10px",xs:"0px"}, height:{md:"300px",xs:"250px"} }}>
             <Typography component="h2" fontSize={{md:"20px",xs:"18px"}} sx={{fontWeight:"480" ,lineHeight:"45px",fontFamily:"Poppins,sans-serif" , textTransform:"uppercase", color:"#fff"}}>PAYMENT METHODS</Typography>
-             <Box border="1px solid black" width="220px" display="flex" justifyContent="space-around" alignItems="center" flexWrap="wrap">
+             <Box  width="220px" display="flex" justifyContent="space-around" alignItems="center" flexWrap="wrap">
                <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/files/cropped_alfalah.png?v=1624273005" alt="" sx={{width:"60px",backgroundColor:"white"}}/>
                <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/files/keenu_trim_6692a3d0-163f-4d7e-9cc9-876d1a4d28b5.png?v=1624271133" alt="" sx={{width:"60px",backgroundColor:"white"}}/>
                <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/files/appropriate_hbl.png?v=1624272264" alt="" sx={{width:"50px",backgroundColor:"white"}}/>

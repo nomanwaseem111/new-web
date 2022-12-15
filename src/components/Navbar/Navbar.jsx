@@ -34,7 +34,7 @@ export default function ButtonAppBar() {
         <>
             <AppBar elevation={0} position='static' sx={{backgroundColor:"#fff"}} >
                 <Toolbar >
-                    <img src="https://flone.jamstacktemplates.dev/assets/img/logo/logo.png" alt="" />
+                    <img src="https://flone.jamstacktemplates.dev/assets/img/logo/logo.png"  alt="" />
                     {
                         isMatch ? (
                             <>
