@@ -1,14 +1,21 @@
+import React from 'react'
+import Banner from '../Banner'
+import Offer from '../Offer'
+import Deals from '../Deals'
 import { Typography } from "@mui/material"
 import { Stack , Box} from "@mui/system"
-import React from "react"
 import Rating from '@mui/material/Rating';
 import {
 
     Link
 } from "react-router-dom";
-const Deals = () => {
-  return (
-    <>
+const BestSeller = () => {
+    return (
+        <div>
+            <Banner />
+            <Offer />
+            {/* <Deals /> */}
+            <>
       <Stack  sx={{ textAlign:{md:"center",xs:"center"} ,mt:{md:"100px",xs:"50px"} }}>
         <Typography component="h1" 
           sx={{fontSize:{md:"40px",xs:"20px"},
@@ -16,9 +23,9 @@ const Deals = () => {
         >DAILY DEALS!</Typography>
       </Stack>
       <Stack direction={{ md:"row",xs:"row"}} justifyContent="space-around" alignItems="center"  sx={{width:{md:"30%",xs:"70%"}}} margin="auto" mt="50px" >
-        <Typography   sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"} }} >New Arrivals</Typography>
+        <Typography sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"} }} >New Arrivals</Typography>
         <Typography component={Link} to="/bestseller" sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"} }}> Best Sellers</Typography>
-        <Typography component={Link} to="/saleitem" sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"} }}>Sale Items</Typography>
+        <Typography sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"} }}>Sale Items</Typography>
 
       </Stack>
       <Stack direction={{md:"row",xs:"column"}}  height="auto" sx={{width:{md:"80%", xs:"80%"},mt:{md:"80px",xs:"50px"},mb:{md:"100px",xs:"100px"}}} px="20px" justifyContent="space-between" flexWrap="wrap"  margin="auto" >
@@ -26,7 +33,7 @@ const Deals = () => {
         
       <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://static-01.daraz.pk/p/8f2eacdf32fc06c9ab3a53f68fbd942e.jpg" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/Xiaomi12VMaxBrushlessCordlessDrill_300x.jpg?v=1660737405" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -42,7 +49,7 @@ const Deals = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/MESHSYSTEMAX3000_1-PACK_230x.png?v=1663845500" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/xiaomismartairpurifier4compact_300x.jpg?v=1666260405" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -58,7 +65,7 @@ const Deals = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/Untitled-2-01_300x.png?v=1666785044" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/MIWIRELESSOUTDOORSECURITYCAMERA1080P_300x.png?v=1663846432" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -74,7 +81,7 @@ const Deals = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/Mi_WiFi_Repeater_Pro_300_M_grande_a518c179-4c1d-4771-9eff-ee52e2df2dab_300x.png?v=1616613983" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/RedmiA1_300x.png?v=1668679647" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -91,7 +98,7 @@ const Deals = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/01_88beaa63-aea4-4d53-a6f0-0530c2851fc2_300x.png?v=1656930527" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/XiaomiHairClipper_300x.jpg?v=1668417426" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -108,7 +115,7 @@ const Deals = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}   height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/xiaomi-mi-ac2350-wifi-router_grande_7d26bb56-d53a-45e9-90d3-80d0f52a56e0_300x.jpg?v=1616613733" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/corona_grande_d0681adf-6192-4aca-b0c4-a081163d94f9_300x.png?v=1616613959" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -125,7 +132,7 @@ const Deals = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/corona_grande_c46531b3-8420-4e0c-a35e-7a6b943bef1e_300x.png?v=1616613812" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/Mi-Power-Bank-3-10000mAh-USB-C-Black_grande_f1754114-a3d7-48ae-ba99-0593c806abda_300x.png?v=1616613892" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -142,7 +149,7 @@ const Deals = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/mielectricscooter1s_300x.png?v=1661505816" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/MI_2_IN_1_USB_CABLE_MICRO_USB_TO_TYPE_C_100CM_Black_grande_8b5e60c3-ef20-4410-b492-db84712f4242_300x.png?v=1616613708" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -202,7 +209,8 @@ const Deals = () => {
       </Stack> */}
       
     </>
-  )
+        </div>
+    )
 }
 
-export default Deals
+export default BestSeller

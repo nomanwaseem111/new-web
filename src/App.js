@@ -17,7 +17,8 @@ import Login from './components/Login/Login'
 import SignUp from './components/Signup/Signup'
 import Forgot from './components/ForgotPassword/forgot';
 import Footer from './components/Footer';
-
+import BestSeller from './components/BestSeller/BestSeller';
+import SaleItem from './components/SaleItem/SaleItem'
 const App = () => {
   return (
     <>
@@ -35,6 +36,10 @@ const App = () => {
         <Route path="/mobile" element={<Mobile />} />
 
         <Route path="/contact" element={<Contact />} />
+
+        <Route path="/bestseller" element={<BestSeller />} />
+        <Route path="/saleitem" element={<SaleItem />} />
+
 
         <Route path="/login" element={<Login />} />
 
