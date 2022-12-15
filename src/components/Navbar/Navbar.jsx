@@ -53,6 +53,7 @@ export default function ButtonAppBar() {
 
                                     <Tab label="Mobile " sx={{color:"black",fontSize:"20px"}} component={Link} to="/mobile" />
                                     <Tab label="Contact Us " sx={{color:"black",fontSize:"20px"}} component={Link} to="/contact" />
+                                    <Tab label="Product " sx={{color:"black",fontSize:"20px"}} component={Link} to="/product" />
 
                                 </Tabs>
 

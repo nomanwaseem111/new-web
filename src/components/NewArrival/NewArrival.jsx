@@ -1,21 +1,27 @@
+import React from 'react'
+import Banner from '../Banner'
+import Offer from '../Offer'
+import Deals from '../Deals'
 import { Typography } from "@mui/material"
 import { Stack , Box} from "@mui/system"
-import React from "react"
 import Rating from '@mui/material/Rating';
-import Banner from "../Banner";
-import Offer from '../Offer';
 import {
 
     Link,useNavigate
 } from "react-router-dom";
-const Deals = () => {
- 
+const SaleItem = () => {
+    
     const navigate = useNavigate()
 
+    
     return (
-    <>
-  
-      <div>
+       
+       <>
+            <Banner />
+     <Offer />
+       <div>
+           
+         
       <Stack  sx={{ textAlign:{md:"center",xs:"center"} ,mt:{md:"100px",xs:"50px"} }}>
         <Typography component="h1" 
           sx={{fontSize:{md:"40px",xs:"20px"},
@@ -23,9 +29,9 @@ const Deals = () => {
         >DAILY DEALS!</Typography>
       </Stack>
       <Stack direction={{ md:"row",xs:"row"}} justifyContent="space-around" alignItems="center"  sx={{width:{md:"30%",xs:"70%"}}} margin="auto" mt="50px" >
-        <Typography onClick={() => navigate("/newarrival")}  sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"} }} >New Arrivals</Typography>
-        <Typography onClick={() => navigate("/bestseller")}  sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"} }}> Best Sellers</Typography>
-        <Typography onClick={() => navigate("/saleItem")} sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"} }}>Sale Items</Typography>
+        <Typography onClick={() => navigate("/newarrival")} sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"} }} >New Arrivals</Typography>
+        <Typography  onClick={() => navigate("/bestseller")} sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"} }}> Best Sellers</Typography>
+        <Typography onClick={() => navigate("/saleItem")}sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"} }}>Sale Items</Typography>
 
       </Stack>
       <Stack direction={{md:"row",xs:"column"}}  height="auto" sx={{width:{md:"80%", xs:"80%"},mt:{md:"80px",xs:"50px"},mb:{md:"100px",xs:"100px"}}} px="20px" justifyContent="space-between" flexWrap="wrap"  margin="auto" >
@@ -132,7 +138,7 @@ const Deals = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/corona_grande_c46531b3-8420-4e0c-a35e-7a6b943bef1e_300x.png?v=1616613812" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/Mi-Power-Bank-3-10000mAh-USB-C-Black_grande_f1754114-a3d7-48ae-ba99-0593c806abda_300x.png?v=1616613892" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -149,7 +155,7 @@ const Deals = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/mielectricscooter1s_300x.png?v=1661505816" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/corona_grande_c46531b3-8420-4e0c-a35e-7a6b943bef1e_300x.png?v=1616613812" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -207,9 +213,11 @@ const Deals = () => {
         </Box>
        
       </Stack> */}
-      </div>
-    </>
-  )
+      
+    
+        </div>
+        </>
+    )
 }
 
-export default Deals
+export default SaleItem

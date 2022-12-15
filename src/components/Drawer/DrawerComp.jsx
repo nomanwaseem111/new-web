@@ -67,6 +67,18 @@ const DrawerComp = () => {
           <ListItemButton>
             <ListItemIcon>
               <ListItemText >
+              <Button href="/product" sx={{textTransform:"capitalize"}} >Product</Button>
+
+              </ListItemText>
+
+            </ListItemIcon>
+          
+          </ListItemButton> 
+
+
+          <ListItemButton>
+            <ListItemIcon>
+              <ListItemText >
               <Button href="/login" sx={{textTransform:"capitalize"}} >Login</Button>
 
               </ListItemText>

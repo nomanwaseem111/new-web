@@ -7,15 +7,20 @@ import { Stack , Box} from "@mui/system"
 import Rating from '@mui/material/Rating';
 import {
 
-    Link
+    Link,useNavigate
 } from "react-router-dom";
 const BestSeller = () => {
+  
+    const navigate = useNavigate()
+
+  
     return (
+        <>
+         <Banner />
+     <Offer />
         <div>
-            <Banner />
-            <Offer />
-            {/* <Deals /> */}
-            <>
+        
+           
       <Stack  sx={{ textAlign:{md:"center",xs:"center"} ,mt:{md:"100px",xs:"50px"} }}>
         <Typography component="h1" 
           sx={{fontSize:{md:"40px",xs:"20px"},
@@ -23,9 +28,9 @@ const BestSeller = () => {
         >DAILY DEALS!</Typography>
       </Stack>
       <Stack direction={{ md:"row",xs:"row"}} justifyContent="space-around" alignItems="center"  sx={{width:{md:"30%",xs:"70%"}}} margin="auto" mt="50px" >
-        <Typography sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"} }} >New Arrivals</Typography>
-        <Typography component={Link} to="/bestseller" sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"} }}> Best Sellers</Typography>
-        <Typography sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"} }}>Sale Items</Typography>
+        <Typography onClick={() => navigate("/newarrival")} sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"} }} >New Arrivals</Typography>
+        <Typography onClick={() => navigate("/bestseller")} sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"} }}> Best Sellers</Typography>
+        <Typography onClick={() => navigate("/saleitem")} sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"} }}>Sale Items</Typography>
 
       </Stack>
       <Stack direction={{md:"row",xs:"column"}}  height="auto" sx={{width:{md:"80%", xs:"80%"},mt:{md:"80px",xs:"50px"},mb:{md:"100px",xs:"100px"}}} px="20px" justifyContent="space-between" flexWrap="wrap"  margin="auto" >
@@ -208,8 +213,9 @@ const BestSeller = () => {
        
       </Stack> */}
       
-    </>
+   
         </div>
+        </>
     )
 }
 

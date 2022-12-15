@@ -3,7 +3,6 @@ import Navbar from './components/Navbar/Navbar'
 import Home from './components/Home'
 import './components/index.css'
 import Container from '@mui/material/Container';
-
 import {
   BrowserRouter as Router,
   Routes,
@@ -19,6 +18,11 @@ import Forgot from './components/ForgotPassword/forgot';
 import Footer from './components/Footer';
 import BestSeller from './components/BestSeller/BestSeller';
 import SaleItem from './components/SaleItem/SaleItem'
+import BottomBtn from './components/BottomBtn/BottomBtn';
+import Product from './components/Product/Product';
+import Deals from './components/Deals';
+import NewArrival from './components/NewArrival/NewArrival'
+
 const App = () => {
   return (
     <>
@@ -37,8 +41,13 @@ const App = () => {
 
         <Route path="/contact" element={<Contact />} />
 
+        <Route path="/deals" element={<Deals />} /> 
+
         <Route path="/bestseller" element={<BestSeller />} />
+
         <Route path="/saleitem" element={<SaleItem />} />
+
+        <Route path="/newarrival" element={<NewArrival />} />
 
 
         <Route path="/login" element={<Login />} />
@@ -47,11 +56,13 @@ const App = () => {
 
         <Route path="/forgot" element={<Forgot />} />
 
+        <Route path="/product" element={<Product />} />
 
 
 
         </Routes>
         {/* <Forgot/> */}
+        <BottomBtn/>
       
         <Footer/>
       </div>

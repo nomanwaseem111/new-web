@@ -13,7 +13,7 @@ import Grid from "@mui/material/Grid"
 import MenuItem from "@mui/material/MenuItem"
 import FormControl from "@mui/material/FormControl"
 import Select from "@mui/material/Select"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 const Accessories = () => {
   const [price, setPrice] = React.useState("")
 
@@ -21,54 +21,18 @@ const Accessories = () => {
     setPrice(event.target.value)
   }
 
+  const navigate = useNavigate()
+
   return (
     <Grid
       sx={{
         height: { md: "auto" },
       }}
-      // backgroundColor={{md:"yellow",xs:"green"}}
      
       
     >
       <Container maxWidth="xl" sx={{mb:{xs:"100px",md:"100px"}}} >
-        {/* <Stack
-          direction="row"
-          height="100px"
-          backgroundColor="#f7f7f7"
-          justifyContent="center"
-          alignItems="center"
-          // border="1px solid black"
-        >
-          <Typography
-            component={Link}
-            to="/"
-            fontSize={{md:"25px",xs:"18px"}}
-            sx={{
-              textDecoration: "none",
-              color: "black",
-              
-              mr: "10px",
-              fontFamily: "sans-serif",
-            }}
-          >
-            Home
-          </Typography>
-          <Typography>
-            <i class="fa-sharp fa-solid fa-slash-forward"></i>
-          </Typography>
-          <Typography
-            variant="span"
-            fontSize={{md:"25px",xs:"18px"}}
-
-            sx={{
-              textDecoration: "none",
-              fontFamily: "sans-serif",
-              mr: "10px",
-            }}
-          >
-            Accessories
-          </Typography>
-        </Stack> */}
+     
 
         <Stack
           direction={{ md: "row", xs: "column" }}
@@ -646,6 +610,7 @@ const Accessories = () => {
                   component="img"
                   src="https://www.i4u.com.pk/upload_new/32-inch-Android-32U870-L.webp"
                   sx={{ width: { md: "350px", xs: "300px" } }}
+                  onClick={() => navigate("/product")}
                 />
                 <Box>
                   <Typography
@@ -687,6 +652,8 @@ const Accessories = () => {
                   component="img"
                   src="https://www.i4u.com.pk/upload_new/samsung-85qn85a.webp"
                   sx={{ width: { md: "350px", xs: "300px" } }}
+                  
+                  to="/product"
                 />
                 <Box>
                   <Typography

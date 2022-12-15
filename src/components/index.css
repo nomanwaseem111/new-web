@@ -36,3 +36,18 @@ body{
 .parent-footer{
   margin-top:300px;
 }
+
+.topBtn{
+  
+  color: #fff;
+  background-color: rgb(147, 5, 213);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 5rem;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
