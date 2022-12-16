@@ -51,6 +51,10 @@ const Banner = () => {
               <Button
                 className="shopNow"
                 sx={{
+                  "&:hover": {
+                backgroundColor: "#6610f2",
+                color: "#fff",
+              },
                   width: { md: "220px", xs: "100px" },
                   mt: { md: "30px", xs: "10px" },
                   ml: { md: "10px", xs: "5px" },

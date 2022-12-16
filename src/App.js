@@ -23,6 +23,8 @@ import Product from './components/Product/Product';
 import Deals from './components/Deals';
 import NewArrival from './components/NewArrival/NewArrival'
 import CartSection from './components/CartSection/cartsection';
+import CheckOut from './components/CheckOut/CheckOut';
+
 const App = () => {
   return (
     <>
@@ -59,6 +61,8 @@ const App = () => {
         <Route path="/product" element={<Product />} />
 
         <Route path="/cartsection" element={<CartSection />} />
+
+        <Route path="/checkout" element={<CheckOut />} />
 
 
         </Routes>
