@@ -43,7 +43,7 @@ const Product = () => {
       <Container maxWidth="xl" sx={{ mb: { xs: "100px", md: "100px" } }}>
         <Stack mt={{md:"100px",xs:"100px"}}  width={{md:"auto",xs:"auto"}} height={{md:"400px",xs:"auto"}}>
            <Typography variant="h4" fontFamily={{md:"Poppins",xs:"Poppins"}} fontSize={{md:"30px",xs:"20px"}} mb={{md:"20px",xs:"20px"}} marginLeft={{xs:"80px",md:"0px"}}>Your Cart Items</Typography>
-            <Stack  direction={{md:"row",xs:"column"}} sx={{border:{xs:"black"}}} marginLeft={{xs:"65px",md:"0px"}}  width={{md:"auto",xs:"auto"}} height={{md:"350px",xs:"auto"}}>
+            <Stack  direction={{md:"row",xs:"column"}} sx={{border:{xs:"black"}}} marginLeft={{xs:"60px",md:"0px"}}  width={{md:"auto",xs:"auto"}} height={{md:"350px",xs:"auto"}}>
              <Box border={{md:"1px solid #f2f2f2",xs:"1px solid #f2f2f2"}}  width={{md:"250px",xs:"200px"}} height={{md:"350px",xs:"300px"}}>
                <Box  textAlign={{md:"center",xs:"center"}} pt={{md:"20px",xs:"20px"}} backgroundColor={{md:"#f2f2f2",xs:"#f2f2f2"}} fontSize={{md:"24px",xs:"20px"}} fontFamily={{md:"Poppins",xs:"Poppins"}} textTransform={{md:"uppercase",xs:"uppercase"}} fontWeight={{md:"500",xs:"400"}} width={{md:"250px",xs:"auto"}} height={{md:"80px",xs:"80px"}}>image</Box>
                <Box component="img" src="https://www.i4u.com.pk/upload_new/Iphone-13-128GB.webp" width={{md:"150px",xs:"150px"}} marginLeft={{md:"50px",xs:"10px"}} mt={{md:"50px",xs:"50px"}} />
