@@ -22,7 +22,7 @@ import BottomBtn from './components/BottomBtn/BottomBtn';
 import Product from './components/Product/Product';
 import Deals from './components/Deals';
 import NewArrival from './components/NewArrival/NewArrival'
-
+import CartSection from './components/CartSection/cartsection';
 const App = () => {
   return (
     <>
@@ -48,7 +48,7 @@ const App = () => {
         <Route path="/saleitem" element={<SaleItem />} />
 
         <Route path="/newarrival" element={<NewArrival />} />
-
+   
 
         <Route path="/login" element={<Login />} />
 
@@ -58,6 +58,7 @@ const App = () => {
 
         <Route path="/product" element={<Product />} />
 
+        <Route path="/cartsection" element={<CartSection />} />
 
 
         </Routes>
