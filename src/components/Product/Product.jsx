@@ -113,6 +113,8 @@ const Product = () => {
                 variant="h3"
                 pl={{ md: "50px" }}
                 sx={{ fontSize: { xs: "28px", md: "50px" } }}
+                fontFamily={{md:"Roboto",xs:"Roboto"}}
+
               >
                 Apple iPhone 13 128GB
               </Typography>
@@ -120,7 +122,7 @@ const Product = () => {
                 name="size-large"
                 defaultValue={2}
                 size="large"
-                sx={{ mt: { md: "20px", xs: "20px" }, ml: { md: "30px" } }}
+                sx={{ mt: { md: "20px", xs: "20px" }, ml: { md: "50px",xs:"0px" } }}
               />
               <Typography
                 variant="h3"
@@ -128,6 +130,8 @@ const Product = () => {
                 mb="10px"
                 pl={{ md: "50px" }}
                 sx={{ fontSize: { xs: "28px", md: "50px" } }}
+                fontFamily={{md:"Roboto",xs:"Roboto"}}
+
               >
                 $129.00
               </Typography>
@@ -137,6 +141,8 @@ const Product = () => {
                 mt="15px"
                 pl={{ md: "50px" }}
                 sx={{ fontSize: { xs: "18px", md: "24px" } }}
+                fontFamily={{md:"Roboto",xs:"Roboto"}}
+
               >
                 Product Description{" "}
               </Typography>
@@ -146,6 +152,8 @@ const Product = () => {
                 mb="10px"
                 pl={{ md: "50px" }}
                 sx={{ fontSize: { xs: "14px", md: "22px" } }}
+                fontFamily={{md:"Roboto",xs:"Roboto"}}
+
               >
                 Apple iphone 13 128GB is available on affordable installment in
                 Karachi.
@@ -156,6 +164,8 @@ const Product = () => {
                 mt="15px"
                 pl={{ md: "50px" }}
                 sx={{ fontSize: { xs: "16px", md: "24px" } }}
+                fontFamily={{md:"Roboto",xs:"Roboto"}}
+
               >
                 Product Features
               </Typography>
@@ -168,6 +178,8 @@ const Product = () => {
                       </ListItemIcon>
                       <ListItemText
                         sx={{ fontSize: { md: "normal", xs: "10px" } }}
+                        fontFamily={{md:"Roboto",xs:"Roboto"}}
+
                         primary="ROM 128GB"
                       />
                     </ListItemButton>
@@ -212,7 +224,8 @@ const Product = () => {
                 padding="10px"
                 marginLeft={{ md: "50px", xs: "0px" }}
               >
-                <Typography variant="h6" width="100px" padding="10px">
+                <Typography variant="h6" width="100px" padding="10px"                 fontFamily={{md:"Roboto",xs:"Roboto"}}
+>
                   Quantity
                 </Typography>
                 <FormControl
@@ -261,6 +274,8 @@ const Product = () => {
                   mb: { xs: "10px", md: "0px" },
                   border: { md: "none", xs: "none" },
                   borderRadius: { md: "0px", xs: "0px" },
+                  fontFamily:{md:"Roboto",xs:"Roboto"}
+
                 }}
               >
                 Add to Cart

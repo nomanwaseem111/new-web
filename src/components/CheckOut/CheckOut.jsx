@@ -18,7 +18,7 @@ import FormControl from "@mui/material/FormControl"
 import Select from "@mui/material/Select"
 import CreditCardIcon from '@mui/icons-material/CreditCard';
 import { Link, useNavigate } from "react-router-dom"
-const Accessories = () => {
+const CheckOut = () => {
   const [price, setPrice] = React.useState("")
 
   const handleChange = (event) => {
@@ -39,7 +39,7 @@ const Accessories = () => {
        
         <Stack  mt={{md:'100px',xs:"50px"}}  height={{md:'530px'}} direction={{md:"row",xs:"column"}}>
           <Stack   width={{md:"60%"}} height={{md:'600px'}}>
-            <Typography variant="h4" fontSize={{xs:"20px",md:"30px"}} marginLeft={{md:"30px"}}>Billing Details</Typography>
+            <Typography variant="h4" fontSize={{xs:"20px",md:"30px"}} marginLeft={{md:"30px"}} fontFamily={{md:"Roboto",xs:"Roboto"}}>Billing Details</Typography>
             <Stack direction={{md:"row",xs:"row"}}  padding={{md:"30px"}}>
             <TextField id="outlined-basic" label="First Name"  variant="outlined" sx={{width:{md:"400px",xs:"150px"},mt:{md:"0px",xs:"20px"}}} />
             <TextField id="outlined-basic" label="Last Name"  variant="outlined" sx={{width:{md:"400px",xs:"150px"}, marginLeft:{md:"40px",xs:"30px"}, mt:{md:"0px",xs:"20px"}}} />
@@ -62,9 +62,9 @@ const Accessories = () => {
             />
           </Stack>
           <Stack  backgroundColor={{md:"#f6f6f8",xs:"#f6f6f8"}}  p={{md:"20px",xs:'20px'}} pt={{md:"20px",xs:"30px"}} mt={{md:'0px',xs:"30px"}} borderRadius={{md:"20px",xs:"20px"}} height={{md:"520px"}} width={{md:'38%'}}> 
-         <Typography variant="h5" marginLeft={{md:"30px"}} fontSize={{md:"30px",xs:"16px"}}>Payment Method</Typography>
+         <Typography variant="h5" marginLeft={{md:"30px"}} fontSize={{md:"30px",xs:"16px"}} fontFamily={{md:"Roboto",xs:"Roboto"}}>Payment Method</Typography>
         
-         <FormControlLabel value="Cash" control={<Radio />} label="Cash" sx={{marginLeft:{md:"20px"},mt:{md:"20px",xs:"20px"}}} />
+         <FormControlLabel value="Cash" control={<Radio />} label="Cash" fontFamily={{md:"Roboto",xs:"Roboto"}} sx={{marginLeft:{md:"20px"},mt:{md:"20px",xs:"20px"}}} />
       
          <Stack  backgroundColor={{md:"#f6f6f8"}} width={{md:"100%"}} height={{md:"500px",xs:"350px"}}>
           <Stack direction={{md:"row",xs:"row"}} justifyContent={{md:"space-between",xs:"space-between"}}> 
@@ -98,8 +98,7 @@ const Accessories = () => {
               borderRadius: { md: "50px", xs: "25px" },
               fontSize: { md: "14px", xs: "10px" },
               color: { md: "#fff", xs: "#fff" },
-              fontFamily:{md:'sans-serif'},
-              marginLeft:{md:"50px",xs:"0px"},
+              fontFamily:{md:"Roboto",xs:"Roboto"}    ,          marginLeft:{md:"50px",xs:"0px"},
               fontWeight:{md:"bold",xs:"bold"},
              
               mt:{md:"50px",xs:"70px"}
@@ -118,33 +117,33 @@ const Accessories = () => {
 
 
 
-        <Stack  width={{md:"40%",xs:"100%"}} height={{md:'600px',xs:"400px"}}  pt={{md:"30px",xs:"30px"}}   marginLeft={{md:"870px",xs:"0px"}} mt={{md:"30px",xs:"30px"}}>
-          <Typography variant="h5" fontSize={{md:"30px",xs:"20px"}} fontFamily={{md:"Poppins"}}>Your Order</Typography>
+        <Stack  width={{md:"40%",xs:"100%"}}  borderRadius={{md:"20px",xs:"20px"}} padding={{md:"30px",xs:"30px"}} backgroundColor={{md:"#f6f6f8",xs:"#f6f6f8"}} height={{md:'600px',xs:"400px"}}  pt={{md:"30px",xs:"30px"}}   marginLeft={{md:"870px",xs:"0px"}} mt={{md:"30px",xs:"30px"}}>
+          <Typography variant="h5" fontSize={{md:"30px",xs:"20px"}} fontFamily={{md:"Roboto",xs:"Roboto"}}>Your Order</Typography>
           <Stack   mt={{md:"20px",xs:"20px"}} height={{md:"auto"}} >
            <Stack  mb={{md:"10px",xs:"10px"}} height={{md:'10px'}} direction={{md:'row',xs:"row"}} justifyContent={{md:"space-between",xs:"space-between"}} marginLeft={{md:"30px"}} mt={{md:"30px"}} width={{md:"90%"}} height={{md:'50px'}}>
-             <Typography fontSize={{md:"22px",xs:"16px"}} ontFamily={{md:"Poppins"}} >Product</Typography>
-             <Typography fontSize={{md:"22px",xs:"16px"}} ontFamily={{md:"Poppins"}} >Total</Typography>
+             <Typography fontSize={{md:"22px",xs:"16px"}} fontFamily={{md:"Roboto",xs:"Roboto"}} >Product</Typography>
+             <Typography fontSize={{md:"22px",xs:"16px"}} fontFamily={{md:"Roboto",xs:"Roboto"}} >Total</Typography>
              
 
            </Stack>
            <hr/>
            <Stack   mb={{md:"10px",xs:"10px"}} direction={{md:'row',xs:"row"}} justifyContent={{md:"space-between",xs:"space-between"}} marginLeft={{md:"30px"}} mt={{md:"30px",xs:"20px"}} width={{md:"90%"}} height={{md:'50px'}}>
-             <Typography fontSize={{md:"22px",xs:"16px"}} ontFamily={{md:"Poppins"}} >Lorem ipsum jacket X 3</Typography>
-             <Typography fontSize={{md:"22px",xs:"16px"}}  ontFamily={{md:"Poppins"}}>€33.60</Typography>
+             <Typography fontSize={{md:"22px",xs:"16px"}} fontFamily={{md:"Roboto",xs:"Roboto"}} >Lorem ipsum jacket X 3</Typography>
+             <Typography fontSize={{md:"22px",xs:"16px"}}  fontFamily={{md:"Roboto",xs:"Roboto"}}>€33.60</Typography>
              
 
            </Stack>
            <hr/>
            <Stack   mb={{md:"10px",xs:"10px"}} direction={{md:'row',xs:"row"}} justifyContent={{md:"space-between",xs:"space-between"}} marginLeft={{md:"30px"}} mt={{md:"30px",xs:"20px"}} width={{md:"90%"}} height={{md:'50px'}}>
-             <Typography fontSize={{md:"22px",xs:"16px"}} ontFamily={{md:"Poppins"}}>Shipping</Typography>
-             <Typography fontSize={{md:"22px",xs:"16px"}} ontFamily={{md:"Poppins"}}>Free shipping</Typography>
+             <Typography fontSize={{md:"22px",xs:"16px"}}fontFamily={{md:"Roboto",xs:"Roboto"}}>Shipping</Typography>
+             <Typography fontSize={{md:"22px",xs:"16px"}} fontFamily={{md:"Roboto",xs:"Roboto"}}>Free shipping</Typography>
              
 
            </Stack>
            <hr/>
            <Stack   mb={{md:"10px",xs:"10px"}} direction={{md:'row',xs:"row"}} justifyContent={{md:"space-between",xs:"space-between"}} marginLeft={{md:"30px"}} mt={{md:"30px",xs:"20px"}} width={{md:"90%"}} height={{md:'50px'}}>
-             <Typography fontSize={{md:"22px",xs:"16px"}} ontFamily={{md:"Poppins"}} fontWeight={{md:"bold",xs:"bold"}}>Total</Typography>
-             <Typography fontSize={{md:"22px",xs:"16px"}} ontFamily={{md:"Poppins"}} color={{md:"#6610f2"}}>€33.60</Typography>
+             <Typography fontSize={{md:"22px",xs:"16px"}} fontFamily={{md:"Roboto",xs:"Roboto"}} fontWeight={{md:"bold",xs:"bold"}}>Total</Typography>
+             <Typography fontSize={{md:"22px",xs:"16px"}} fontFamily={{md:"Roboto",xs:"Roboto"}} color={{md:"#6610f2"}}>€33.60</Typography>
              
 
            </Stack>
@@ -161,8 +160,7 @@ const Accessories = () => {
               borderRadius: { md: "25px", xs: "25px" },
               fontSize: { md: "18px", xs: "10px" },
               color: { md: "#fff", xs: "#fff" },
-              fontFamily:{md:'sans-serif'},
-              marginLeft:{md:"60px",xs:"20px"},
+              fontFamily:{md:"Roboto",xs:"Roboto"}     ,         marginLeft:{md:"60px",xs:"0px"},
               mb:{md:"20px"},
               mt:{md:"20px",xs:"20px"},
               fontWeight:{md:"bold",xs:"bold"},
@@ -188,4 +186,4 @@ const Accessories = () => {
   )
 }
 
-export default Accessories
+export default CheckOut

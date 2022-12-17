@@ -31,7 +31,7 @@ const Contact = () => {
             <Box margin="auto" mt="50px" pl={{ md: "0px", xs: "5px" }} height="60px" justifyContent="space-around" display="flex" width="300px">
               <WifiCalling3Icon margin="auto" sx={{ width: "55px", color: "black", background: "#f3f3f3", height: "55px", padding: "10px", "&:hover": { backgroundColor: "black", color: "#fff" }, border: "1px solid black", borderRadius: "50%" }} />
               <Box width="350px" padding="5px" ml="20px" height="60px">
-                <Typography fontSize="20px" fontFamily="sans-serif" width="350px" variant="p">+012 345 678 102 <br />+012 345 678 102</Typography>
+                <Typography fontSize="20px" fontFamily={{md:"Roboto",xs:"Roboto"}}  width="350px" variant="p">+012 345 678 102 <br />+012 345 678 102</Typography>
 
               </Box>
             </Box>
@@ -39,7 +39,7 @@ const Contact = () => {
             <Box margin="auto" mt="50px" pl={{ md: "0px", xs: "5px" }} height="60px" justifyContent="space-around" display="flex" width="300px">
               <PublicIcon margin="auto" sx={{ width: "55px", color: "black", background: "#f3f3f3", height: "55px", padding: "10px", "&:hover": { backgroundColor: "black", color: "#fff" }, border: "1px solid black", borderRadius: "50%" }} />
               <Box width="350px" padding="5px" ml="20px" height="60px">
-                <Typography fontSize="20px" fontFamily="sans-serif" width="350px" variant="p">yourname@email.com <br />yourwebsitename.com</Typography>
+                <Typography fontSize="20px" fontFamily={{md:"Roboto",xs:"Roboto"}}  width="350px" variant="p">yourname@email.com <br />yourwebsitename.com</Typography>
 
               </Box>
             </Box>
@@ -47,12 +47,12 @@ const Contact = () => {
             <Box margin="auto" mt="50px" pl={{ md: "0px", xs: "5px" }} height="60px" justifyContent="space-around" display="flex" width="300px">
               <LocationOnIcon margin="auto" sx={{ width: "55px", color: "black", background: "#f3f3f3", height: "55px", padding: "10px", "&:hover": { backgroundColor: "black", color: "#fff" }, border: "1px solid black", borderRadius: "50%" }} />
               <Box width="350px" padding="5px" ml="20px" height="60px">
-                <Typography fontSize={{ md: "20px", xs: "19px" }} fontFamily="sans-serif" width="350px" variant="p">Address goes here,<br />street, Crossroad 123.</Typography>
+                <Typography fontSize={{ md: "20px", xs: "19px" }} fontFamily={{md:"Roboto",xs:"Roboto"}}  width="350px" variant="p">Address goes here,<br />street, Crossroad 123.</Typography>
 
               </Box>
             </Box>
             <Box margin="auto" mt="50px" height="150px" width="300px">
-              <Typography variant="h4" fontSize={{ md: "40px", xs: "25px" }} textAlign="center" >Follow Us</Typography>
+              <Typography variant="h4" fontSize={{ md: "40px", xs: "25px" }} textAlign="center" fontFamily={{md:"Roboto",xs:"Roboto"}} >Follow Us</Typography>
               <Box mt="30px" width="300px" textAlign="center" justifyContent="space-evenly" display="flex">
                 <Typography component={Link} fontSize="22px" color="grey" to="https://www.facebook.com" sx={{ "&:hover": { color: "#6610f2" } }}><i class="fa-brands fa-facebook-f"></i></Typography>
                 <Typography component={Link} fontSize="22px" color="grey" to="www.facebook.com" sx={{ "&:hover": { color: "#6610f2" } }} ><i class="fa-brands fa-pinterest-p"></i></Typography>
@@ -73,7 +73,7 @@ const Contact = () => {
 
         <Stack width={{ md: "75%", xs: "100%" }} ml={{ md: "15px", xs: "0px" }} mt={{ md: "0px", xs: "20px" }} backgroundColor="#f3f3f3" mb={{xs:"100px",md:"0px"}}>
           <Stack width={{ md: "80%", xs: "100%" }} height={{ md: "550px", xs: "570px" }} margin="auto">
-            <Typography variant="h4" px={{ md: "49px", xs: "14px" }} color="#464646" fontWeight="600" fontSize={{ xs: "22px", md: "30px" }} pt={{ md: "0px", xs: "40px" }}>Get in Touch</Typography>
+            <Typography variant="h4" px={{ md: "49px", xs: "14px" }}  fontFamily={{md:"Roboto",xs:"Roboto"}}  color="#464646" fontWeight="600" fontSize={{ xs: "22px", md: "30px" }} pt={{ md: "0px", xs: "40px" }}>Get in Touch</Typography>
             <Stack direction={{ md: "row", xs: "column" }} justifyContent="space-evenly" alignItems="center" mt={{ md: "50px", xs: "30px" }}>
               <TextField id="outlined-basic" label="Name" variant="outlined" sx={{ width: { md: "320px", xs: "90%" }, mb: { md: "0px", xs: "20px" } }} />
               <TextField id="outlined-basic" label="Email" variant="outlined" sx={{ width: { md: "320px", xs: "90%" }, mb: { md: "0px", xs: "20px" } }} />

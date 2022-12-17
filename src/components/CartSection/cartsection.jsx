@@ -53,11 +53,11 @@ const Product = () => {
         >
           <Typography
             variant="h4"
-            fontFamily={{ md: "Poppins", xs: "Poppins" }}
             fontSize={{ md: "30px", xs: "20px" }}
             mb={{ md: "20px", xs: "20px" }}
             marginLeft={{ xs: "80px", md: "0px" }}
-            fontWeight={{ md: "bold", xs: "bold" }}
+            fontWeight={{ md: "700", xs: "700" }}
+            fontFamily={{md:"Roboto",xs:"Roboto"}}
 
           >
             Your Cart Items
@@ -78,12 +78,12 @@ const Product = () => {
             >
               <Box
                 textAlign={{ md: "center", xs: "center" }}
-                pt={{ md: "30px", xs: "20px" }}
+                pt={{ md: "30px", xs: "30px" }}
                 backgroundColor={{ md: "#f2f2f2", xs: "#f2f2f2" }}
                 fontSize={{ md: "18px", xs: "20px" }}
-                fontFamily={{ md: "Poppins", xs: "Poppins" }}
+                fontFamily={{md:"Roboto",xs:"Roboto"}}
                 textTransform={{ md: "uppercase", xs: "uppercase" }}
-                fontWeight={{ md: "bold", xs: "bold" }}
+                fontWeight={{ md: "500", xs: "500" }}
                 width={{ md: "300px", xs: "auto" }}
                 height={{ md: "80px", xs: "80px" }}
                 // border={{ md: "1px solid #f2f2f2", xs: "1px solid black" }}
@@ -111,9 +111,9 @@ const Product = () => {
                 pt={{ md: "30px", xs: "25px" }}
                 backgroundColor={{ md: "#f2f2f2", xs: "#f2f2f2" }}
                 fontSize={{ md: "18px", xs: "20px" }}
-                fontFamily={{ md: "Poppins", xs: "Poppins" }}
+                fontFamily={{md:"Roboto",xs:"Roboto"}}
                 textTransform={{ md: "uppercase", xs: "uppercase" }}
-                fontWeight={{ md: "bold", xs: "bold" }}
+                fontWeight={{ md: "500", xs: "500" }}
                 width={{ md: "300px", xs: "auto" }}
                 height={{ md: "80px", xs: "80px" }}
                 // border={{ md: "1px solid #f2f2f2", xs: "1px solid #f2f2f2" }}
@@ -126,8 +126,8 @@ const Product = () => {
                 color={{ md: "#333", xs: "#333" }}
                 textAlign={{ md: "center", xs: "center" }}
                 pt={{ md: "80px", xs: "80px" }}
-                fontFamily={{ md: "Poppins", xs: "Poppins" }}
-                fontWeight={{ md: "bold", xs: "bold" }}
+                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontWeight={{ md: "500", xs: "500" }}
 
               >
                 Apple iPhone 13 128GB
@@ -137,8 +137,8 @@ const Product = () => {
                 color={{ md: "#333", xs: "#333" }}
                 textAlign={{ md: "center", xs: "center" }}
                 pt={{ md: "30px", xs: "20px" }}
-                fontFamily={{ md: "Poppins", xs: "Poppins" }}
-                fontWeight={{ md: "bold", xs: "bold" }}
+                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontWeight={{ md: "500", xs: "500" }}
 
               >
                 Color:Pink
@@ -151,12 +151,12 @@ const Product = () => {
             >
               <Box
                 textAlign={{ md: "center", xs: "center" }}
-                pt={{ md: "30px", xs: "20px" }}
+                pt={{ md: "30px", xs: "30px" }}
                 backgroundColor={{ md: "#f2f2f2", xs: "#f2f2f2" }}
                 fontSize={{ md: "18px", xs: "20px" }}
-                fontFamily={{ md: "Poppins", xs: "Poppins" }}
+                fontFamily={{md:"Roboto",xs:"Roboto"}}
                 textTransform={{ md: "uppercase", xs: "uppercase" }}
-                fontWeight={{ md: "bold", xs: "bold" }}
+                fontWeight={{ md: "500", xs: "500" }}
                 width={{ md: "300px", xs: "auto" }}
                 height={{ md: "80px", xs: "80px" }}
                 // border={{ md: "1px solid #f2f2f2", xs: "1px solid #f2f2f2" }}
@@ -169,7 +169,8 @@ const Product = () => {
                 color={{ md: "#333", xs: "#333" }}
                 textAlign={{ md: "center", xs: "center" }}
                 pt={{ md: "80px", xs: "100px" }}
-                fontWeight={{ md: "bold", xs: "bold" }}
+                fontWeight={{ md: "500", xs: "500" }}
+                fontFamily={{md:"Roboto",xs:"Roboto"}}
 
               >
                 €11.20
@@ -186,9 +187,9 @@ const Product = () => {
                 pt={{ md: "30px", xs: "30px" }}
                 backgroundColor={{ md: "#f2f2f2", xs: "#f2f2f2" }}
                 fontSize={{ md: "18px", xs: "20px" }}
-                fontFamily={{ md: "Poppins", xs: "Poppins" }}
+                fontFamily={{md:"Roboto",xs:"Roboto"}}
                 textTransform={{ md: "uppercase", xs: "uppercase" }}
-                fontWeight={{ md: "bold", xs: "bold" }}
+                fontWeight={{ md: "500", xs: "500" }}
                 width={{ md: "300px", xs: "auto" }}
                 height={{ md: "80px", xs: "80px" }}
                 // border={{ md: "1px solid #f2f2f2", xs: "1px solid #f2f2f2" }}
@@ -202,9 +203,12 @@ const Product = () => {
                 textAlign={{ md: "center", xs: "center" }}
                 pt={{ md: "70px", xs: "100px" }}
               >
-                <Button sx={{fontSize:{md:"30px",xs:"30px"},fontWeight:{md:'bold',xs:"bold"}}} onClick={() => setNum(num - 1)} >-</Button>
-                <Typography variant="span"  sx={{fontSize:{md:"25px",xs:"30px"},fontWeight:{md:'bold',xs:"bold"}}}>{num}</Typography>
-                <Button sx={{fontSize:{md:"30px",xs:"30px"},fontWeight:{md:'bold',xs:"bold"}}} onClick={() => setNum(num + 1)}  >+</Button>
+                <Button sx={{fontSize:{md:"30px",xs:"30px"},fontWeight:{md:'500',xs:"500"}}}             fontFamily={{md:"Roboto",xs:"Roboto"}}
+ onClick={() => setNum(num - 1)} >-</Button>
+                <Typography variant="span"  sx={{fontSize:{md:"25px",xs:"30px"},fontWeight:{md:'500',xs:"500"}}}             fontFamily={{md:"Roboto",xs:"Roboto"}}
+>{num}</Typography>
+                <Button sx={{fontSize:{md:"30px",xs:"30px"},fontWeight:{md:'500',xs:"500"}}}             fontFamily={{md:"Roboto",xs:"Roboto"}}
+ onClick={() => setNum(num + 1)}  >+</Button>
               </Box>
             </Box>
             {/* <Box
@@ -245,9 +249,9 @@ const Product = () => {
                 pt={{ md: "30px", xs: "30px" }}
                 backgroundColor={{ md: "#f2f2f2", xs: "#f2f2f2" }}
                 fontSize={{ md: "18px", xs: "20px" }}
-                fontFamily={{ md: "Poppins", xs: "Poppins" }}
+                fontFamily={{md:"Roboto",xs:"Roboto"}}
                 textTransform={{ md: "uppercase", xs: "uppercase" }}
-                fontWeight={{ md: "bold", xs: "bold" }}
+                fontWeight={{ md: "500", xs: "500" }}
                 width={{ md: "300px", xs: "auto" }}
                 height={{ md: "80px", xs: "80px" }}
 
@@ -271,6 +275,8 @@ const Product = () => {
           justifyContent="space-between"
           alignItems="center"
           padding={{ md: "50px" }}
+          // border={{md:"1px solid black"}}
+          
         >
           <Button
             sx={{
@@ -285,7 +291,9 @@ const Product = () => {
               fontSize: { md: "16px", xs: "14px" },
               color: { md: "#333", xs: "#333" },
               fontWeight:{md:'bold',xs:"bold"},
-              height:{md:'0px",xs:"50px'}
+              height:{md:'0px",xs:"50px'},
+              fontFamily:{md:"Roboto",xs:"Roboto"}
+
             }}
             onClick={() => navigate("/accessories")}
 
@@ -306,7 +314,9 @@ const Product = () => {
               color: { md: "#333", xs: "#333" },
               fontWeight:{md:'bold',xs:"bold"},
               height:{md:'0px",xs:"50px'},
-              mt:{md:'0px',xs:"30px"}
+              mt:{md:'0px',xs:"20px"},
+              fontFamily:{md:"Roboto",xs:"Roboto"}
+
             }}
             onClick={() => navigate("/checkout")}
 

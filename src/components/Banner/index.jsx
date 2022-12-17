@@ -37,7 +37,7 @@ const Banner = () => {
                 variant="span"
                 sx={{
                   fontSize: { lg: "30px", md: "20", xs: "14px" },
-                  
+                  fontFamily:{md:"Roboto",xs:"Roboto"}
                 }}
               >
                 Smart Products
@@ -47,7 +47,9 @@ const Banner = () => {
                 sx={{
                   fontSize: { lg: "90px", md: "80px", xs: "40px" },
                   fontWeight: { lg: "600", md: "300", xs: "700" },
-                  mt:{xs:"10px"}
+                  mt:{xs:"10px"},
+                  fontFamily:{md:"Roboto",xs:"Roboto"}
+
                 }}
               >
                 Winter Offer <br /> 2024 Collection
@@ -67,6 +69,8 @@ const Banner = () => {
                   padding: { md: "10px", xs: "10px" },
                   color: { md: "black", xs: "black" },
                   fontSize: { md: "20px", xs: "12px" },
+                  fontFamily:{md:"Roboto",xs:"Roboto"}
+
 
                 }}
                 onClick={() => navigate("/accessories")}

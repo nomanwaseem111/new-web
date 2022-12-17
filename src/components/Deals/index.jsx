@@ -19,11 +19,15 @@ const Deals = () => {
       <Stack  sx={{ textAlign:{md:"center",xs:"center"} ,mt:{md:"100px",xs:"50px"} }}>
         <Typography component="h1" 
           sx={{fontSize:{md:"40px",xs:"20px"},
-             fontWeight:{md:"bold",xs:"bold"}}}
+             fontWeight:{md:"bold",xs:"bold"},
+             fontFamily:{md:"Roboto",xs:"Roboto"}
+
+             }}
         >DAILY DEALS!</Typography>
       </Stack>
       <Stack direction={{ md:"row",xs:"row"}} justifyContent="space-around" alignItems="center"  sx={{width:{md:"30%",xs:"70%"}}} margin="auto" mt="50px" >
-        <Typography onClick={() => navigate("/newarrival")}  sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"}, "&:hover": {color: "#6610f2"} }} >New Arrivals</Typography>
+        <Typography onClick={() => navigate("/newarrival")}  sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"},                  fontFamily:{md:"Roboto",xs:"Roboto"}
+ ,"&:hover": {color: "#6610f2"} }} >New Arrivals</Typography>
         <Typography onClick={() => navigate("/bestseller")}  sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"},"&:hover": {color: "#6610f2"} }}> Best Sellers</Typography>
         <Typography onClick={() => navigate("/saleItem")} sx={{ fontSize:{md:"25px",xs:"13px"},color:{md:"grey",xs:"grey"},fontWeight:{md:"500",xs:"500"},cursor:{md:"pointer",xs:"pointer"},"&:hover": {color: "#6610f2"} }}>Sale Items</Typography>
 
@@ -53,11 +57,11 @@ const Deals = () => {
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
-               <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}} >MESH SYSTEM AX3000 (1-PACK)</Typography> 
+               <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}}  fontFamily={{md:"Roboto",xs:"Roboto"}} >MESH SYSTEM AX3000 (1-PACK)</Typography> 
                <Rating name="size-large" defaultValue={2} size="large"   sx={{mt:"10px"}}/>
 
 
-               <Typography component="p" sx={{fontSize:{md:"22px",xs:"18px"},mt:{md:"8px",xs:"15px"}}} >Rs.14,999</Typography> 
+               <Typography component="p" sx={{fontSize:{md:"22px",xs:"18px"},mt:{md:"8px",xs:"15px"}}} fontFamily={{md:"Roboto",xs:"Roboto"}}  >Rs.14,999</Typography> 
 
 
             </Box>

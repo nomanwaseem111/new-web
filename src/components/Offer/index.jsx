@@ -34,7 +34,8 @@ const index = () => {
           <Box sx={{ ml: "20px", mt: "2px" }}>
             <Typography
               component="span"
-              sx={{ fontSize: { md: "25px", xs: "20px" } }}
+              sx={{ fontSize: { md: "25px", xs: "20px" }, fontFamily:{md:"Roboto",xs:"Roboto"}
+ }}
             >
               Free Shipping
             </Typography>
@@ -44,6 +45,8 @@ const index = () => {
               sx={{
                 fontSize: { md: "18px", xs: "16px" },
                 color: { md: "grey", xs: "grey" },
+                fontFamily:{md:"Roboto",xs:"Roboto"}
+
               }}
             >
               Free shipping on all order
@@ -69,7 +72,8 @@ const index = () => {
           <Box sx={{ ml: "20px", mt: "2px" }}>
             <Typography
               component="span"
-              sx={{ fontSize: { md: "25px", xs: "20px" } }}
+              sx={{ fontSize: { md: "25px", xs: "20px" },                  fontFamily:{md:"Roboto",xs:"Roboto"}
+ }}
             >
               Support 24/7
             </Typography>
@@ -79,6 +83,8 @@ const index = () => {
               sx={{
                 fontSize: { md: "18px", xs: "16px" },
                 color: { md: "grey", xs: "grey" },
+                fontFamily:{md:"Roboto",xs:"Roboto"}
+
               }}
             >
               Free shipping on all order
@@ -103,7 +109,8 @@ const index = () => {
           <Box sx={{ ml: "20px", mt: "2px" }}>
             <Typography
               component="span"
-              sx={{ fontSize: { md: "25px", xs: "20px" } }}
+              sx={{ fontSize: { md: "25px", xs: "20px" },                  fontFamily:{md:"Roboto",xs:"Roboto"}
+ }}
             >
               Money Return
             </Typography>
@@ -113,6 +120,8 @@ const index = () => {
               sx={{
                 fontSize: { md: "18px", xs: "16px" },
                 color: { md: "grey", xs: "grey" },
+                fontFamily:{md:"Roboto",xs:"Roboto"}
+
               }}
             >
               Free shipping on all order
@@ -137,7 +146,8 @@ const index = () => {
           <Box sx={{ ml: "20px", mt: "2px" }}>
             <Typography
               component="span"
-              sx={{ fontSize: { md: "25px", xs: "20px" } }}
+              sx={{ fontSize: { md: "25px", xs: "20px" },                  fontFamily:{md:"Roboto",xs:"Roboto"}
+ }}
             >
               Order Discount
             </Typography>
@@ -147,6 +157,8 @@ const index = () => {
               sx={{
                 fontSize: { md: "18px", xs: "16px" },
                 color: { md: "grey", xs: "grey" },
+                fontFamily:{md:"Roboto",xs:"Roboto"}
+
               }}
             >
               Free shipping on all order

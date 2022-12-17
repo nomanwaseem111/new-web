@@ -48,11 +48,11 @@ export default function ButtonAppBar() {
                                    
                                
 
-                                    <Tab label="Home " sx={{color:"black",fontSize:"20px"}} component={Link} to="/" />
-                                    <Tab label="Accessories" sx={{color:"black",fontSize:"20px"}}  component={Link} to="/accessories" />
+                                    <Tab label="Home " sx={{color:"black",fontSize:"20px",fontFamily:"Roboto"}} component={Link} to="/" />
+                                    <Tab label="Accessories" sx={{color:"black",fontSize:"20px",fontFamily:"Roboto"}}  component={Link} to="/accessories" />
 
-                                    <Tab label="Mobile " sx={{color:"black",fontSize:"20px"}} component={Link} to="/mobile" />
-                                    <Tab label="Contact Us " sx={{color:"black",fontSize:"20px"}} component={Link} to="/contact" />
+                                    <Tab label="Mobile " sx={{color:"black",fontSize:"20px",fontFamily:"Roboto"}} component={Link} to="/mobile" />
+                                    <Tab label="Contact Us " sx={{color:"black",fontSize:"20px",fontFamily:"Roboto"}} component={Link} to="/contact" />
                                     {/* <Tab label="Product " sx={{color:"black",fontSize:"20px"}} component={Link} to="/product" /> */}
                                     {/* <Tab label="Cart " sx={{color:"black",fontSize:"20px"}} component={Link} to="/cartsection" /> */}
 
