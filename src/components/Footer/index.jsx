@@ -50,7 +50,7 @@ const Footer = () => {
             <Typography component="h2" fontSize={{md:"20px",xs:"18px"}} sx={{fontWeight:"480" ,lineHeight:"45px",fontFamily:"Poppins,sans-serif" , textTransform:"uppercase", color:"#313131"}}>SUBSCRIBE</Typography>
             <Typography component="p" fontSize={{md:"20px",xs:"16px"}} sx={{fontWeight:"400", color:"#5d5d5d", }}>Get E-mail updates about our latest shop and special offers</Typography>
             <TextField id="standard-basic" label="Enter Your Email Address" variant="standard"  />
-            <Button sx={{width:{md:"150px",xs:"100px"}, border:{md:"1px solid black",xs:"1px solid black"},mt:{md:"40px",xs:"40px"}, ml:{md:"50px",xs:"30px"},padding:{md:"10px",xs:"10px"}, backgroundColor:{md:"#6610f2",xs:"#6610f2"}, color:{md:"#fff",xs:"#fff"}, fontSize:{md:"18px",xs:"14px"} }} >SUBSCRIBE</Button>
+            <Button sx={{width:{md:"150px",xs:"100px"},mt:{md:"40px",xs:"40px"}, ml:{md:"50px",xs:"30px"},padding:{md:"10px",xs:"10px"}, backgroundColor:{md:"#6610f2",xs:"#6610f2"}, color:{md:"#fff",xs:"#fff"}, fontSize:{md:"18px",xs:"14px"},"&:hover": {color: "#6610f2",border:"1px solid #6610f2"} }} >SUBSCRIBE</Button>
 
         </Stack>
        

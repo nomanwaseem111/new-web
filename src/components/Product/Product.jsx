@@ -247,8 +247,10 @@ const Product = () => {
                 variant="contained"
                 onClick={() => navigate("/cartsection")}
                 sx={{    "&:hover": {
-                backgroundColor: "#6610f2",
-                color: "#fff",
+                backgroundColor: "#fff",
+                color: "orange",
+                border:"2px solid orange",
+                fontWeight:"bold"
               },
                   backgroundColor: { md: "orange", xs: "orange" },
                   marginLeft: { md: "50px", xs: "10px" },

@@ -54,6 +54,7 @@ const Banner = () => {
                   "&:hover": {
                 backgroundColor: "#6610f2",
                 color: "#fff",
+                border:"none"
               },
                   width: { md: "220px", xs: "100px" },
                   mt: { md: "30px", xs: "10px" },

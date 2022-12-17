@@ -157,7 +157,7 @@ const Product = () => {
                 UNIT PRICE
               </Box>
               <Box
-                fontSize={{ md: "18px", xs: "22px" }}
+                fontSize={{ md: "20px", xs: "22px" }}
                 color={{ md: "#333", xs: "#333" }}
                 textAlign={{ md: "center", xs: "center" }}
                 pt={{ md: "80px", xs: "50px" }}
