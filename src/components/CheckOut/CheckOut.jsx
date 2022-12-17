@@ -71,7 +71,8 @@ const Accessories = () => {
           <FormControlLabel value="card" control={<Radio />} label="Debit/Credit Card"  sx={{marginLeft:{md:"20px"},mt:{md:"20px",xs:"10px"}}} />
           {/* <CreditCardIcon sx={{fontSize:{md:"50px"},marginRight:{md:"60px"}}}/>
             */}
-            <Box component="img" src="https://www.3dtrickart.co.nz/wp-content/uploads/2014/04/mastercard-credit-card-american-express-visa-debit-card-mastercard.jpg" sx={{width:{md:"140px",xs:"100px"},marginRight:{md:"50px"}}} />
+            <Box component="img" src="https://www.3dtrickart.co.nz/wp-content/uploads/2014/04/mastercard-credit-card-american-express-visa-debit-card-mastercard.jpg" sx={{width:{md:"100px",xs:"80px"},marginRight:{md:"50px"}}} />
+
                </Stack>
 
          <TextField id="outlined-basic" label="Card Holder Name" sx={{width:{md:"85%"},marginLeft:{md:"30px"},mt:{md:"30px",xs:"30px"},height:{md:"30px",xs:"15px"}}}  variant="outlined" />
@@ -85,10 +86,28 @@ const Accessories = () => {
          
          <TextField id="outlined-basic" label="CVC" sx={{width:{md:"25%"},marginLeft:{md:"30px",xs:"10px"},height:{md:"30px",xs:"15px"}}}  variant="outlined" />
          </Stack>
-         <Button   sx={{ "&:hover": {
-                backgroundColor: "#36ab32",
+         <Button
+            sx={{
+              "&:hover": {
+                backgroundColor: "#64dd17",
                 color: "#fff",
-              },width:{md:"460px",xs:"280px"},backgroundColor:{md:"#36ab32",xs:"#36ab32"},color:{md:"#fff",xs:"#fff"},fontFamily:{md:"Open Sans"},fontSize:{md:"14px",xs:"12px"},height:{md:"40px",xs:"30px"},mt:{md:"45px",xs:"70px"},marginLeft:{md:"30px",xs:'5px'},borderRadius:{md:"30px",xs:"30px"}}}> Pay Now</Button>
+              },
+              backgroundColor: { md: "#64dd17", xs:"#64dd17" },
+              padding: { md: "10px", xs: "5px" },
+              width: { md: "80%", xs: "280px" },
+              borderRadius: { md: "50px", xs: "25px" },
+              fontSize: { md: "14px", xs: "10px" },
+              color: { md: "#fff", xs: "#fff" },
+              fontFamily:{md:'sans-serif'},
+              marginLeft:{md:"50px",xs:"0px"},
+              fontWeight:{md:"bold",xs:"bold"},
+             
+              mt:{md:"50px",xs:"70px"}
+            }}
+            onClick={() => navigate("/checkout")}
+          >
+            Pay Now
+          </Button>
          </Stack>
         </Stack>
 
@@ -145,7 +164,9 @@ const Accessories = () => {
               fontFamily:{md:'sans-serif'},
               marginLeft:{md:"60px",xs:"20px"},
               mb:{md:"20px"},
-              mt:{md:"20px",xs:"20px"}
+              mt:{md:"20px",xs:"20px"},
+              fontWeight:{md:"bold",xs:"bold"},
+
             }}
             onClick={() => navigate("/checkout")}
           >

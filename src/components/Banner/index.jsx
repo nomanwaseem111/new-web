@@ -6,8 +6,12 @@ import Button from "@mui/material/Button"
 import Container from "@mui/material/Container"
 import Grid from "@mui/material/Grid"
 import { height, lineHeight } from "@mui/system"
-
+import { Link, useNavigate } from "react-router-dom"
 const Banner = () => {
+ 
+  const navigate = useNavigate()
+
+ 
   return (
     <Grid sx={{ height: { md: "auto" }  , backgroundColor: { md: "#f0e0ff", xs: "#f0e0ff",sm:"f0e0ff" } }}>
       <Container maxWidth="xl" width={{xs:"100%"}} >
@@ -65,6 +69,8 @@ const Banner = () => {
                   fontSize: { md: "20px", xs: "12px" },
 
                 }}
+                onClick={() => navigate("/accessories")}
+
               >
                 Shop Now
               </Button>
