@@ -642,7 +642,7 @@ const Accessories = () => {
                   {" "}
                   Showing 15 of 144 result
                 </Box> 
-                <Stack direction={{md:"row",xs:"row"}}  marginLeft={{md:"0px",xs:"30px"}}>
+                <Stack direction={{md:"row",xs:"row"}}   marginLeft={{md:"0px",xs:"30px"}}>
                 <WindowIcon sx={{fontSize:{md:"30px"}}}/>
                 <AppsIcon sx={{fontSize:{md:"30px"},marginLeft:{md:"0px",xs:"10px"}}}/>
                 <ViewHeadlineIcon sx={{fontSize:{md:"30px"},marginLeft:{md:"0px",xs:"10px"}}} />
@@ -669,6 +669,7 @@ const Accessories = () => {
                 height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
                 mt={{ xs: "20px" }}
+                // border={{md:"1px solid black",xs:"1px solid black"}}
               >
                 <Box
                   component="img"
@@ -720,8 +721,8 @@ const Accessories = () => {
                   component="img"
                   src="https://www.i4u.com.pk/upload_new/samsung-85qn85a.webp"
                   sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
 
-                  to="/product"
                 />
                 <Box>
                   <Typography
@@ -764,6 +765,8 @@ const Accessories = () => {
                   component="img"
                   src="https://www.i4u.com.pk/upload_new/samsung-75au7000.webp"
                   sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
+
                 />
                 <Box>
                   <Typography
@@ -806,6 +809,8 @@ const Accessories = () => {
                   component="img"
                   src="https://www.i4u.com.pk/upload_new/samsung-65au7000.webp"
                   sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
+
                 />
                 <Box>
                   <Typography
@@ -848,6 +853,8 @@ const Accessories = () => {
                   component="img"
                   src="https://www.i4u.com.pk/upload_new/hisense-49e5100-ex-basic.webp"
                   sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
+
                 />
                 <Box>
                   <Typography
@@ -890,6 +897,8 @@ const Accessories = () => {
                   component="img"
                   src="https://www.i4u.com.pk/upload_new/hisense-50a7400-f-4k-android-smart.webp"
                   sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
+
                 />
                 <Box>
                   <Typography
@@ -932,6 +941,8 @@ const Accessories = () => {
                   component="img"
                   src="https://www.i4u.com.pk/upload_new/TCL-55C735.webp"
                   sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
+
                 />
                 <Box>
                   <Typography
@@ -974,6 +985,8 @@ const Accessories = () => {
                   component="img"
                   src="https://www.i4u.com.pk/upload_new/H50K66UGP.webp"
                   sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
+
                 />
                 <Box>
                   <Typography
@@ -1016,6 +1029,8 @@ const Accessories = () => {
                   component="img"
                   src="https://www.i4u.com.pk/upload_new/Canon-80-D-18-55mm-L.webp"
                   sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
+
                 />
                 <Box>
                   <Typography
@@ -1058,6 +1073,8 @@ const Accessories = () => {
                   component="img"
                   src="https://www.i4u.com.pk/upload_new/Nikon-Mirrorless-Z7-with-KIT-L.webp"
                   sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
+
                 />
                 <Box>
                   <Typography
@@ -1100,6 +1117,8 @@ const Accessories = () => {
                   component="img"
                   src="https://www.i4u.com.pk/upload_new/Canon-Mirrorless-EOS-M50-L.webp"
                   sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
+
                 />
                 <Box>
                   <Typography
@@ -1142,6 +1161,8 @@ const Accessories = () => {
                   component="img"
                   src="https://www.i4u.com.pk/upload_new/Nikon-DSLR-D750-24-120-KIT-L.webp"
                   sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
+
                 />
                 <Box>
                   <Typography
