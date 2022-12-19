@@ -82,6 +82,7 @@ const Banner = () => {
             <Box
               component="img"
               src="https://flone.jamstacktemplates.dev/assets/img/slider/single-slide-hm1-2.png"
+
               sx={{
                 width: { md: "900px", xs: "330px" },
 
