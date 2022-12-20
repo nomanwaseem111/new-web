@@ -61,7 +61,7 @@ const CheckOut = () => {
 
             />
           </Stack>
-          <Stack  backgroundColor={{md:"#f6f6f8",xs:"#f6f6f8"}}  p={{md:"20px",xs:'20px'}} pt={{md:"20px",xs:"30px"}} mt={{md:'0px',xs:"30px"}} borderRadius={{md:"20px",xs:"20px"}} height={{md:"520px"}} width={{md:'38%'}}> 
+          <Stack  backgroundColor={{md:"#f6f6f8",xs:"#f6f6f8"}}  p={{md:"20px",xs:'20px'}} pt={{md:"20px",xs:"30px"}} mt={{md:'0px',xs:"30px"}} borderRadius={{md:"0px",xs:"0px"}} height={{md:"520px"}} width={{md:'38%'}}> 
          <Typography variant="h5" marginLeft={{md:"30px"}} fontSize={{md:"30px",xs:"16px"}} fontFamily={{md:"Roboto",xs:"Roboto"}}>Payment Method</Typography>
         
          <FormControlLabel value="Cash" control={<Radio />} label="Cash" fontFamily={{md:"Roboto",xs:"Roboto"}} sx={{marginLeft:{md:"20px"},mt:{md:"20px",xs:"20px"}}} />
@@ -117,7 +117,7 @@ const CheckOut = () => {
 
 
 
-        <Stack  width={{md:"40%",xs:"100%"}}  borderRadius={{md:"20px",xs:"20px"}} padding={{md:"30px",xs:"30px"}} backgroundColor={{md:"#f6f6f8",xs:"#f6f6f8"}} height={{md:'600px',xs:"400px"}}  pt={{md:"30px",xs:"30px"}}   marginLeft={{md:"870px",xs:"0px"}} mt={{md:"30px",xs:"30px"}}>
+        <Stack  width={{md:"38%",xs:"100%"}}  borderRadius={{md:"0px",xs:"0px"}} padding={{md:"30px",xs:"30px"}} backgroundColor={{md:"#f6f6f8",xs:"#f6f6f8"}} height={{md:'550px',xs:"350px"}}  pt={{md:"30px",xs:"30px"}}   marginLeft={{md:"890px",xs:"0px"}} mt={{md:"30px",xs:"30px"}}>
           <Typography variant="h5" fontSize={{md:"30px",xs:"20px"}} fontFamily={{md:"Roboto",xs:"Roboto"}}>Your Order</Typography>
           <Stack   mt={{md:"20px",xs:"20px"}} height={{md:"auto"}} >
            <Stack  mb={{md:"10px",xs:"10px"}} height={{md:'10px'}} direction={{md:'row',xs:"row"}} justifyContent={{md:"space-between",xs:"space-between"}} marginLeft={{md:"30px"}} mt={{md:"30px"}} width={{md:"90%"}} height={{md:'50px'}}>
