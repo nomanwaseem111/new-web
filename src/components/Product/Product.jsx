@@ -73,7 +73,7 @@ const Product = () => {
                 src="https://imageio.forbes.com/specials-images/imageserve/60a91f9a5f6002a4c8174108/Apple--iPhone--iPhone-13--new-iPhone--iPhone-upgrade--pink-iPhone--iPhone-13-release-/0x0.jpg?format=jpg&crop=1077,1013,x139,y0,safe&width=960"
                 height={{ md: "195px", xs: "100px" }}
                 width={{ md: "200px", xs: "80px" }}
-                ml={{ md: "0px", xs: "5px" }}
+                ml={{ md: "0px", xs: "0px" }}
 
               />
               <Box
