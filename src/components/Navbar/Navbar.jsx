@@ -14,12 +14,12 @@ import VpnKeyIcon from '@mui/icons-material/VpnKey';
 import SensorOccupiedIcon from '@mui/icons-material/SensorOccupied';
 import {
 
-    Link
+    Link,useNavigate
 } from "react-router-dom";
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 import { Tab, Tabs, useMediaQuery, useTheme } from '@mui/material';
 import DrawerComp from '../Drawer/DrawerComp';
-
+import logo from '../../Assets/images/logo.png'
 
  
 export default function ButtonAppBar() {
@@ -29,12 +29,14 @@ export default function ButtonAppBar() {
     const theme = useTheme();
     const isMatch = useMediaQuery(theme.breakpoints.down('md'));
 
+    const navigate = useNavigate()
+
 
     return (
         <>
             <AppBar elevation={0} position='static' sx={{backgroundColor:"#fff"}} >
                 <Toolbar >
-                    <img src="https://flone.jamstacktemplates.dev/assets/img/logo/logo.png"  alt="" />
+                    <Box component="img" src={logo} alt="Logo" width={{md:"65px",xs:"40px"}}  onClick={() => navigate("/")} />
                     {
                         isMatch ? (
                             <>
