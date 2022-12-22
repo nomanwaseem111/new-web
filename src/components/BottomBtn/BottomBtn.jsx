@@ -1,7 +1,6 @@
 import React, { useEffect,useState } from 'react'
 import Stack from "@mui/material/Stack"
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
-import { IconName } from "react-icons/fa";
 
 const BottomBtn = () => {
 

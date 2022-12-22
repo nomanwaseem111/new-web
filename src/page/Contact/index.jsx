@@ -76,7 +76,7 @@ const Contact = () => {
           <Stack width={{ md: "80%", xs: "100%" }} height={{ md: "550px", xs: "570px" }} margin="auto">
             <Typography variant="h4" px={{ md: "49px", xs: "14px" }}  fontFamily={{md:"Roboto",xs:"Roboto"}}  color="#464646" fontWeight="600" fontSize={{ xs: "22px", md: "30px" }} pt={{ md: "0px", xs: "40px" }}>Get in Touch</Typography>
             <Stack direction={{ md: "row", xs: "column" }}  width={{md:"88%"}} marginLeft={{md:"40px"}} justifyContent="space-evenly" alignItems="center" mt={{ md: "50px", xs: "30px" }}>
-              <TextField id="outlined-basic" label="Name" variant="outlined" sx={{ width: { md: "340px", xs: "90%" }, mb: { md: "0px", xs: "20px" },marginLeft:{md:"10px"} }} />
+              <TextField id="outlined-basic" type="text" label="Name" variant="outlined"  border="none"  sx={{  width: { md: "340px", xs: "90%" }, mb: { md: "0px", xs: "20px" },marginLeft:{md:"10px"}}} />
               <TextField id="outlined-basic" label="Email" variant="outlined"  sx={{ width: { md: "340px", xs: "90%" }, mb: { md: "0px", xs: "20px" },marginLeft:{md:"30px"} }} />
 
             </Stack>

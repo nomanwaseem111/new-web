@@ -1,36 +1,21 @@
 import React, { useState } from "react"
 import Stack from "@mui/material/Stack"
 import Typography from "@mui/material/Typography"
-import TextField from "@mui/material/TextField"
-import SearchIcon from "@mui/icons-material/Search"
-import Checkbox from "@mui/material/Checkbox"
 import Box from "@mui/material/Box"
-import Rating from "@mui/material/Rating"
-import Pagination from "@mui/material/Pagination"
 import Container from "@mui/material/Container"
 import Grid from "@mui/material/Grid"
-import List from "@mui/material/List"
-import ListItem from "@mui/material/ListItem"
-import ListItemButton from "@mui/material/ListItemButton"
-import ListItemIcon from "@mui/material/ListItemIcon"
-import ListItemText from "@mui/material/ListItemText"
-import Divider from "@mui/material/Divider"
-import InboxIcon from "@mui/icons-material/Inbox"
-import DraftsIcon from "@mui/icons-material/Drafts"
-import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight"
-import MenuItem from "@mui/material/MenuItem"
+
 import Button from "@mui/material/Button"
 import CloseIcon from "@mui/icons-material/Close"
-import FormControl from "@mui/material/FormControl"
-import Select from "@mui/material/Select"
-import { Link, useNavigate } from "react-router-dom"
-import { height } from "@mui/system"
-const Product = () => {
-  const [price, setPrice] = React.useState("")
 
-  const handleChange = (event) => {
-    setPrice(event.target.value)
-  }
+import { useNavigate } from "react-router-dom"
+
+const Product = () => {
+  // const [price, setPrice] = React.useState("")
+
+  // const handleChange = (event) => {
+  //   setPrice(event.target.value)
+  // }
   
 
   const [num,setNum] = useState(0)

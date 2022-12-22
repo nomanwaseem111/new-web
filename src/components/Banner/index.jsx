@@ -5,8 +5,7 @@ import { Typography } from "@mui/material"
 import Button from "@mui/material/Button"
 import Container from "@mui/material/Container"
 import Grid from "@mui/material/Grid"
-import { height, lineHeight } from "@mui/system"
-import { Link, useNavigate } from "react-router-dom"
+import {useNavigate } from "react-router-dom"
 const Banner = () => {
  
   const navigate = useNavigate()

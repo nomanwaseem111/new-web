@@ -1,13 +1,12 @@
 import React from 'react'
 import Banner from '../Banner'
 import Offer from '../Offer'
-import Deals from '../Deals'
 import { Typography } from "@mui/material"
 import { Stack , Box} from "@mui/system"
 import Rating from '@mui/material/Rating';
 import {
 
-    Link,useNavigate
+    useNavigate
 } from "react-router-dom";
 const BestSeller = () => {
   
