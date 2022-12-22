@@ -1,17 +1,16 @@
 import React from 'react'
 import Navbar from './components/Navbar/Navbar'
-import Home from './components/Home'
 import './components/index.css'
-import Container from '@mui/material/Container';
+// import Container from '@mui/material/Container';
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   
 } from "react-router-dom";
-import Accessories from './components/Accessories'
-import Mobile from './components/Mobile'
-import Contact from './components/Contact'
+import Accessories from './page/Accessories';
+import Mobile from './page/Mobile'
+import Contact from './page/Contact';
 import Login from './components/Login/Login'
 import SignUp from './components/Signup/Signup'
 import Forgot from './components/ForgotPassword/forgot';
@@ -24,6 +23,7 @@ import Deals from './components/Deals';
 import NewArrival from './components/NewArrival/NewArrival'
 import CartSection from './components/CartSection/cartsection';
 import CheckOut from './components/CheckOut/CheckOut';
+import Landing from './page/landing/Landing';
 
 const App = () => {
   return (
@@ -35,10 +35,9 @@ const App = () => {
         <Navbar/>
         
         <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Landing />} />
 
-        <Route path="/accessories" element={<Accessories />} />
-
+      <Route path="/accessories" element={<Accessories />} />
         <Route path="/mobile" element={<Mobile />} />
 
         <Route path="/contact" element={<Contact />} />
@@ -62,7 +61,7 @@ const App = () => {
 
         <Route path="/cartsection" element={<CartSection />} />
 
-        <Route path="/checkout" element={<CheckOut />} />
+        <Route path="/checkout" element={<CheckOut />} /> 
 
 
         </Routes>

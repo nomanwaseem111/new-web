@@ -2,21 +2,19 @@ import React from "react"
 import Stack from "@mui/material/Stack"
 import Typography from "@mui/material/Typography"
 import TextField from "@mui/material/TextField"
-import SearchIcon from "@mui/icons-material/Search"
 import Checkbox from "@mui/material/Checkbox"
 import Box from "@mui/material/Box"
-import Rating from "@mui/material/Rating"
 import Pagination from "@mui/material/Pagination"
 import Container from "@mui/material/Container"
 import Grid from "@mui/material/Grid"
-import WindowIcon from '@mui/icons-material/Window';
-import ViewHeadlineIcon from '@mui/icons-material/ViewHeadline';
 import AppsIcon from '@mui/icons-material/Apps';
-
 import MenuItem from "@mui/material/MenuItem"
 import FormControl from "@mui/material/FormControl"
 import Select from "@mui/material/Select"
+import WindowIcon from '@mui/icons-material/Window';
+import ViewHeadlineIcon from '@mui/icons-material/ViewHeadline';
 import { Link } from "react-router-dom"
+import Items from "../../components/Items/Items"
 const Accessories = () => {
   const [price, setPrice] = React.useState("")
 
@@ -24,57 +22,21 @@ const Accessories = () => {
     setPrice(event.target.value)
   }
 
+
   return (
     <Grid
       sx={{
         height: { md: "auto" },
       }}
-    >
-      <Container maxWidth="xl"  backgroundColor={{md:"yellow",xs:"blue"}} sx={{mb:{xs:"100px",md:"100px"}}}>
-        {/* <Stack
-          direction="row"
-          width="100%"
-          height="100px"
-          backgroundColor="#f7f7f7"
-          justifyContent="center"
-          alignItems="center"
-          mt={{md:"3px",xs:"3px"}}
-          // border="1px solid black"
-        >
-          <Typography
-            component={Link}
-            to="/"
-            fontSize={{md:"25px",xs:"18px"}}
-            sx={{
-              textDecoration: "none",
-              color: "black",
-              
-              mr: "10px",
-              fontFamily: "sans-serif",
-            }}
-          >
-            Home
-          </Typography>
-          <Typography>
-            <i class="fa-sharp fa-solid fa-slash-forward"></i>
-          </Typography>
-          <Typography
-            variant="span"
-            fontSize={{md:"25px",xs:"18px"}}
 
-            sx={{
-              textDecoration: "none",
-              fontFamily: "sans-serif",
-              mr: "10px",
-            }}
-          >
-            Mobile
-          </Typography>
-        </Stack> */}
+
+    >
+      <Container maxWidth="xl" sx={{ mb: { xs: "100px", md: "100px" } }} >
+
 
         <Stack
           direction={{ md: "row", xs: "column" }}
-          
+
           margin="auto"
           height="auto"
           mt="100px"
@@ -82,12 +44,14 @@ const Accessories = () => {
           <Stack
             width={{ md: "25%", xs: "100%" }}
             height="auto"
-            
+
           >
             <Typography
               variant="h5"
               ml="15px"
               fontSize={{ xs: "20px", md: "24px" }}
+              fontFamily={{ md: "Roboto", xs: "Roboto" }}
+
             >
               Search
             </Typography>
@@ -108,19 +72,20 @@ const Accessories = () => {
               sx={{
                 mt: { md: "50px", xs: "30px" },
                 fontSize: { md: "24px", xs: "20px" },
-                fontFamily:{md:"Roboto",xs:"Roboto"}
+                fontFamily: { md: "Roboto", xs: "Roboto" }
+
               }}
             >
               Categories
             </Typography>
-            <Stack sx={{ mt: { md: "30px", xs: "20px" }  }}>
+            <Stack sx={{ mt: { md: "30px", xs: "20px" } }}>
               <Box>
                 <Checkbox />{" "}
                 <Typography
                   variant="span"
-                  sx={{ fontSize: { md: "20px", xs: "16px" },                      fontFamily:{md:"Roboto",xs:"Roboto"}
- }}
-
+                  sx={{
+                    fontSize: { md: "20px", xs: "16px" }, fontFamily: { md: "Roboto", xs: "Roboto" }
+                  }}
                 >
                   All Categories
                 </Typography>
@@ -130,7 +95,8 @@ const Accessories = () => {
                 <Typography
                   variant="span"
                   fontSize={{ md: "20px", xs: "16px" }}
-                  fontFamily={{md:"Roboto",xs:"Roboto"}}
+                  fontFamily={{ md: "Roboto", xs: "Roboto" }}
+
                 >
                   Fashion
                 </Typography>
@@ -140,7 +106,8 @@ const Accessories = () => {
                 <Typography
                   variant="span"
                   fontSize={{ md: "20px", xs: "16px" }}
-                  fontFamily={{md:"Roboto",xs:"Roboto"}}
+                  fontFamily={{ md: "Roboto", xs: "Roboto" }}
+
                 >
                   Men
                 </Typography>
@@ -150,7 +117,7 @@ const Accessories = () => {
                 <Typography
                   variant="span"
                   fontSize={{ md: "20px", xs: "16px" }}
-                  fontFamily={{md:"Roboto",xs:"Roboto"}}
+                  fontFamily={{ md: "Roboto", xs: "Roboto" }}
                 >
                   Women
                 </Typography>
@@ -160,7 +127,7 @@ const Accessories = () => {
                 <Typography
                   variant="span"
                   fontSize={{ md: "20px", xs: "16px" }}
-                  fontFamily={{md:"Roboto",xs:"Roboto"}}
+                  fontFamily={{ md: "Roboto", xs: "Roboto" }}
                 >
                   Electronics
                 </Typography>
@@ -170,7 +137,7 @@ const Accessories = () => {
                 <Typography
                   variant="span"
                   fontSize={{ md: "20px", xs: "16px" }}
-                  fontFamily={{md:"Roboto",xs:"Roboto"}}
+                  fontFamily={{ md: "Roboto", xs: "Roboto" }}
                 >
                   Furniture
                 </Typography>
@@ -180,7 +147,7 @@ const Accessories = () => {
                 <Typography
                   variant="span"
                   fontSize={{ md: "20px", xs: "16px" }}
-                  fontFamily={{md:"Roboto",xs:"Roboto"}}
+                  fontFamily={{ md: "Roboto", xs: "Roboto" }}
                 >
                   Flower
                 </Typography>
@@ -190,7 +157,7 @@ const Accessories = () => {
                 <Typography
                   variant="span"
                   fontSize={{ md: "20px", xs: "16px" }}
-                  fontFamily={{md:"Roboto",xs:"Roboto"}}
+                  fontFamily={{ md: "Roboto", xs: "Roboto" }}
                 >
                   Kids
                 </Typography>
@@ -201,7 +168,7 @@ const Accessories = () => {
               mt="50px"
               ml="15px"
               fontSize={{ md: "24px", xs: "20px" }}
-              fontFamily={{md:"Roboto",xs:"Roboto"}}
+              fontFamily={{ md: "Roboto", xs: "Roboto" }}
 
             >
               Colors
@@ -212,7 +179,7 @@ const Accessories = () => {
                 <Typography
                   variant="span"
                   sx={{ fontSize: { md: "20px", xs: "16px" } }}
-                  fontFamily={{md:"Roboto",xs:"Roboto"}}
+                  fontFamily={{ md: "Roboto", xs: "Roboto" }}
 
                 >
                   All Colors
@@ -223,7 +190,7 @@ const Accessories = () => {
                 <Typography
                   variant="span"
                   sx={{ fontSize: { md: "20px", xs: "16px" } }}
-                  fontFamily={{md:"Roboto",xs:"Roboto"}}
+                  fontFamily={{ md: "Roboto", xs: "Roboto" }}
                 >
                   White
                 </Typography>
@@ -233,7 +200,7 @@ const Accessories = () => {
                 <Typography
                   variant="span"
                   sx={{ fontSize: { md: "20px", xs: "16px" } }}
-                  fontFamily={{md:"Roboto",xs:"Roboto"}}
+                  fontFamily={{ md: "Roboto", xs: "Roboto" }}
                 >
                   Black
                 </Typography>
@@ -243,7 +210,7 @@ const Accessories = () => {
                 <Typography
                   variant="span"
                   sx={{ fontSize: { md: "20px", xs: "16px" } }}
-                  fontFamily={{md:"Roboto",xs:"Roboto"}}
+                  fontFamily={{ md: "Roboto", xs: "Roboto" }}
                 >
                   Blue
                 </Typography>
@@ -253,7 +220,7 @@ const Accessories = () => {
                 <Typography
                   variant="span"
                   sx={{ fontSize: { md: "20px", xs: "16px" } }}
-                  fontFamily={{md:"Roboto",xs:"Roboto"}}
+                  fontFamily={{ md: "Roboto", xs: "Roboto" }}
                 >
                   Brown
                 </Typography>
@@ -264,7 +231,7 @@ const Accessories = () => {
               mt="50px"
               ml="15px"
               fontSize={{ md: "24px", xs: "20px" }}
-              fontFamily={{md:"Roboto",xs:"Roboto"}}
+              fontFamily={{ md: "Roboto", xs: "Roboto" }}
 
             >
               Size
@@ -275,7 +242,7 @@ const Accessories = () => {
                 <Typography
                   variant="span"
                   sx={{ fontSize: { md: "20px", xs: "16px" } }}
-                  fontFamily={{md:"Roboto",xs:"Roboto"}}
+                  fontFamily={{ md: "Roboto", xs: "Roboto" }}
 
                 >
                   All Sizes
@@ -286,7 +253,7 @@ const Accessories = () => {
                 <Typography
                   variant="span"
                   sx={{ fontSize: { md: "20px", xs: "16px" } }}
-                  fontFamily={{md:"Roboto",xs:"Roboto"}}
+                  fontFamily={{ md: "Roboto", xs: "Roboto" }}
                 >
                   X
                 </Typography>
@@ -296,7 +263,7 @@ const Accessories = () => {
                 <Typography
                   variant="span"
                   sx={{ fontSize: { md: "20px", xs: "16px" } }}
-                  fontFamily={{md:"Roboto",xs:"Roboto"}}
+                  fontFamily={{ md: "Roboto", xs: "Roboto" }}
                 >
                   M
                 </Typography>
@@ -306,7 +273,7 @@ const Accessories = () => {
                 <Typography
                   variant="span"
                   sx={{ fontSize: { md: "20px", xs: "16px" } }}
-                  fontFamily={{md:"Roboto",xs:"Roboto"}}
+                  fontFamily={{ md: "Roboto", xs: "Roboto" }}
                 >
                   XL
                 </Typography>
@@ -316,7 +283,7 @@ const Accessories = () => {
                 <Typography
                   variant="span"
                   sx={{ fontSize: { md: "20px", xs: "16px" } }}
-                  fontFamily={{md:"Roboto",xs:"Roboto"}}
+                  fontFamily={{ md: "Roboto", xs: "Roboto" }}
                 >
                   XXL
                 </Typography>
@@ -328,7 +295,7 @@ const Accessories = () => {
               mt="50px"
               ml="15px"
               fontSize={{ md: "24px", xs: "20px" }}
-              fontFamily={{md:"Roboto",xs:"Roboto"}}
+              fontFamily={{ md: "Roboto", xs: "Roboto" }}
 
             >
               Tags
@@ -350,7 +317,7 @@ const Accessories = () => {
                   "&:hover": { backgroundColor: "#a749ff", color: "#fff" },
                 }}
                 fontSize={{ md: "18px", xs: "16px" }}
-                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontFamily={{ md: "Roboto", xs: "Roboto" }}
 
               >
                 Food
@@ -371,7 +338,7 @@ const Accessories = () => {
                   "&:hover": { backgroundColor: "#a749ff", color: "#fff" },
                 }}
                 fontSize={{ md: "18px", xs: "16px" }}
-                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontFamily={{ md: "Roboto", xs: "Roboto" }}
 
               >
                 Organic Food
@@ -392,7 +359,7 @@ const Accessories = () => {
                   "&:hover": { backgroundColor: "#a749ff", color: "#fff" },
                 }}
                 fontSize={{ md: "18px", xs: "16px" }}
-                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontFamily={{ md: "Roboto", xs: "Roboto" }}
 
               >
                 Games
@@ -413,7 +380,7 @@ const Accessories = () => {
                   "&:hover": { backgroundColor: "#a749ff", color: "#fff" },
                 }}
                 fontSize={{ md: "18px", xs: "16px" }}
-                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontFamily={{ md: "Roboto", xs: "Roboto" }}
 
               >
                 Electroics
@@ -434,7 +401,7 @@ const Accessories = () => {
                   "&:hover": { backgroundColor: "#a749ff", color: "#fff" },
                 }}
                 fontSize={{ md: "18px", xs: "16px" }}
-                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontFamily={{ md: "Roboto", xs: "Roboto" }}
 
               >
                 Accessories
@@ -455,7 +422,7 @@ const Accessories = () => {
                   "&:hover": { backgroundColor: "#a749ff", color: "#fff" },
                 }}
                 fontSize={{ md: "18px", xs: "16px" }}
-                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontFamily={{ md: "Roboto", xs: "Roboto" }}
 
               >
                 Mobile
@@ -476,7 +443,7 @@ const Accessories = () => {
                   "&:hover": { backgroundColor: "#a749ff", color: "#fff" },
                 }}
                 fontSize={{ md: "18px", xs: "16px" }}
-                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontFamily={{ md: "Roboto", xs: "Roboto" }}
 
               >
                 Mobile
@@ -497,7 +464,7 @@ const Accessories = () => {
                   "&:hover": { backgroundColor: "#a749ff", color: "#fff" },
                 }}
                 fontSize={{ md: "18px", xs: "16px" }}
-                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontFamily={{ md: "Roboto", xs: "Roboto" }}
 
               >
                 TV
@@ -518,7 +485,7 @@ const Accessories = () => {
                   "&:hover": { backgroundColor: "#a749ff", color: "#fff" },
                 }}
                 fontSize={{ md: "18px", xs: "16px" }}
-                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontFamily={{ md: "Roboto", xs: "Roboto" }}
 
               >
                 Watches
@@ -539,7 +506,7 @@ const Accessories = () => {
                   "&:hover": { backgroundColor: "#a749ff", color: "#fff" },
                 }}
                 fontSize={{ md: "18px", xs: "16px" }}
-                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontFamily={{ md: "Roboto", xs: "Roboto" }}
 
               >
                 Clothing
@@ -560,7 +527,7 @@ const Accessories = () => {
                   "&:hover": { backgroundColor: "#a749ff", color: "#fff" },
                 }}
                 fontSize={{ md: "18px", xs: "16px" }}
-                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontFamily={{ md: "Roboto", xs: "Roboto" }}
 
               >
                 Laptop
@@ -581,7 +548,7 @@ const Accessories = () => {
                   "&:hover": { backgroundColor: "#a749ff", color: "#fff" },
                 }}
                 fontSize={{ md: "18px", xs: "16px" }}
-                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontFamily={{ md: "Roboto", xs: "Roboto" }}
 
               >
                 Keyboard
@@ -602,7 +569,7 @@ const Accessories = () => {
                   "&:hover": { backgroundColor: "#a749ff", color: "#fff" },
                 }}
                 fontSize={{ md: "18px", xs: "16px" }}
-                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontFamily={{ md: "Roboto", xs: "Roboto" }}
 
               >
                 Makeup
@@ -614,9 +581,9 @@ const Accessories = () => {
             <Stack
               direction={{ md: "row", xs: "column" }}
               justifyContent="space-between"
-              ml={{md:"40px"}}
+              ml={{ md: "40px" }}
             >
-                <Box width={{ md: "95%", xs: "95%" }} display={{md:"flex"}}>
+              <Box width={{ md: "95%", xs: "95%" }} display={{md:"flex"}}>
                 <FormControl
                   sx={{ width: { md: "350px", xs: "320px" } }}
                   ml={{ md: "70px", xs: "0px" }}
@@ -629,7 +596,7 @@ const Accessories = () => {
                     value={price}
                     onChange={handleChange}
                     height={{md:"20px"}}
-                    sx={{height:{md:'40px',xs:"40px"},width:{md:"250px",xs:"80%"},height:{xs:"40px"},marginLeft:{md:"0px",xs:"0px"}}}
+                    sx={{height:{md:'40px',xs:"40px"},width:{md:"250px",xs:"80%"},marginLeft:{md:"0px",xs:"0px"}}}
 
                   >
                     <MenuItem
@@ -673,15 +640,16 @@ const Accessories = () => {
                   {" "}
                   Showing 15 of 144 result
                 </Box> 
-                <Stack direction={{md:"row",xs:"row"}}  marginLeft={{md:"0px",xs:"30px"}}>
+                <Stack direction={{md:"row",xs:"row"}}   marginLeft={{md:"0px",xs:"30px"}}>
                 <WindowIcon sx={{fontSize:{md:"30px"}}}/>
                 <AppsIcon sx={{fontSize:{md:"30px"},marginLeft:{md:"0px",xs:"10px"}}}/>
                 <ViewHeadlineIcon sx={{fontSize:{md:"30px"},marginLeft:{md:"0px",xs:"10px"}}} />
 </Stack>
               </Box>
+
             </Stack>
 
-            <Stack
+            {/* <Stack
               direction={{ md: "row", xs: "column" }}
               height="auto"
               sx={{
@@ -694,24 +662,27 @@ const Accessories = () => {
               margin="auto"
             >
               <Box
-               width={{ md: "auto", xs: "100%" }}
-                ml={{ md: "5px" }}
+                width={{ md: "auto", xs: "100%" }}
+                ml={{ md: "5px",xs:'0px' }}
                 height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
-                mt={{xs:"40px"}}
-                // border={{xs:"1px solid black"}}
+                mt={{ xs: "20px" }}
+                // border={{md:"1px solid black",xs:"1px solid black"}}
               >
                 <Box
                   component="img"
-                  src="https://www.i4u.com.pk/upload_new/Samsung-A32-6GB-128GB-L.webp"
-                  sx={{ width: { md: "350px", xs: "300px" } }}
+                  src="https://www.i4u.com.pk/upload_new/32-inch-Android-32U870-L.webp"
+                  sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
                 />
                 <Box>
                   <Typography
                     component="p"
                     sx={{
                       fontSize: { md: "22px", xs: "18" },
-                      mt: { md: "22px", xs: "10px" },
+                      mt: { md: "22px", xs: "5px" },
+                      fontFamily:{md:"Roboto",xs:"Roboto"}
+
                     }}
                   >
                     Lorem ipsum fashion female top
@@ -736,23 +707,27 @@ const Accessories = () => {
               </Box>
 
               <Box
-               width={{ md: "auto", xs: "100%" }}
+                width={{ md: "auto", xs: "100%" }}
                 ml={{ md: "5px" }}
                 height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
-                mt={{xs:"40px"}}
+                mt={{ xs: "20px" }}
+
+
               >
                 <Box
                   component="img"
-                  src="https://www.i4u.com.pk/upload_new/Iphone-13-512GB.webp"
-                  sx={{ width: { md: "350px", xs: "300px" } }}
+                  src="https://www.i4u.com.pk/upload_new/samsung-85qn85a.webp"
+                  sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
+
                 />
                 <Box>
                   <Typography
                     component="p"
                     sx={{
                       fontSize: { md: "22px", xs: "18" },
-                      mt: { md: "22px", xs: "10px" },
+                      mt: { md: "22px", xs: "5px" },
                     }}
                   >
                     Lorem ipsum fashion female top
@@ -777,23 +752,26 @@ const Accessories = () => {
               </Box>
 
               <Box
-               width={{ md: "auto", xs: "100%" }}
+                width={{ md: "auto", xs: "100%" }}
                 ml={{ md: "5px" }}
                 height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
-                mt={{xs:"40px"}}
+                mt={{ xs: "20px" }}
+
               >
                 <Box
                   component="img"
-                  src="https://www.i4u.com.pk/upload_new/Vivo-V23-5G-12gb-256gb.webp"
-                  sx={{ width: { md: "350px", xs: "300px" } }}
+                  src="https://www.i4u.com.pk/upload_new/samsung-75au7000.webp"
+                  sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
+
                 />
                 <Box>
                   <Typography
                     component="p"
                     sx={{
                       fontSize: { md: "22px", xs: "18" },
-                      mt: { md: "22px", xs: "10px" },
+                      mt: { md: "22px", xs: "5px" },
                     }}
                   >
                     Lorem ipsum fashion female top
@@ -818,24 +796,26 @@ const Accessories = () => {
               </Box>
 
               <Box
-               width={{ md: "auto", xs: "100%" }}
+                width={{ md: "auto", xs: "100%" }}
                 ml={{ md: "5px" }}
                 height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
-                mt={{xs:"40px"}}
+                mt={{ xs: "20px" }}
 
               >
                 <Box
                   component="img"
-                  src="https://www.i4u.com.pk/upload_new/Vivo-X80-12GB-256GB.webp"
-                  sx={{ width: { md: "350px", xs: "300px" } }}
+                  src="https://www.i4u.com.pk/upload_new/samsung-65au7000.webp"
+                  sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
+
                 />
                 <Box>
                   <Typography
                     component="p"
                     sx={{
                       fontSize: { md: "22px", xs: "18" },
-                      mt: { md: "22px", xs: "10px" },
+                      mt: { md: "22px", xs: "5px" },
                     }}
                   >
                     Lorem ipsum fashion female top
@@ -860,23 +840,26 @@ const Accessories = () => {
               </Box>
 
               <Box
-               width={{ md: "auto", xs: "100%" }}
+                width={{ md: "auto", xs: "100%" }}
                 ml={{ md: "5px" }}
                 height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
-                mt={{xs:"40px"}}
+                mt={{ xs: "20px" }}
+
               >
                 <Box
                   component="img"
-                  src="https://www.i4u.com.pk/upload_new/Vivo-X80-12GB-256GB.webp"
-                  sx={{ width: { md: "350px", xs: "300px" } }}
+                  src="https://www.i4u.com.pk/upload_new/hisense-49e5100-ex-basic.webp"
+                  sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
+
                 />
                 <Box>
                   <Typography
                     component="p"
                     sx={{
                       fontSize: { md: "22px", xs: "18" },
-                      mt: { md: "22px", xs: "10px" },
+                      mt: { md: "22px", xs: "5px" },
                     }}
                   >
                     Lorem ipsum fashion female top
@@ -901,23 +884,26 @@ const Accessories = () => {
               </Box>
 
               <Box
-               width={{ md: "auto", xs: "100%" }}
+                width={{ md: "auto", xs: "100%" }}
                 ml={{ md: "5px" }}
                 height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
-                mt={{xs:"40px"}}
+                mt={{ xs: "20px" }}
+
               >
                 <Box
                   component="img"
-                  src="https://www.i4u.com.pk/upload_new/Oppo-F21-Pro-8GB-128GB.webp"
-                  sx={{ width: { md: "350px", xs: "300px" } }}
+                  src="https://www.i4u.com.pk/upload_new/hisense-50a7400-f-4k-android-smart.webp"
+                  sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
+
                 />
                 <Box>
                   <Typography
                     component="p"
                     sx={{
                       fontSize: { md: "22px", xs: "18" },
-                      mt: { md: "22px", xs: "10px" },
+                      mt: { md: "22px", xs: "5px" },
                     }}
                   >
                     Lorem ipsum fashion female top
@@ -942,23 +928,26 @@ const Accessories = () => {
               </Box>
 
               <Box
-               width={{ md: "auto", xs: "100%" }}
+                width={{ md: "auto", xs: "100%" }}
                 ml={{ md: "5px" }}
                 height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
-                mt={{xs:"40px"}}
+                mt={{ xs: "20px" }}
+
               >
                 <Box
                   component="img"
-                  src="https://www.i4u.com.pk/upload_new/tecno-camon-19-pro-mondrian.webp"
-                  sx={{ width: { md: "350px", xs: "300px" } }}
+                  src="https://www.i4u.com.pk/upload_new/TCL-55C735.webp"
+                  sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
+
                 />
                 <Box>
                   <Typography
                     component="p"
                     sx={{
                       fontSize: { md: "22px", xs: "18" },
-                      mt: { md: "22px", xs: "10px" },
+                      mt: { md: "22px", xs: "5px" },
                     }}
                   >
                     Lorem ipsum fashion female top
@@ -983,23 +972,26 @@ const Accessories = () => {
               </Box>
 
               <Box
-               width={{ md: "auto", xs: "100%" }}
+                width={{ md: "auto", xs: "100%" }}
                 ml={{ md: "5px" }}
                 height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
-                mt={{xs:"40px"}}
+                mt={{ xs: "20px" }}
+
               >
                 <Box
                   component="img"
-                  src="https://www.i4u.com.pk/upload_new/Infinix-Note-12.webp"
-                  sx={{ width: { md: "350px", xs: "300px" } }}
+                  src="https://www.i4u.com.pk/upload_new/H50K66UGP.webp"
+                  sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
+
                 />
                 <Box>
                   <Typography
                     component="p"
                     sx={{
                       fontSize: { md: "22px", xs: "18" },
-                      mt: { md: "22px", xs: "10px" },
+                      mt: { md: "22px", xs: "5px" },
                     }}
                   >
                     Lorem ipsum fashion female top
@@ -1024,23 +1016,26 @@ const Accessories = () => {
               </Box>
 
               <Box
-               width={{ md: "auto", xs: "100%" }}
+                width={{ md: "auto", xs: "100%" }}
                 ml={{ md: "5px" }}
                 height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
-                mt={{xs:"40px"}}
+                mt={{ xs: "20px" }}
+
               >
                 <Box
                   component="img"
-                  src="https://www.i4u.com.pk/upload_new/Vivo-V23e.webp"
-                  sx={{ width: { md: "350px", xs: "300px" } }}
+                  src="https://www.i4u.com.pk/upload_new/Canon-80-D-18-55mm-L.webp"
+                  sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
+
                 />
                 <Box>
                   <Typography
                     component="p"
                     sx={{
                       fontSize: { md: "22px", xs: "18" },
-                      mt: { md: "22px", xs: "10px" },
+                      mt: { md: "22px", xs: "5px" },
                     }}
                   >
                     Lorem ipsum fashion female top
@@ -1065,23 +1060,26 @@ const Accessories = () => {
               </Box>
 
               <Box
-               width={{ md: "auto", xs: "100%" }}
+                width={{ md: "auto", xs: "100%" }}
                 ml={{ md: "5px" }}
                 height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
-                mt={{xs:"40px"}}
+                mt={{ xs: "20px" }}
+
               >
                 <Box
                   component="img"
-                  src="https://www.i4u.com.pk/upload_new/Vivo-y35-8gb-128gb.webp"
-                  sx={{ width: { md: "350px", xs: "300px" } }}
+                  src="https://www.i4u.com.pk/upload_new/Nikon-Mirrorless-Z7-with-KIT-L.webp"
+                  sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
+
                 />
                 <Box>
                   <Typography
                     component="p"
                     sx={{
                       fontSize: { md: "22px", xs: "18" },
-                      mt: { md: "22px", xs: "10px" },
+                      mt: { md: "22px", xs: "5px" },
                     }}
                   >
                     Lorem ipsum fashion female top
@@ -1106,23 +1104,26 @@ const Accessories = () => {
               </Box>
 
               <Box
-               width={{ md: "auto", xs: "100%" }}
+                width={{ md: "auto", xs: "100%" }}
                 ml={{ md: "5px" }}
                 height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
-                mt={{xs:"40px"}}
+                mt={{ xs: "20px" }}
+
               >
                 <Box
                   component="img"
-                  src="https://www.i4u.com.pk/upload_new/Iphone-13-128GB.webp"
-                  sx={{ width: { md: "350px", xs: "300px" } }}
+                  src="https://www.i4u.com.pk/upload_new/Canon-Mirrorless-EOS-M50-L.webp"
+                  sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
+
                 />
                 <Box>
                   <Typography
                     component="p"
                     sx={{
                       fontSize: { md: "22px", xs: "18" },
-                      mt: { md: "22px", xs: "10px" },
+                      mt: { md: "22px", xs: "5px" },
                     }}
                   >
                     Lorem ipsum fashion female top
@@ -1147,23 +1148,26 @@ const Accessories = () => {
               </Box>
 
               <Box
-               width={{ md: "auto", xs: "100%" }}
+                width={{ md: "auto", xs: "100%" }}
                 ml={{ md: "5px" }}
                 height={{ md: "500px", xs: "400px" }}
                 textAlign={{ md: "center", xs: "center" }}
-                mt={{xs:"40px"}}
+                mt={{ xs: "20px" }}
+
               >
                 <Box
                   component="img"
-                  src="https://www.i4u.com.pk/upload_new/Iphone-13-256GB.webp"
-                  sx={{ width: { md: "350px", xs: "300px" } }}
+                  src="https://www.i4u.com.pk/upload_new/Nikon-DSLR-D750-24-120-KIT-L.webp"
+                  sx={{ width: { md: "350px", xs: "290px" },marginRight:{md:"0px",xs:"50px"} }}
+                  onClick={() => navigate("/product")}
+
                 />
                 <Box>
                   <Typography
                     component="p"
                     sx={{
                       fontSize: { md: "22px", xs: "18" },
-                      mt: { md: "22px", xs: "10px" },
+                      mt: { md: "22px", xs: "5px" },
                     }}
                   >
                     Lorem ipsum fashion female top
@@ -1187,18 +1191,18 @@ const Accessories = () => {
                 </Box>
               </Box>
 
-             
-             
-              
-            </Stack>
 
+
+
+            </Stack> */}
+            <Items/>
             <Stack
-              width={{md:"100%",xs:"100%"}}
+              width={{ md: "100%", xs: "100%" }}
               alignItems="center"
               textAlign="center"
               height="auto"
-              sx={{mt:{md:"100px",xs:"80px"},mb:{md:"50px",xs:"50px"}}}
-              
+              sx={{ mt: { md: "100px", xs: "30px" }, mb: { md: "50px", xs: "50px" } }}
+
             >
               <Pagination count={10} color="secondary" sx={{ width:{xs:"105%",md:"30%"},ml:{xs:"0px",md:"100px"}  }} />
             </Stack>

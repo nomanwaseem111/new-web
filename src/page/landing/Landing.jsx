@@ -1,19 +1,16 @@
 import React from 'react'
 import Banner from '../../components/Banner'
-import Offer from '../../components/Offer'
 import Deals from '../../components/Deals'
-
-
-const Home = () => {
+import Offer from '../../components/Offer'
+const Landing = () => {
   return (
-    <>
-     <Banner />
+    <div>
+      <Banner />
      <Offer />
      <Deals />
 
-    
-    </>
+    </div>
   )
 }
 
-export default Home
+export default Landing
