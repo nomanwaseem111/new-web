@@ -39,7 +39,7 @@ const SaleItem = () => {
         
       <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/Xiaomi12VMaxBrushlessCordlessDrill_300x.jpg?v=1660737405" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/blue_58bd5e28-de95-4f31-909d-6bce484bdbd9_300x.png?v=1658294451" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -55,7 +55,7 @@ const SaleItem = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/xiaomismartairpurifier4compact_300x.jpg?v=1666260405" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-image-1_300x.png?v=1661272676" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -71,7 +71,7 @@ const SaleItem = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/MIWIRELESSOUTDOORSECURITYCAMERA1080P_300x.png?v=1663846432" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/xtend_black_300x.png?v=1650387008" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -87,7 +87,7 @@ const SaleItem = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/RedmiA1_300x.png?v=1668679647" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/blue_d8db0011-02f7-43d6-9fe7-7a71a9ed86d2_300x.png?v=1654312290" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -104,7 +104,7 @@ const SaleItem = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/XiaomiHairClipper_300x.jpg?v=1668417426" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_2b98dda1-57d3-40ee-80f0-4687b8f8a72b_300x.png?v=1662537789" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -121,7 +121,7 @@ const SaleItem = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}   height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/corona_grande_d0681adf-6192-4aca-b0c4-a081163d94f9_300x.png?v=1616613959" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/MAINPRIMIA_300x.png?v=1652536765" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -138,7 +138,7 @@ const SaleItem = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/Mi-Power-Bank-3-10000mAh-USB-C-Black_grande_f1754114-a3d7-48ae-ba99-0593c806abda_300x.png?v=1616613892" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_blue_759e7ad4-18af-4407-9e8a-91c0058b1a74_300x.png?v=1648108782" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -155,7 +155,7 @@ const SaleItem = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/MI_2_IN_1_USB_CABLE_MICRO_USB_TO_TYPE_C_100CM_Black_grande_8b5e60c3-ef20-4410-b492-db84712f4242_300x.png?v=1616613708" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/5752f5e4-89e0-4f84-b7fe-4d9f85771046_300x.png?v=1625157753" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>

@@ -37,7 +37,7 @@ const BestSeller = () => {
         
       <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/Mi_20W_car_charger_grande_c84ae6fb-1422-4ae4-bd12-60e174292f14_grande.png?v=1616613708" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main2_5021e9c3-194d-4f8b-90d1-78f018cf9af5_300x.png?v=1649857754" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -53,7 +53,7 @@ const BestSeller = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/Mi5-BladeElectricShaver_300x.jpg?v=1660737485" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/party-pal-60-1_300x.png?v=1613743918" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -69,7 +69,7 @@ const BestSeller = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/XiaomiHairClipper_300x.jpg?v=1668417426" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/1200f_main2_300x.png?v=1632893558" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -85,7 +85,7 @@ const BestSeller = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/Mi-Electric-Scooter-Pro-2-Mercedes-AMG-Petronas-F1-Team-Edition---03_300x.png?v=1617790461" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/3e35681e-bcb1-449c-a58a-2d43e8b00bf4_300x.png?v=1633518105" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -102,7 +102,7 @@ const BestSeller = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/product-images-backpack_grande_40c9c4cb-18b0-402e-97e4-98834ce8f4d6_300x.png?v=1616613795" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main3_51433f16-0d98-497d-9acd-9f10f4264701_300x.png?v=1646976976" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -119,7 +119,7 @@ const BestSeller = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}   height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/xiaomicasualdaypackskyblue_300x.png?v=1663072628" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/05ef4b39-9658-49d9-a2e2-10670c9a4255_300x.png?v=1625045535" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -136,7 +136,7 @@ const BestSeller = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/Piston_Basic_Hand_free_Black_grande_664dc185-81d4-46fd-a7f9-a17094c655c8_300x.png?v=1616614005" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/stone-300-blue_300x.png?v=1623833051" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>
@@ -153,7 +153,7 @@ const BestSeller = () => {
 
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src="https://cdn.shopify.com/s/files/1/0231/3627/2464/products/Redmi-Airdots-2_grande_625891d2-d893-4cd5-863d-7f9b7b672200_300x.png?v=1616613950" 
+            <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Main-_2_300x.png?v=1616837403" 
                 sx={{width:{md:"320px" ,xs:"250px"}}} 
             />
             <Box>

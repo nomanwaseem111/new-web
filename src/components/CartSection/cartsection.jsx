@@ -16,9 +16,9 @@ const Product = () => {
   // const handleChange = (event) => {
   //   setPrice(event.target.value)
   // }
-  
 
-  const [num,setNum] = useState(0)
+
+  const [num, setNum] = useState(0)
 
   const navigate = useNavigate()
 
@@ -42,7 +42,7 @@ const Product = () => {
             mb={{ md: "20px", xs: "20px" }}
             marginLeft={{ xs: "80px", md: "0px" }}
             fontWeight={{ md: "700", xs: "700" }}
-            fontFamily={{md:"Roboto",xs:"Roboto"}}
+            fontFamily={{ md: "Roboto", xs: "Roboto" }}
 
           >
             Your Cart Items
@@ -58,7 +58,7 @@ const Product = () => {
               border={{ md: "1px solid #f2f2f2", xs: "1px solid #f2f2f2" }}
               width={{ md: "300px", xs: "300px" }}
               height={{ md: "350px", xs: "400px" }}
-              // border={{ md: "1px solid #f2f2f2", xs: "1px solid black" }}
+            // border={{ md: "1px solid #f2f2f2", xs: "1px solid black" }}
 
             >
               <Box
@@ -66,12 +66,12 @@ const Product = () => {
                 pt={{ md: "30px", xs: "30px" }}
                 backgroundColor={{ md: "#f2f2f2", xs: "#f2f2f2" }}
                 fontSize={{ md: "18px", xs: "20px" }}
-                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontFamily={{ md: "Roboto", xs: "Roboto" }}
                 textTransform={{ md: "uppercase", xs: "uppercase" }}
                 fontWeight={{ md: "500", xs: "500" }}
                 width={{ md: "300px", xs: "auto" }}
                 height={{ md: "80px", xs: "80px" }}
-                // border={{ md: "1px solid #f2f2f2", xs: "1px solid black" }}
+              // border={{ md: "1px solid #f2f2f2", xs: "1px solid black" }}
 
               >
                 image
@@ -82,7 +82,7 @@ const Product = () => {
                 width={{ md: "200px", xs: "200px" }}
                 marginLeft={{ md: "50px", xs: "50px" }}
                 mt={{ md: "30px", xs: "50px" }}
-                // border={{ md: "1px solid #f2f2f2", xs: "1px solid black" }}
+              // border={{ md: "1px solid #f2f2f2", xs: "1px solid black" }}
 
               />
             </Box>
@@ -96,12 +96,12 @@ const Product = () => {
                 pt={{ md: "30px", xs: "25px" }}
                 backgroundColor={{ md: "#f2f2f2", xs: "#f2f2f2" }}
                 fontSize={{ md: "18px", xs: "20px" }}
-                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontFamily={{ md: "Roboto", xs: "Roboto" }}
                 textTransform={{ md: "uppercase", xs: "uppercase" }}
                 fontWeight={{ md: "500", xs: "500" }}
                 width={{ md: "300px", xs: "auto" }}
                 height={{ md: "80px", xs: "80px" }}
-                // border={{ md: "1px solid #f2f2f2", xs: "1px solid #f2f2f2" }}
+              // border={{ md: "1px solid #f2f2f2", xs: "1px solid #f2f2f2" }}
 
               >
                 Product Name
@@ -111,7 +111,7 @@ const Product = () => {
                 color={{ md: "#333", xs: "#333" }}
                 textAlign={{ md: "center", xs: "center" }}
                 pt={{ md: "80px", xs: "80px" }}
-                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontFamily={{ md: "Roboto", xs: "Roboto" }}
                 fontWeight={{ md: "500", xs: "500" }}
 
               >
@@ -122,7 +122,7 @@ const Product = () => {
                 color={{ md: "#333", xs: "#333" }}
                 textAlign={{ md: "center", xs: "center" }}
                 pt={{ md: "30px", xs: "20px" }}
-                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontFamily={{ md: "Roboto", xs: "Roboto" }}
                 fontWeight={{ md: "500", xs: "500" }}
 
               >
@@ -139,12 +139,12 @@ const Product = () => {
                 pt={{ md: "30px", xs: "30px" }}
                 backgroundColor={{ md: "#f2f2f2", xs: "#f2f2f2" }}
                 fontSize={{ md: "18px", xs: "20px" }}
-                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontFamily={{ md: "Roboto", xs: "Roboto" }}
                 textTransform={{ md: "uppercase", xs: "uppercase" }}
                 fontWeight={{ md: "500", xs: "500" }}
                 width={{ md: "300px", xs: "auto" }}
                 height={{ md: "80px", xs: "80px" }}
-                // border={{ md: "1px solid #f2f2f2", xs: "1px solid #f2f2f2" }}
+              // border={{ md: "1px solid #f2f2f2", xs: "1px solid #f2f2f2" }}
 
               >
                 UNIT PRICE
@@ -155,7 +155,7 @@ const Product = () => {
                 textAlign={{ md: "center", xs: "center" }}
                 pt={{ md: "80px", xs: "100px" }}
                 fontWeight={{ md: "500", xs: "500" }}
-                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontFamily={{ md: "Roboto", xs: "Roboto" }}
 
               >
                 €11.20
@@ -172,12 +172,12 @@ const Product = () => {
                 pt={{ md: "30px", xs: "30px" }}
                 backgroundColor={{ md: "#f2f2f2", xs: "#f2f2f2" }}
                 fontSize={{ md: "18px", xs: "20px" }}
-                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontFamily={{ md: "Roboto", xs: "Roboto" }}
                 textTransform={{ md: "uppercase", xs: "uppercase" }}
                 fontWeight={{ md: "500", xs: "500" }}
                 width={{ md: "300px", xs: "auto" }}
                 height={{ md: "80px", xs: "80px" }}
-                // border={{ md: "1px solid #f2f2f2", xs: "1px solid #f2f2f2" }}
+              // border={{ md: "1px solid #f2f2f2", xs: "1px solid #f2f2f2" }}
 
               >
                 QTY
@@ -188,12 +188,12 @@ const Product = () => {
                 textAlign={{ md: "center", xs: "center" }}
                 pt={{ md: "70px", xs: "100px" }}
               >
-                <Button sx={{fontSize:{md:"30px",xs:"30px"},fontWeight:{md:'500',xs:"500"}}}             fontFamily={{md:"Roboto",xs:"Roboto"}}
- onClick={() => setNum(num - 1)} >-</Button>
-                <Typography variant="span"  sx={{fontSize:{md:"25px",xs:"30px"},fontWeight:{md:'500',xs:"500"}}}             fontFamily={{md:"Roboto",xs:"Roboto"}}
->{num}</Typography>
-                <Button sx={{fontSize:{md:"30px",xs:"30px"},fontWeight:{md:'500',xs:"500"}}}             fontFamily={{md:"Roboto",xs:"Roboto"}}
- onClick={() => setNum(num + 1)}  >+</Button>
+                <Button sx={{ fontSize: { md: "30px", xs: "30px" }, fontWeight: { md: '500', xs: "500" } }} fontFamily={{ md: "Roboto", xs: "Roboto" }}
+                  onClick={() => setNum(num - 1)} >-</Button>
+                <Typography variant="span" sx={{ fontSize: { md: "25px", xs: "30px" }, fontWeight: { md: '500', xs: "500" } }} fontFamily={{ md: "Roboto", xs: "Roboto" }}
+                >{num}</Typography>
+                <Button sx={{ fontSize: { md: "30px", xs: "30px" }, fontWeight: { md: '500', xs: "500" } }} fontFamily={{ md: "Roboto", xs: "Roboto" }}
+                  onClick={() => setNum(num + 1)}  >+</Button>
               </Box>
             </Box>
             {/* <Box
@@ -234,7 +234,7 @@ const Product = () => {
                 pt={{ md: "30px", xs: "30px" }}
                 backgroundColor={{ md: "#f2f2f2", xs: "#f2f2f2" }}
                 fontSize={{ md: "18px", xs: "20px" }}
-                fontFamily={{md:"Roboto",xs:"Roboto"}}
+                fontFamily={{ md: "Roboto", xs: "Roboto" }}
                 textTransform={{ md: "uppercase", xs: "uppercase" }}
                 fontWeight={{ md: "500", xs: "500" }}
                 width={{ md: "300px", xs: "auto" }}
@@ -249,19 +249,19 @@ const Product = () => {
                 textAlign={{ md: "center", xs: "center" }}
                 pt={{ md: "80px", xs: "100px" }}
               >
-                <CloseIcon  sx={{color:{md:'red',xs:"red"},fontSize:{md:"30px",xs:"40px"},fontWeight:{md:"bold",xs:"bold"}}}/>
+                <CloseIcon sx={{ color: { md: 'red', xs: "red" }, fontSize: { md: "30px", xs: "40px" }, fontWeight: { md: "bold", xs: "bold" } }} />
               </Box>
             </Box>
           </Stack>
         </Stack>
-      
+
         <Stack
-          direction={{md:"row",xs:"column"}}
+          direction={{ md: "row", xs: "column" }}
           justifyContent="space-between"
           alignItems="center"
           padding={{ md: "50px" }}
-          // border={{md:"1px solid black"}}
-          
+        // border={{md:"1px solid black"}}
+
         >
           <Button
             sx={{
@@ -269,15 +269,15 @@ const Product = () => {
                 backgroundColor: "#6610f2",
                 color: "#fff",
               },
-              backgroundColor: { md: "#f2f2f2", xs: "#f2f2f2" },
+              backgroundColor: { md: "#6610f2", xs: "#6610f2" },
               padding: { md: "10px", xs: "10px" },
               width: { md: "280px", xs: "100%" },
               borderRadius: { md: "25px", xs: "25px" },
               fontSize: { md: "16px", xs: "14px" },
-              color: { md: "#333", xs: "#333" },
-              fontWeight:{md:'bold',xs:"bold"},
-              height:{md:'0px",xs:"50px'},
-              fontFamily:{md:"Roboto",xs:"Roboto"}
+              color: { md: "#fff", xs: "#fff" },
+              fontWeight: { md: 'bold', xs: "bold" },
+              height: { md: '0px",xs:"50px' },
+              fontFamily: { md: "Roboto", xs: "Roboto" }
 
             }}
             onClick={() => navigate("/accessories")}
@@ -291,16 +291,16 @@ const Product = () => {
                 backgroundColor: "#6610f2",
                 color: "#fff",
               },
-              backgroundColor: { md: "#f2f2f2", xs: "#f2f2f2" },
+              backgroundColor: { md: "#6610f2", xs: "#6610f2" },
               padding: { md: "10px", xs: "10px" },
               width: { md: "280px", xs: "100%" },
               borderRadius: { md: "25px", xs: "25px" },
               fontSize: { md: "16px", xs: "14px" },
-              color: { md: "#333", xs: "#333" },
-              fontWeight:{md:'bold',xs:"bold"},
-              height:{md:'0px",xs:"50px'},
-              mt:{md:'0px',xs:"20px"},
-              fontFamily:{md:"Roboto",xs:"Roboto"}
+              color: { md: "#fff", xs: "#fff" },
+              fontWeight: { md: 'bold', xs: "bold" },
+              height: { md: '0px",xs:"50px' },
+              mt: { md: '0px', xs: "20px" },
+              fontFamily: { md: "Roboto", xs: "Roboto" }
 
             }}
             onClick={() => navigate("/checkout")}

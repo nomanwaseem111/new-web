@@ -6,13 +6,14 @@ import Button from "@mui/material/Button"
 import Container from "@mui/material/Container"
 import Grid from "@mui/material/Grid"
 import {useNavigate } from "react-router-dom"
+import BannerImg from "../../assets/banner/banner-img.png"
 const Banner = () => {
  
   const navigate = useNavigate()
 
  
   return (
-    <Grid sx={{ height: { md: "auto" }  , backgroundColor: { md: "#f0e0ff", xs: "#f0e0ff",sm:"f0e0ff" } }}>
+    <Grid sx={{ height: { md: "auto" }  , backgroundColor: { md: "black", xs: "black",sm:"black" } }}>
       <Container maxWidth="xl" width={{xs:"100%"}} >
         <Stack sx={{ width: { md: "100%", xs: "100%", lg: "100%" }, height: { xs: "565px", md: "760px" } }}>
           <Stack
@@ -36,7 +37,8 @@ const Banner = () => {
                 variant="span"
                 sx={{
                   fontSize: { lg: "30px", md: "20", xs: "14px" },
-                  fontFamily:{md:"Roboto",xs:"Roboto"}
+                  fontFamily:{md:"Roboto",xs:"Roboto"},
+                  color:{md:"#fff",xs:"#fff"}
                 }}
               >
                 Smart Products
@@ -47,7 +49,8 @@ const Banner = () => {
                   fontSize: { lg: "90px", md: "80px", xs: "40px" },
                   fontWeight: { lg: "600", md: "300", xs: "700" },
                   mt:{xs:"10px"},
-                  fontFamily:{md:"Roboto",xs:"Roboto"}
+                  fontFamily:{md:"Roboto",xs:"Roboto"},
+                  color:{md:"#fff",xs:"#fff"}
 
                 }}
               >
@@ -58,6 +61,7 @@ const Banner = () => {
                 sx={{
                   "&:hover": {
                 backgroundColor: "#6610f2",
+
                 color: "#fff",
                 border:"none"
               },
@@ -66,9 +70,10 @@ const Banner = () => {
                   ml: { md: "10px", xs: "5px" },
                   border: { md: "1px solid black", xs: "1px solid black" },
                   padding: { md: "10px", xs: "10px" },
-                  color: { md: "black", xs: "black" },
+                  color: { md: "#fff", xs: "#fff" },
                   fontSize: { md: "20px", xs: "12px" },
-                  fontFamily:{md:"Roboto",xs:"Roboto"}
+                  fontFamily:{md:"Roboto",xs:"Roboto"},
+                  backgroundColor: "#6610f2",
 
 
                 }}
@@ -80,13 +85,13 @@ const Banner = () => {
             </Box>
             <Box
               component="img"
-              src="https://flone.jamstacktemplates.dev/assets/img/slider/single-slide-hm1-2.png"
+              src={BannerImg}
 
               sx={{
-                width: { md: "900px", xs: "330px" },
+                width: { md: "530px", xs: "230px" },
 
                 m: { xs: "auto" },
-                mt: { xs: "10px" },
+                mt: { xs: "10px",md:"40px"},
 
               }}
             />
