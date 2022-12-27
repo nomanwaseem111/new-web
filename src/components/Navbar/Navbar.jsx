@@ -11,7 +11,9 @@ import {
 } from "react-router-dom";
 import { Tab, Tabs, useMediaQuery, useTheme } from '@mui/material';
 import DrawerComp from '../Drawer/DrawerComp';
-
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import Cart from '../Cart/Cart'
+import { useState } from 'react';
 export default function ButtonAppBar() {
 
     const [value, setValue] = React.useState()
@@ -20,6 +22,9 @@ export default function ButtonAppBar() {
     const isMatch = useMediaQuery(theme.breakpoints.down('md'));
 
     const navigate = useNavigate()
+
+    const [showCart,setShowCart] = useState(false)
+
 
 
     return (
@@ -53,11 +58,11 @@ export default function ButtonAppBar() {
                                 {/* <Button   sx={{marginLeft:"auto"}} component={Link} to="/login" variant="contained"><LoginIcon/></Button> */}
    
                                 <Typography component={Link} to='/login' sx={{color:"black",ml:"auto" ,cursor:"pointer",display:"inline-block", width:"50px",height:"30px"}}><LoginIcon sx={{fontSize:"35px","&:hover":{color:"#6610f2"}}}/></Typography>
-                                <Typography component={Link} to='/signup' marginRight={{md:"30px"}} sx={{color:"black",ml:"10px" ,cursor:"pointer",display:"inline-block", width:"50px",height:"30px"}}><VpnKeyIcon sx={{fontSize:"35px","&:hover":{color:"#6610f2"}}}/></Typography>
-                                {/* <Typography component={Link} to='/cart' border={{md:"1px solid black",xs:"1px solid black"}} marginRight={{md:"30px"}} sx={{color:"black",ml:"10px" ,cursor:"pointer",display:"inline-block", width:"50px",height:"30px"}}><ShoppingCartIcon sx={{fontSize:"35px","&:hover":{color:"#6610f2"}}}/></Typography> */}
+                                <Typography component={Link} to='/signup'  sx={{color:"black",ml:"10px" ,cursor:"pointer",display:"inline-block", width:"50px",height:"30px"}}><VpnKeyIcon sx={{fontSize:"35px","&:hover":{color:"#6610f2"}}}/></Typography>
+                                <Typography onClick={() => setShowCart(true)} marginRight={{md:"30px"}} sx={{color:"black",ml:"10px" ,cursor:"pointer",display:"inline-block", width:"50px",height:"30px"}}><ShoppingCartIcon sx={{fontSize:"35px","&:hover":{color:"#6610f2"}}}/></Typography>
 
                                
-
+                               
                             </>
                         )
                     }
@@ -66,6 +71,7 @@ export default function ButtonAppBar() {
                 </Toolbar>
 
             </AppBar>
-        </>
+          {showCart && <Cart setShowCart={setShowCart}/>}
+         </>
     );
 }
