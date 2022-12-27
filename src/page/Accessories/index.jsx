@@ -15,6 +15,10 @@ import WindowIcon from '@mui/icons-material/Window';
 import ViewHeadlineIcon from '@mui/icons-material/ViewHeadline';
 import { Link } from "react-router-dom"
 import Items from "../../components/Items/Items"
+
+
+
+
 const Accessories = () => {
   const [price, setPrice] = React.useState("")
 
