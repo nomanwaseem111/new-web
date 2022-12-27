@@ -30,9 +30,9 @@ const Product = () => {
             <Typography variant="p" sx={{fontSize:{md:"18px",xs:"12px"},lineHeight:{xs:"20px",md:"25px"} ,mt:{md:"20px",xs:"10px"},fontFamily:{md:"Roboto",xs:"Roboto"}}}> Lorem ipsum, consectetur adipisicing elit. Rem eos expedita quas dolores odit omnis fugit quaerat tempore quibusdam nobis. Nulla molestias magnam dicta qui unde inventore, similique officia ducimus.LoremLorem ipsum, dolor sit amet consectetur adipisicing elit. Rem eos expedita quas dolores odit omnis fugit quaerat tempore quibusdam nobis. Nulla molestias magnam dicta qui unde inventore, similique officia ducimus.Lorem</Typography>
             <Stack direction={{md:"row",xs:"row"}}>
              <Stack direction={{md:"row",xs:"row"}} mt={{md:"50px",xs:"50px"}} >
-             <Typography  sx={{border:{md:"1px solid black",xs:"1px solid black"},pt:{md:"6px",xs:"5px"},fontSize:{md:"25px"}, textAlign:{md:"center",xs:"center"}, width:{md:"60px",xs:"30px"},height:{md:"60px",xs:"40px"}}}>-</Typography>
-             <Typography  sx={{border:{md:"1px solid black",xs:"1px solid black"},pt:{md:"6px",xs:"5px"}, fontSize:{md:"25px"},textAlign:{md:"center",xs:"center"},width:{md:"80px",xs:"50px"},height:{md:"60px",xs:"40px"}}}>5</Typography>
-             <Typography sx={{border:{md:"1px solid black",xs:"1px solid black"},pt:{md:"6px",xs:"5px"}, fontSize:{md:"25px"},textAlign:{md:"center",xs:"center"},width:{md:"60px",xs:"30px"},height:{md:"60px",xs:"40px"}}}>+</Typography>
+             <Typography  sx={{border:{md:"1px solid #b4b8b5",xs:"1px solid #b4b8b5"},pt:{md:"6px",xs:"5px"},fontSize:{md:"25px"}, textAlign:{md:"center",xs:"center"}, width:{md:"60px",xs:"30px"},height:{md:"60px",xs:"40px"}}}>-</Typography>
+             <Typography  sx={{border:{md:"1px solid #b4b8b5",xs:"1px solid #b4b8b5"},pt:{md:"6px",xs:"5px"}, fontSize:{md:"25px"},textAlign:{md:"center",xs:"center"},width:{md:"80px",xs:"50px"},height:{md:"60px",xs:"40px"}}}>5</Typography>
+             <Typography sx={{border:{md:"1px solid #b4b8b5",xs:"1px solid #b4b8b5"},pt:{md:"6px",xs:"5px"}, fontSize:{md:"25px"},textAlign:{md:"center",xs:"center"},width:{md:"60px",xs:"30px"},height:{md:"60px",xs:"40px"}}}>+</Typography>
              </Stack>
              <Button  onClick={() => navigate("/cartsection")} sx={{marginLeft:{md:"30px",xs:"20px"} 
              ,width:{md:"180px",xs:"150"},
