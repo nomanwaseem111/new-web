@@ -13,7 +13,7 @@ import img6 from '../../assets/accessories/acc6.webp'
 import { useNavigate } from "react-router-dom"
 
 
-const Items = () => {
+const Mobile = () => {
 
   const navigate = useNavigate()
 
@@ -42,7 +42,7 @@ const Items = () => {
         >
           <Box
             component="img"
-            src={img1}
+            src="https://images.priceoye.pk/realme-c25y-pakistan-priceoye-ste24-270x270.webp"
             sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"}}}
             onClick={() => navigate("/product")}
           />
@@ -88,7 +88,7 @@ const Items = () => {
         >
           <Box
             component="img"
-            src={img2}
+            src="https://images.priceoye.pk/realme-x3-pakistan-priceoye-0muqr-270x270.webp"
             sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
             onClick={() => navigate("/product")}
 
@@ -131,7 +131,7 @@ const Items = () => {
         >
           <Box
             component="img"
-            src={img3}
+            src="https://images.priceoye.pk/realme-race-pro-pakistan-priceoye-fqm5e-270x270.webp"
             sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
             onClick={() => navigate("/product")}
 
@@ -174,7 +174,7 @@ const Items = () => {
         >
           <Box
             component="img"
-            src={img4}
+            src="https://images.priceoye.pk/realme-q5-pakistan-priceoye-33ds0-270x270.webp"
             sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
             onClick={() => navigate("/product")}
 
@@ -217,7 +217,7 @@ const Items = () => {
         >
           <Box
             component="img"
-            src={img5}
+            src="https://images.priceoye.pk/realme-gt-neo-pakistan-priceoye-8x8oy-270x270.webp"
             sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
             onClick={() => navigate("/product")}
 
@@ -260,7 +260,7 @@ const Items = () => {
         >
           <Box
             component="img"
-            src={img6}
+            src="https://images.priceoye.pk/realme-9-4g-pakistan-priceoye-9e84o-270x270.webp"
             sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
             onClick={() => navigate("/product")}
 
@@ -304,7 +304,7 @@ const Items = () => {
         >
           <Box
             component="img"
-            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main1_35ad08a3-ed67-4b87-b7a6-e4d8ae22847d_600x.png?v=1646391225"
+            src="https://images.priceoye.pk/realme-9-pro-plus-pakistan-priceoye-o7rz8-270x270.webp"
             sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
             onClick={() => navigate("/product")}
 
@@ -348,7 +348,7 @@ const Items = () => {
         >
           <Box
             component="img"
-            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-img3_600x.png?v=1616562632"
+            src="https://images.priceoye.pk/realme-gt-neo-4-pakistan-priceoye-fg3dc-270x270.webp"
             sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
             onClick={() => navigate("/product")}
 
@@ -392,7 +392,7 @@ const Items = () => {
         >
           <Box
             component="img"
-            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/rockerz-410-red_300x.png?v=1613457276"
+            src="https://images.priceoye.pk/realme-narzo-50-pakistan-priceoye-fjofh-270x270.webp"
             sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
             onClick={() => navigate("/product")}
 
@@ -436,7 +436,7 @@ const Items = () => {
         >
           <Box
             component="img"
-            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/1_e669ad28-caff-4fb7-b68a-a345f9e08649_300x.png?v=1658995805"
+            src="https://images.priceoye.pk/realme-x7-pro-pakistan-priceoye-zeehy-270x270.webp"
             sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" } ,transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"}}}
             onClick={() => navigate("/product")}
 
@@ -480,7 +480,7 @@ const Items = () => {
         >
           <Box
             component="img"
-            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/88dfba7c-19fd-4aef-a278-41c0d2d35366_300x.png?v=1624882639"
+            src="https://images.priceoye.pk/realme-c20a-pakistan-priceoye-ir868-270x270.webp"
             sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" } ,transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"}}}
             onClick={() => navigate("/product")}
 
@@ -524,7 +524,7 @@ const Items = () => {
         >
           <Box
             component="img"
-            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c9b304e6-1451-4ac7-95a1-5aa1cf51df05_45954dbd-6b69-4ae5-bed5-27cb1780d391_300x.png?v=1629538797"
+            src="https://images.priceoye.pk/realme-c15s-pakistan-priceoye-2f9re-270x270.webp"
             sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
             onClick={() => navigate("/product")}
 
@@ -567,4 +567,4 @@ const Items = () => {
   )
 }
 
-export default Items
+export default Mobile

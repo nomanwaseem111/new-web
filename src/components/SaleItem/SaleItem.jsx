@@ -1,13 +1,12 @@
 import React from 'react'
 import Banner from '../Banner'
 import Offer from '../Offer'
-import Deals from '../Deals'
 import { Typography } from "@mui/material"
 import { Stack , Box} from "@mui/system"
 import Rating from '@mui/material/Rating';
 import {
 
-    Link,useNavigate
+    useNavigate
 } from "react-router-dom";
 const SaleItem = () => {
     
@@ -40,7 +39,7 @@ const SaleItem = () => {
       <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
             <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/blue_58bd5e28-de95-4f31-909d-6bce484bdbd9_300x.png?v=1658294451" 
-                sx={{width:{md:"320px" ,xs:"250px"}}} 
+                sx={{width:{md:"320px" ,xs:"250px"},transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"}}} 
             />
             <Box>
                <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}} >Mi 50W Power Bank 20000</Typography> 
@@ -56,7 +55,7 @@ const SaleItem = () => {
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
             <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-image-1_300x.png?v=1661272676" 
-                sx={{width:{md:"320px" ,xs:"250px"}}} 
+                sx={{width:{md:"320px" ,xs:"250px"},transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"}}} 
             />
             <Box>
                <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}} >MESH SYSTEM AX3000 (1-PACK)</Typography> 
@@ -72,7 +71,7 @@ const SaleItem = () => {
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
             <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/xtend_black_300x.png?v=1650387008" 
-                sx={{width:{md:"320px" ,xs:"250px"}}} 
+                sx={{width:{md:"320px" ,xs:"250px"},transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"}}} 
             />
             <Box>
                <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}} >Mi LCD Writing Tablet 13.5''</Typography> 
@@ -88,7 +87,7 @@ const SaleItem = () => {
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
             <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/blue_d8db0011-02f7-43d6-9fe7-7a71a9ed86d2_300x.png?v=1654312290" 
-                sx={{width:{md:"320px" ,xs:"250px"}}} 
+                sx={{width:{md:"320px" ,xs:"250px"},transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"}}} 
             />
             <Box>
                <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}} >MI WIFI REPEATER PRO</Typography> 
@@ -105,7 +104,7 @@ const SaleItem = () => {
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
             <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_2b98dda1-57d3-40ee-80f0-4687b8f8a72b_300x.png?v=1662537789" 
-                sx={{width:{md:"320px" ,xs:"250px"}}} 
+                sx={{width:{md:"320px" ,xs:"250px"},transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"}}} 
             />
             <Box>
                <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}} >XIAOMI SMART BAND 7</Typography> 
@@ -122,7 +121,7 @@ const SaleItem = () => {
         <Box  width={{md:"auto",xs:"250px"}}   height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
             <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/MAINPRIMIA_300x.png?v=1652536765" 
-                sx={{width:{md:"320px" ,xs:"250px"}}} 
+                sx={{width:{md:"320px" ,xs:"250px"},transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"}}} 
             />
             <Box>
                <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}} >MI ROUTER 4C</Typography> 
@@ -139,7 +138,7 @@ const SaleItem = () => {
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
             <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_blue_759e7ad4-18af-4407-9e8a-91c0058b1a74_300x.png?v=1648108782" 
-                sx={{width:{md:"320px" ,xs:"250px"}}} 
+                sx={{width:{md:"320px" ,xs:"250px"},transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"}}} 
             />
             <Box>
                <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}} >Mi Dual Mode Wireless Mouse</Typography> 
@@ -156,7 +155,7 @@ const SaleItem = () => {
         <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
             <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/5752f5e4-89e0-4f84-b7fe-4d9f85771046_300x.png?v=1625157753" 
-                sx={{width:{md:"320px" ,xs:"250px"}}} 
+                sx={{width:{md:"320px" ,xs:"250px"},transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"}}} 
             />
             <Box>
                <Typography component="p" sx={{fontSize:{md:"22px",xs:"18"} , mt:{md:"22px",xs:"10px"}}} >Mi Electric Scooter</Typography> 

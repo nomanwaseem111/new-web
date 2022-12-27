@@ -15,7 +15,7 @@ import MenuItem from "@mui/material/MenuItem"
 import FormControl from "@mui/material/FormControl"
 import Select from "@mui/material/Select"
 import { Link } from "react-router-dom"
-import Items from "../../components/Items/Items"
+import Mobile from "../../components/mobileItems/Mobile"
 const Accessories = () => {
   const [price, setPrice] = React.useState("")
 
@@ -1190,7 +1190,7 @@ const Accessories = () => {
              
               
             </Stack> */}
-            <Items/>
+            <Mobile/>
 
             <Stack
               width={{md:"100%",xs:"100%"}}
