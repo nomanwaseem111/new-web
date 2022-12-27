@@ -13,7 +13,7 @@ const Banner = () => {
 
  
   return (
-    <Grid sx={{ height: { md: "auto" }  , backgroundColor: { md: "black", xs: "black",sm:"black" } }}>
+    <Grid sx={{ height: { md: "auto" }}} id="banner">
       <Container maxWidth="xl" width={{xs:"100%"}} >
         <Stack sx={{ width: { md: "100%", xs: "100%", lg: "100%" }, height: { xs: "565px", md: "760px" } }}>
           <Stack
@@ -60,22 +60,20 @@ const Banner = () => {
                 className="shopNow"
                 sx={{
                   "&:hover": {
-                backgroundColor: "#6610f2",
+                backgroundColor: "#fff",
 
-                color: "#fff",
+                color: "purple",
                 border:"none"
               },
-                  width: { md: "220px", xs: "100px" },
+                  width: { md: "180px", xs: "100px" },
                   mt: { md: "30px", xs: "10px" },
                   ml: { md: "10px", xs: "5px" },
-                  border: { md: "1px solid black", xs: "1px solid black" },
+                  border: { md: "1px solid #fff", xs: "1px solid #fff" },
                   padding: { md: "10px", xs: "10px" },
                   color: { md: "#fff", xs: "#fff" },
                   fontSize: { md: "20px", xs: "12px" },
                   fontFamily:{md:"Roboto",xs:"Roboto"},
-                  backgroundColor: "#6610f2",
-
-
+                  backgroundColor:{md:"8e2de2"}
                 }}
                 onClick={() => navigate("/accessories")}
 
