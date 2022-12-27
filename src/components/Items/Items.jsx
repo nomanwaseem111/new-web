@@ -37,7 +37,7 @@ const Items = () => {
           ml={{ md: "5px", xs: '0px' }}
           height={{ md: "500px", xs: "400px" }}
           textAlign={{ md: "center", xs: "center" }}
-          mt={{ xs: "30px" }}
+          mt={{ xs: "30px",md:"42px" }}
         // border={{md:"1px solid black",xs:"1px solid black"}}
         >
           <Box

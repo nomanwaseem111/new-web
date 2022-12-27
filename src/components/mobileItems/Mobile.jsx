@@ -3,12 +3,7 @@ import Rating from "@mui/material/Rating"
 import Stack from "@mui/material/Stack"
 import Box from "@mui/material/Box"
 import Typography from "@mui/material/Typography"
-import img1 from '../../assets/accessories/acc1.webp'
-import img2 from '../../assets/accessories/acc2.webp'
-import img3 from '../../assets/accessories/acc3.webp'
-import img4 from '../../assets/accessories/acc4.webp'
-import img5 from '../../assets/accessories/acc5.webp'
-import img6 from '../../assets/accessories/acc6.webp'
+
 
 import { useNavigate } from "react-router-dom"
 
