@@ -38,7 +38,7 @@ const Mobile = () => {
           <Box
             component="img"
             src="https://images.priceoye.pk/realme-c25y-pakistan-priceoye-ste24-270x270.webp"
-            sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"}}}
+            sx={{ width: { md: "350px", xs: "290px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"}}}
             onClick={() => navigate("/product")}
           />
           <Box>
@@ -84,7 +84,7 @@ const Mobile = () => {
           <Box
             component="img"
             src="https://images.priceoye.pk/realme-x3-pakistan-priceoye-0muqr-270x270.webp"
-            sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
+            sx={{ width: { md: "350px", xs: "290px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
             onClick={() => navigate("/product")}
 
           />
@@ -127,7 +127,7 @@ const Mobile = () => {
           <Box
             component="img"
             src="https://images.priceoye.pk/realme-race-pro-pakistan-priceoye-fqm5e-270x270.webp"
-            sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
+            sx={{ width: { md: "350px", xs: "290px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
             onClick={() => navigate("/product")}
 
           />
@@ -170,7 +170,7 @@ const Mobile = () => {
           <Box
             component="img"
             src="https://images.priceoye.pk/realme-q5-pakistan-priceoye-33ds0-270x270.webp"
-            sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
+            sx={{ width: { md: "350px", xs: "290px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
             onClick={() => navigate("/product")}
 
           />
@@ -213,7 +213,7 @@ const Mobile = () => {
           <Box
             component="img"
             src="https://images.priceoye.pk/realme-gt-neo-pakistan-priceoye-8x8oy-270x270.webp"
-            sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
+            sx={{ width: { md: "350px", xs: "290px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
             onClick={() => navigate("/product")}
 
           />
@@ -256,7 +256,7 @@ const Mobile = () => {
           <Box
             component="img"
             src="https://images.priceoye.pk/realme-9-4g-pakistan-priceoye-9e84o-270x270.webp"
-            sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
+            sx={{ width: { md: "350px", xs: "290px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
             onClick={() => navigate("/product")}
 
           />
@@ -300,7 +300,7 @@ const Mobile = () => {
           <Box
             component="img"
             src="https://images.priceoye.pk/realme-9-pro-plus-pakistan-priceoye-o7rz8-270x270.webp"
-            sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
+            sx={{ width: { md: "350px", xs: "290px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
             onClick={() => navigate("/product")}
 
           />
@@ -344,7 +344,7 @@ const Mobile = () => {
           <Box
             component="img"
             src="https://images.priceoye.pk/realme-gt-neo-4-pakistan-priceoye-fg3dc-270x270.webp"
-            sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
+            sx={{ width: { md: "350px", xs: "290px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
             onClick={() => navigate("/product")}
 
           />
@@ -388,7 +388,7 @@ const Mobile = () => {
           <Box
             component="img"
             src="https://images.priceoye.pk/realme-narzo-50-pakistan-priceoye-fjofh-270x270.webp"
-            sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
+            sx={{ width: { md: "350px", xs: "290px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
             onClick={() => navigate("/product")}
 
           />
@@ -432,7 +432,7 @@ const Mobile = () => {
           <Box
             component="img"
             src="https://images.priceoye.pk/realme-x7-pro-pakistan-priceoye-zeehy-270x270.webp"
-            sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" } ,transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"}}}
+            sx={{ width: { md: "350px", xs: "290px" } ,transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"}}}
             onClick={() => navigate("/product")}
 
           />
@@ -476,7 +476,7 @@ const Mobile = () => {
           <Box
             component="img"
             src="https://images.priceoye.pk/realme-c20a-pakistan-priceoye-ir868-270x270.webp"
-            sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" } ,transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"}}}
+            sx={{ width: { md: "350px", xs: "290px" } ,transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"}}}
             onClick={() => navigate("/product")}
 
           />
@@ -520,7 +520,7 @@ const Mobile = () => {
           <Box
             component="img"
             src="https://images.priceoye.pk/realme-c15s-pakistan-priceoye-2f9re-270x270.webp"
-            sx={{ width: { md: "350px", xs: "290px" }, marginRight: { md: "0px", xs: "50px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
+            sx={{ width: { md: "350px", xs: "290px" },transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"} }}
             onClick={() => navigate("/product")}
 
           />
