@@ -4,6 +4,7 @@ import Typography from "@mui/material/Typography"
 import Box from "@mui/material/Box"
 import Container from "@mui/material/Container"
 import Grid from "@mui/material/Grid"
+import img5 from '../../assets/accessories/acc5.webp'
 
 import Button from "@mui/material/Button"
 import CloseIcon from "@mui/icons-material/Close"
@@ -78,7 +79,7 @@ const Product = () => {
               </Box>
               <Box
                 component="img"
-                src="https://www.i4u.com.pk/upload_new/Iphone-13-128GB.webp"
+                src={img5}
                 width={{ md: "200px", xs: "200px" }}
                 marginLeft={{ md: "50px", xs: "50px" }}
                 mt={{ md: "30px", xs: "50px" }}
