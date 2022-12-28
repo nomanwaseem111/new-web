@@ -3,14 +3,12 @@ import Stack from "@mui/material/Stack"
 import Box from "@mui/material/Box"
 import Button from "@mui/material/Button"
 import FacebookIcon from "@mui/icons-material/Facebook"
-import img5 from "../../assets/accessories/acc5.webp"
 import { Typography } from "@mui/material"
 import InstagramIcon from "@mui/icons-material/Instagram"
 import TwitterIcon from "@mui/icons-material/Twitter"
 import LinkedInIcon from "@mui/icons-material/LinkedIn"
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart"
 import { useNavigate, useLocation } from "react-router-dom"
-import PRODUCT from "../../api/product.json"
 
 const Product = () => {
   const navigate = useNavigate()
@@ -39,8 +37,8 @@ const Product = () => {
               src={state.img}
               alt="img"
               sx={{
-                width: { md: "750px", xs: "320px" },
-                height: { md: "700px" },
+                width: { md: "650px", xs: "320px" },
+                height: { md: "auto" },
               }}
             />
           </Stack>
@@ -84,7 +82,7 @@ const Product = () => {
             >
               {state.description}{" "}
             </Typography>
-            <Stack direction={{ md: "row", xs: "row" }} mt={{md:"70px"}} alignItems="center" >
+            <Stack direction={{ md: "row", xs: "row" }} mt={{md:"70px",xs:"40px"}} alignItems="center" >
               <Stack
                 direction={{ md: "row", xs: "row" }}
               >
@@ -171,7 +169,7 @@ const Product = () => {
                 mb: { md: "30px", xs: "20px" },
               }}
             >
-              {state.category}
+              Category : {state.category}
             </Typography>
             <stack>
               <Typography

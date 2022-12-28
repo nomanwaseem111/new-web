@@ -32,6 +32,9 @@ const Product = () => {
       }}
     >
       <Container maxWidth="xl" sx={{ mb: { xs: "100px", md: "100px" } }}>
+        
+        
+        
         <Stack
           mt={{ md: "100px", xs: "100px" }}
           width={{ md: "auto", xs: "auto" }}

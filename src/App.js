@@ -24,7 +24,6 @@ import NewArrival from './components/NewArrival/NewArrival'
 import CartSection from './components/CartSection/cartsection';
 import CheckOut from './components/CheckOut/CheckOut';
 import Landing from './page/landing/Landing';
-import PRODUCTS from "./api/product.json"
 
 
 const App = () => {

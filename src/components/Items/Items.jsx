@@ -1,24 +1,16 @@
-import React, { useEffect } from "react"
+import React from "react"
 import Rating from "@mui/material/Rating"
 import Stack from "@mui/material/Stack"
 import Box from "@mui/material/Box"
 import Typography from "@mui/material/Typography"
-import img1 from "../../assets/accessories/acc1.webp"
-import img2 from "../../assets/accessories/acc2.webp"
-import img3 from "../../assets/accessories/acc3.webp"
-import img4 from "../../assets/accessories/acc4.webp"
-import img5 from "../../assets/accessories/acc5.webp"
-import img6 from "../../assets/accessories/acc6.webp"
+
 
 import { useNavigate } from "react-router-dom"
-import Product from "../CartSection/cartsection"
 import PRODUCT from "../../api/product.json"
-import { element } from "prop-types"
 
 const Items = () => {
   const navigate = useNavigate()
 
-  useEffect(() => {})
 
   return (
     <div>
@@ -54,6 +46,7 @@ const Items = () => {
               onClick={() =>
                 navigate(`/product/${item.id}`, {
                   state: {
+                    name:item.name,
                     title: item.title,
                     description: item.description,
                     img: item.img,
@@ -71,7 +64,8 @@ const Items = () => {
                   mt: { md: "22px", xs: "5px" },
                   fontFamily: { md: "Roboto", xs: "Roboto" },
                 }}
-              ></Typography>
+              
+              >{item.name}</Typography>
               <Rating
                 name="size-large"
                 defaultValue={item.rating}
