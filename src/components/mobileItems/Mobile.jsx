@@ -6,7 +6,7 @@ import Typography from "@mui/material/Typography"
 
 
 import { useNavigate } from "react-router-dom"
-import Mobile from "../../api/mobile.json"
+import MOBILE from "../../api/mobile.json"
 
 const Items = () => {
   const navigate = useNavigate()
@@ -26,7 +26,7 @@ const Items = () => {
         flexWrap="wrap"
         margin="auto"
       >
-        {Mobile.map((item) => (
+        {MOBILE.map((item) => (
           <Box
             width={{ md: "auto", xs: "100%" }}
             ml={{ md: "5px", xs: "0px" }}

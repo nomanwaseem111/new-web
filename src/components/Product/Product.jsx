@@ -135,6 +135,9 @@ const Product = () => {
               </Stack>
               <Button
                 onClick={() => navigate("/cartsection")}
+
+
+                
                 sx={{
                   marginLeft: { md: "30px", xs: "20px" },
                   width: { md: "180px", xs: "150" },

@@ -34,8 +34,8 @@ const Product = () => {
       <Container maxWidth="xl" sx={{ mb: { xs: "100px", md: "100px" } }}>
         
         
-        
-        <Stack
+      
+            <Stack
           mt={{ md: "100px", xs: "100px" }}
           width={{ md: "auto", xs: "auto" }}
           height={{ md: "400px", xs: "auto" }}
@@ -259,6 +259,8 @@ const Product = () => {
           </Stack>
         </Stack>
 
+       
+       
         <Stack
           direction={{ md: "row", xs: "column" }}
           justifyContent="space-between"
