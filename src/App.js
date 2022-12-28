@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from './components/Navbar/Navbar'
 import './components/index.css'
 // import Container from '@mui/material/Container';
@@ -24,7 +24,17 @@ import NewArrival from './components/NewArrival/NewArrival'
 import CartSection from './components/CartSection/cartsection';
 import CheckOut from './components/CheckOut/CheckOut';
 import Landing from './page/landing/Landing';
+import PRODUCTS from "./api/product.json"
+
+
 const App = () => {
+ 
+   useEffect(() => {
+         
+      
+
+   },[])
+ 
   return (
     <>
      
@@ -56,7 +66,7 @@ const App = () => {
 
         <Route path="/forgot" element={<Forgot />} />
 
-        <Route path="/product" element={<Product />} />
+        <Route path="/product/:id" element={<Product />} />
 
         <Route path="/cartsection" element={<CartSection />} />
 

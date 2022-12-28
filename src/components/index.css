@@ -96,7 +96,7 @@ body{
   flex-direction: column;
   transform: translateX(50%);
   animation: slideCartWindow 0.3s ease forwards;
-  margin-left: 1360px;
+  margin-left: 1480px;
 }
 
 @keyframes slideCartWindow{
