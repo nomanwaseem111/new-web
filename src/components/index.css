@@ -110,3 +110,8 @@ body{
 
    }
 }
+
+#main-parent{
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

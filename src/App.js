@@ -24,7 +24,7 @@ import NewArrival from './components/NewArrival/NewArrival'
 import CartSection from './components/CartSection/cartsection';
 import CheckOut from './components/CheckOut/CheckOut';
 import Landing from './page/landing/Landing';
-
+import CartS from './components/CartS'
 
 const App = () => {
  
@@ -67,7 +67,10 @@ const App = () => {
 
         <Route path="/product/:id" element={<Product />} />
 
-        <Route path="/cartsection" element={<CartSection />} />
+        {/* <Route path="/cartsection" element={<CartSection />} /> */}
+
+
+        <Route path="/carts" element={<CartS />} />
 
         <Route path="/checkout" element={<CheckOut />} /> 
 

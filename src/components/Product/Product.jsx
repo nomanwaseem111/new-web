@@ -142,7 +142,7 @@ const Product = () => {
                
               </Stack>
               <Button
-                onClick={() => navigate("/cartsection")}
+                onClick={() => navigate("/cartS")}
 
 
                 
