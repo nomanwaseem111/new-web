@@ -73,7 +73,8 @@ const ContextCart = () => {
                     
                     <Stack textAlign={{md:"end"}}>
                      <Typography variant='h6'>Total Price: Rs: 50000</Typography>
-                     <Button sx={{backgroundColor:{md:"black"},color:{md:"#fff"},width:{md:"200px"},marginLeft:{md:"1000px"}}}>Check Out</Button>
+                     <Button sx={{backgroundColor:{md:"black"},color:{md:"#fff"},width:{md:"200px"},marginLeft:{md:"1000px"}}}                 onClick={() => navigate("/checkout")}
+>Check Out</Button>
                     </Stack>
                 </Stack>
     </>
