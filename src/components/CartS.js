@@ -1,14 +1,5 @@
-import React, { useReducer } from 'react'
-import Stack from "@mui/material/Stack"
-import Box from "@mui/material/Box"
-import Typography from "@mui/material/Typography"
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import AddIcon from '@mui/icons-material/Add';
-import RemoveIcon from '@mui/icons-material/Remove';
-import DeleteIcon from '@mui/icons-material/Delete';
-import Button from "@mui/material/Button"
-import ItemS from './ItemS';
+import React, { useReducer,useEffect } from 'react'
+
 import ContextCart from './ContextCart';
 import PRODUCT from '../api/product.json'
 import { createContext } from 'react';
@@ -49,9 +40,24 @@ const CartS = () => {
       })
     }
 
+    const decrease = (id) => {
+      return dispatch({
+        type:"DECREASE",
+        payload:id
+      })
+    }
+
+
+    useEffect(() => {
+      dispatch({ type: "GET_TOTAL" });
+      // console.log("Awesome");
+    }, [state.item]);
+     
+
+  
     return (
         
-            <CartContext.Provider value={{...state,removeItem,clearCart,increment}}>
+            <CartContext.Provider value={{...state,removeItem,clearCart,increment,decrease}}>
                 <ContextCart />
             </CartContext.Provider>
       

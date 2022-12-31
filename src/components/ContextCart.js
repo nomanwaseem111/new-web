@@ -11,7 +11,7 @@ import { useNavigate } from "react-router-dom"
 
 const ContextCart = () => {
 
-  const { item, clearCart } = useContext(CartContext)
+  const { item, clearCart,totalItem,totalAmount } = useContext(CartContext)
 
   const navigate = useNavigate()
 
@@ -19,9 +19,13 @@ const ContextCart = () => {
 
     return (
       <>
-          <Stack width={{ md: "1200px" }} margin={{ md: "auto" }} height={{md:"500px"}} mt={{md:"150px"}}>
-          <Typography variant='h4'>Shopping Cart</Typography>
-          <Typography variant='p' sx={{ mt: { md: "20px" }, fontSize: { md: "22px" } }}>You have <span>0</span> Items in Shopping Cart</Typography>
+      <Box direction={{ md: "row",xs:"column" }} ml={{ md: "0px",xs:"20px" }}>
+          <ArrowBackIcon sx={{ fontSize: { md: "24px",xs:"14px" }, mt:{md:"120px",xs:"50px"},ml: { md: "280px",xs:"10px" } }} />
+          <Typography variant='span' sx={{ fontSize: { md: "36px",xs:"18px" }, ml: { md: "10px",xs:"3px" } }}   >Continue Shopping</Typography>
+        </Box>
+          <Stack width={{ md: "1200px" }} margin={{ md: "auto" }}>
+          <Typography variant='h4' sx={{fontSize:{md:"36px",xs:"20px"}, mt: { md: "50px",xs:"50px" }, ml: { md: "0px",xs:"40px" }}}>Shopping Cart</Typography>
+          <Typography variant='p' sx={{ mt: { md: "40px",xs:"20px" }, fontSize: { md: "22px" },ml: { md: "0px",xs:"40px" },fontFamily:{md:"Roboto",xs:"Roboto"} }}>You have <Typography variant='span' sx={{color:{md:"#6610f2"}}}>{totalItem}</Typography> Items in Shopping Cart</Typography>
         </Stack>
       </>
     )
@@ -30,35 +34,24 @@ const ContextCart = () => {
 
   return (
     <>
-      <Stack direction={{ md: "row" }} justifyContent={{ md: 'space-between' }} width={{ md: "1200px" }} margin={{ md: "auto" }} py={{ md: "100px" }}>
-        <Box direction={{ md: "row" }} >
-          <ArrowBackIcon sx={{ fontSize: { md: "24px" } }} onClick={() =>
-            navigate(`/product/${item.id}`, {
-              state: {
-                name: item.name,
-                title: item.title,
-                description: item.description,
-                img: item.img,
-                price: item.price,
-                category: item.category,
-              },
-            })
-          } />
-          <Typography variant='span' sx={{ fontSize: { md: "36px" }, ml: { md: "10px" } }}   >Continue Shopping</Typography>
+      <Stack direction={{ md: "row",xs:"column" }} justifyContent={{ md: 'space-between' }} width={{ md: "1200px",xs:"80%" }} margin={{ md: "auto" }} py={{ md: "100px" }}>
+        <Box direction={{ md: "row",xs:"column" }} ml={{ md: "0px",xs:"20px" }}>
+          <ArrowBackIcon sx={{ fontSize: { md: "24px",xs:"14px" }, mt:{md:"0px",xs:"50px"},ml: { md: "0px",xs:"20px" } }}/>
+          <Typography variant='span' sx={{ fontSize: { md: "36px",xs:"18px" }, ml: { md: "10px",xs:"3px" } }}   >Continue Shopping</Typography>
         </Box>
 
       </Stack>
 
       <Stack width={{ md: "1200px" }} margin={{ md: "auto" }}>
         <Stack width={{ md: "1200px" }} margin={{ md: "auto" }}>
-          <Typography variant='h4'>Shopping Cart</Typography>
-          <Typography variant='p' sx={{ mt: { md: "20px" }, fontSize: { md: "22px" } }}>You have <span>12</span> Items in Shopping Cart</Typography>
+          <Typography variant='h4' sx={{fontSize:{md:"36px",xs:"20px"}, mt: { md: "0px",xs:"50px" }, ml: { md: "0px",xs:"40px" }}}>Shopping Cart</Typography>
+          <Typography variant='p' sx={{ mt: { md: "20px",xs:"20px" }, fontSize: { md: "22px" },ml: { md: "0px",xs:"40px" },fontFamily:{md:"Roboto",xs:"Roboto"} }}>You have <Typography variant='span' sx={{color:{md:"#6610f2"}}}>{totalItem}</Typography> Items in Shopping Cart</Typography>
         </Stack>
 
 
 
 
-        <Stack width={{ md: "1200px" }} mt={{ md: "50px" }} id="main-parent" backgroundColor="#f6f6f8" height={{ md: "500px" }}>
+        <Stack width={{ md: "1200px",xs:"80%" }} margin={{xs:"auto"}}  mt={{ md: "50px",xs:"50px" }} id="main-parent" backgroundColor="#f6f6f8" height={{ md: "500px" }}>
 
 
 
@@ -84,15 +77,16 @@ const ContextCart = () => {
         </Stack>
 
         <Stack textAlign={{ md: "end" }}>
-          <Typography variant='h6' mt={{ md: "30px" }}>Total Price: Rs: 50000</Typography>
+          <Typography variant='h6' pt={{xs:"30px",md:"30px"}}  margin={{xs:"auto",md:"0px"}} fontSize={{md:"24px",xs:"20px"}}>Total Price: Rs: {totalAmount}</Typography>
           <Stack direction={{ md: "row" }} marginLeft={{ md: "830px" }} mt={{ md: "30px" }}>
-            <Button sx={{
+            <Button    sx={{
               "&:hover": {
                 backgroundColor: "black",
 
                 color: "#fff",
-                border: "none"
-              }, backgroundColor: { md: "black" }, color: { md: "#fff" }, width: { md: "200px" }
+                border: "none",
+              }, backgroundColor: { md: "black",xs:"black" }, color: { md: "#fff",xs:"#fff" }, width: { md: "200px",xs:"120px" },
+              fontSize:{md:"20px"},margin:{md:"0px",xs:"auto"},mt:{md:"0px",xs:"30px"}
             }} onClick={() => navigate("/checkout")}
             >Check Out</Button>
             <Button onClick={clearCart} sx={{
@@ -101,7 +95,7 @@ const ContextCart = () => {
 
                 color: "#fff",
                 border: "none"
-              }, backgroundColor: { md: "red" }, color: { md: "#fff" }, width: { md: "200px" }, marginLeft: { md: "30px" }
+              }, backgroundColor: { md: "red",xs:"red" }, color: { md: "#fff",xs:"#fff" },margin:{md:"0px",xs:"auto"},mt:{md:"0px",xs:"20px"}, width: { md: "200px",xs:"120px" },fontSize:{md:"20px"}, marginLeft: { md: "30px" }
             }}
             >Clear Cart</Button>
           </Stack>

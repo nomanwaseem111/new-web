@@ -18,6 +18,8 @@ const SaleItem = () => {
     
     const navigate = useNavigate()
 
+
+    
     
     return (
        
@@ -44,7 +46,7 @@ const SaleItem = () => {
         
       <Box  width={{md:"auto",xs:"250px"}}  height={{md:"520px",xs:"420px"}} textAlign={{md:"center",xs:"center"}} mb={{md:"80px",xs:"50px"}}>
             
-            <Box component="img" src={productImg1} 
+            <Box component="img"  src={productImg1} 
                 sx={{width:{md:"320px" ,xs:"250px"},transition:{md:"all ease 0.3s"}, "&:hover":{transform:"scale(1.1)"}}} 
             />
             <Box>
