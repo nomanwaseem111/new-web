@@ -1,6 +1,8 @@
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import LoginIcon from '@mui/icons-material/Login';
@@ -26,7 +28,7 @@ export default function ButtonAppBar() {
 
     return (
         <>
-            <AppBar elevation={0} position='static' sx={{backgroundColor:"#fff"}}>
+            <AppBar elevation={0} position='static' sx={{backgroundColor:"#fff"}} >
                 <Toolbar >
                     <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/logo_new_6616946a-089b-4ed7-9d17-17ffeb96abda_small.png?v=1671016750" sx={{width:{md:"120px",xs:"80px"}}} alt="Logo" width={{md:"65px",xs:"40px"}} marginLeft={{md:"80px"}}  onClick={() => navigate("/")} />
                     {
@@ -38,15 +40,15 @@ export default function ButtonAppBar() {
                             </>
                         ) : (
                             <>
-                                <Tabs textColor="inherit" sx={{marginLeft:"430px"}} value={value} onChange={(e, value) => setValue(value)} indicatorColor="secondary">
+                                <Tabs textColor="inherit"  sx={{margin:"auto",}} value={value} onChange={(e, value) => setValue(value)} indicatorColor="secondary">
                                    
                                
 
-                                    <Tab label="Home " sx={{color:"black",fontSize:"20px",fontFamily:"Roboto"}} component={Link} to="/" />
-                                    <Tab label="Accessories" sx={{color:"black",fontSize:"20px",fontFamily:"Roboto"}}  component={Link} to="/accessories" />
+                                    <Tab label="Home " sx={{color:"black",fontSize:{md:"14px"},fontFamily:"Roboto"}} component={Link} to="/" />
+                                    <Tab label="Accessories" sx={{color:"black",fontSize:{md:"14px"},fontFamily:"Roboto"}}  component={Link} to="/accessories" />
 
-                                    <Tab label="Mobile " sx={{color:"black",fontSize:"20px",fontFamily:"Roboto"}} component={Link} to="/mobile" />
-                                    <Tab label="Contact Us "  sx={{color:"black",fontSize:"20px",fontFamily:"Roboto"}} component={Link} to="/contact" />
+                                    <Tab label="Mobile " sx={{color:"black",fontSize:{md:"14px",sm:"10px",lg:"16px"},fontFamily:"Roboto"}} component={Link} to="/mobile" />
+                                    <Tab label="Contact Us "  sx={{color:"black",fontSize:{md:"14px"},fontFamily:"Roboto"}} component={Link} to="/contact" />
                                     {/* <Tab label="Product " sx={{color:"black",fontSize:"20px"}} component={Link} to="/product" /> */}
                                     {/* <Tab label="Cart " sx={{color:"black",fontSize:"20px"}} component={Link} to="/cartsection" /> */}
 
