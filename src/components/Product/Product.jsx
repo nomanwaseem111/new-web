@@ -1,4 +1,4 @@
-import React,{useState} from "react"
+import React, { useState } from "react"
 import Stack from "@mui/material/Stack"
 import Box from "@mui/material/Box"
 import Button from "@mui/material/Button"
@@ -13,18 +13,13 @@ import { useNavigate, useLocation } from "react-router-dom"
 const Product = () => {
   const navigate = useNavigate()
 
-  const { state } = useLocation();
+  const { state } = useLocation()
 
   console.log(state)
   const [num, setNum] = useState(0)
 
-
-
   return (
     <>
-      
-
-
       <Stack marginTop={{ md: "80px", xs: "80px" }}>
         <Stack
           direction={{ md: "row", xs: "column" }}
@@ -75,7 +70,7 @@ const Product = () => {
                 mt: { md: "20px", xs: "15px" },
               }}
             >
-             Rs: {state.price}
+              Rs: {state.price}
             </Typography>
             <Typography
               variant="p"
@@ -88,10 +83,12 @@ const Product = () => {
             >
               {state.description}{" "}
             </Typography>
-            <Stack direction={{ md: "row", xs: "row" }} mt={{md:"70px",xs:"40px"}} alignItems="center" >
-              <Stack
-                direction={{ md: "row", xs: "row" }}
-              >
+            <Stack
+              direction={{ md: "row", xs: "row" }}
+              mt={{ md: "70px", xs: "40px" }}
+              alignItems="center"
+            >
+              <Stack direction={{ md: "row", xs: "row" }}>
                 {/* <Typography
                   sx={{
                     border: {
@@ -137,19 +134,59 @@ const Product = () => {
                 >
                   +
                 </Typography> */}
-                <Button    sx={{ width:{md:"60px",xs:"5px"}, height:{md:"60px",xs:"40px"},border:{md:"1px solid #b4b8b5",xs:"1px solid #b4b8b5"}, fontSize: { md: "30px", xs: "20px" }, fontWeight: { md: '500', xs: "500" } }} fontFamily={{ md: "Roboto", xs: "Roboto" }}
-                  onClick={() => setNum(num - 1)} >-</Button>
-                <Typography variant="span" sx={{ height:{md:"60px",xs:"40px"},border:{md:"1px solid #b4b8b5",xs:"1px solid #b4b8b5"}, width:{md:"100px",xs:"60px"},textAlign:{md:"center",xs:"center"},pt:{md:"10px",xs:"10px"},fontSize: { md: "25px", xs: "16px" }, fontWeight: { md: '500', xs: "500" } }} fontFamily={{ md: "Roboto", xs: "Roboto" }}
-                >{num}</Typography>
-                <Button sx={{ width:{md:"60px",xs:"5px"}, height:{md:"60px",xs:"40px"}, border:{md:"1px solid #b4b8b5",xs:"1px solid #b4b8b5"},  fontSize: { md: "30px", xs: "15px" }, fontWeight: { md: '500', xs: "500" } }} fontFamily={{ md: "Roboto", xs: "Roboto" }}
-                  onClick={() => setNum(num + 1)}  >+</Button>
-               
+                <Button
+                  sx={{
+                    width: { md: "60px", xs: "5px" },
+                    height: { md: "60px", xs: "40px" },
+                    border: {
+                      md: "1px solid #b4b8b5",
+                      xs: "1px solid #b4b8b5",
+                    },
+                    fontSize: { md: "30px", xs: "20px" },
+                    fontWeight: { md: "500", xs: "500" },
+                  }}
+                  fontFamily={{ md: "Roboto", xs: "Roboto" }}
+                  onClick={() => setNum(num - 1)}
+                >
+                  -
+                </Button>
+                <Typography
+                  variant="span"
+                  sx={{
+                    height: { md: "60px", xs: "40px" },
+                    border: {
+                      md: "1px solid #b4b8b5",
+                      xs: "1px solid #b4b8b5",
+                    },
+                    width: { md: "100px", xs: "60px" },
+                    textAlign: { md: "center", xs: "center" },
+                    pt: { md: "10px", xs: "10px" },
+                    fontSize: { md: "25px", xs: "16px" },
+                    fontWeight: { md: "500", xs: "500" },
+                  }}
+                  fontFamily={{ md: "Roboto", xs: "Roboto" }}
+                >
+                  {num}
+                </Typography>
+                <Button
+                  sx={{
+                    width: { md: "60px", xs: "5px" },
+                    height: { md: "60px", xs: "40px" },
+                    border: {
+                      md: "1px solid #b4b8b5",
+                      xs: "1px solid #b4b8b5",
+                    },
+                    fontSize: { md: "30px", xs: "15px" },
+                    fontWeight: { md: "500", xs: "500" },
+                  }}
+                  fontFamily={{ md: "Roboto", xs: "Roboto" }}
+                  onClick={() => setNum(num + 1)}
+                >
+                  +
+                </Button>
               </Stack>
               <Button
-                onClick={() => navigate("/cartsection")}
-         
-                
-                
+                onClick={() => navigate("/cartS")}
                 sx={{
                   marginLeft: { md: "30px", xs: "20px" },
                   width: { md: "180px", xs: "150" },
