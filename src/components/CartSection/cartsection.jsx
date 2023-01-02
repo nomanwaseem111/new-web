@@ -11,6 +11,7 @@ import CloseIcon from "@mui/icons-material/Close"
 
 import { useNavigate } from "react-router-dom"
 
+
 const Product = () => {
   // const [price, setPrice] = React.useState("")
 
@@ -32,6 +33,8 @@ const Product = () => {
       }}
     >
       <Container maxWidth="xl" sx={{ mb: { xs: "100px", md: "100px" } }}>
+        
+
         
         
       

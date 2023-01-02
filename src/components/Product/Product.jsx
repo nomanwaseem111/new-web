@@ -19,8 +19,12 @@ const Product = () => {
   const [num, setNum] = useState(0)
 
 
+
   return (
     <>
+      
+
+
       <Stack marginTop={{ md: "80px", xs: "80px" }}>
         <Stack
           direction={{ md: "row", xs: "column" }}
@@ -143,8 +147,8 @@ const Product = () => {
               </Stack>
               <Button
                 onClick={() => navigate("/cartsection")}
-
-
+         
+                
                 
                 sx={{
                   marginLeft: { md: "30px", xs: "20px" },
